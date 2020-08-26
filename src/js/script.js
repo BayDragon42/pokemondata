@@ -22,7 +22,15 @@ var loadPokemon = function() {
 	
 	for(var k in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
-		pokemon_node.innerHTML = pokemonData.pokemon[k].name;
+		
+		var pokemonimg_node = document.createElement("img");
+		pokemonimg_node.src = pokemonData.pokemon[k].id;
+		
+		var pokemonname_node = document.createElement("span");
+		pokemonname_node.innerHTML = pokemonData.pokemon[k].name;
+		
+		pokemon_node.appendChild(pokemonimg_node);
+		pokemon_node.appendChild(pokemonname_node);
 		
 		list_node.appendChild(pokemon_node);
 	}

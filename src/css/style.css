@@ -33,3 +33,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
+
+#list > *{
+	text-align: center;
+}
