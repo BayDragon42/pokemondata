@@ -22,6 +22,7 @@ var loadPokemon = function() {
 	
 	for(var id in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
+		pokemon_node.classList.add("pokemon");
 		
 		var pokemonimg_node = document.createElement("img");
 		pokemonimg_node.src = "src/img/" + id + ".png";

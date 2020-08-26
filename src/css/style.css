@@ -34,7 +34,7 @@ body{
 	flex-wrap: wrap;
 }
 
-#list > *{
+#list > .pokemon{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
