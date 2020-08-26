@@ -16,10 +16,10 @@ var getJSON = function(url, callback) {
 }
 
 function getJsonData() {
-	getJSON("./pokemon_data.json",
+	getJSON("./src/json/pokemon_data.json",
 	function(err, data) {
 		if (err != null) {
-			alert("Domething wrong: " + err);
+			alert("Something wrong: " + err);
 		} else {
 			d = data
 		}
