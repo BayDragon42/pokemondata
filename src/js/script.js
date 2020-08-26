@@ -38,7 +38,10 @@ function load() {
 			$(function () {
 				$("#body").load("recherche.html");
 			});
-			loadPokemon();
 		}
 	})
+	
+	$(function () {
+		loadPokemon();
+	});
 }
