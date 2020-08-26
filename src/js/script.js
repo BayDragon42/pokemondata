@@ -16,7 +16,7 @@ var getJSON = function(url, callback) {
 }
 
 function getJsonData() {
-	getJSON("file:///D:/Bureau/pokemondata/pokemon_data.json",
+	getJSON("./pokemon_data.json",
 	function(err, data) {
 		if (err != null) {
 			alert("Domething wrong: " + err);
