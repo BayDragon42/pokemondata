@@ -34,11 +34,10 @@ function load() {
 			alert("Something wrong: " + err);
 		} else {
 			pokemonData = data
+			$(function () {
+				$("#body").load("recherche.html");
+			});
+			loadPokemon();
 		}
 	})
-	
-	$(function () {
-		$("#body").load("recherche.html");
-	});
-	loadPokemon();
 }
