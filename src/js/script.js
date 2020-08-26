@@ -29,19 +29,20 @@ var loadPokemon = function() {
 };
 
 function load() {
+	$(function () {
+		$("#body").load("recherche.html");
+	});
+	
 	getJSON("https://pokemondatagva.netlify.app/src/json/pokemon_data.json",
 	function(err, data) {
 		if (err != null) {
 			alert("Something wrong: " + err);
 		} else {
 			pokemonData = data
+			
 			$(function () {
-				$("#body").load("recherche.html");
+				loadPokemon();
 			});
 		}
 	})
-	
-	$(function () {
-		loadPokemon();
-	});
 }
