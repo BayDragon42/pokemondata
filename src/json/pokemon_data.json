@@ -284,7 +284,7 @@
             "number": 19
         },
         "RattataAlola": {
-            "name": "Rattata \n(Forme d'Alola)",
+            "name": "Rattata <br/>(Forme d'Alola)",
             "type": [
                 "tenebres",
                 "normal"
@@ -313,7 +313,7 @@
             "number": 20
         },
         "RattatacAlola": {
-            "name": "Rattatac \n(Forme d'Alola)",
+            "name": "Rattatac <br/>(Forme d'Alola)",
             "type": [
                 "tenebres",
                 "normal"
@@ -391,7 +391,7 @@
             "number": 24
         },
         "PikachuCosplayeur": {
-            "name": "Pikachu \n(Cosplayeur)",
+            "name": "Pikachu <br/>(Cosplayeur)",
             "type": [
                 "electrik"
             ],
@@ -405,7 +405,7 @@
             "number": 25
         },
         "PikachuVolant": {
-            "name": "Pikachu \n(Volant)",
+            "name": "Pikachu <br/>(Volant)",
             "type": [
                 "electrik"
             ],
@@ -455,7 +455,7 @@
             "number": 26
         },
         "RaichuAlola": {
-            "name": "Raichu \n(Forme d'Alola)",
+            "name": "Raichu <br/>(Forme d'Alola)",
             "type": [
                 "electrik",
                 "psy"
@@ -487,7 +487,7 @@
             "number": 27
         },
         "SabeletteAlola": {
-            "name": "Sabelette \n(Forme d'Alola)",
+            "name": "Sabelette <br/>(Forme d'Alola)",
             "type": [
                 "glace",
                 "acier"
@@ -502,7 +502,7 @@
             "number": 27
         },
         "SablaireauAlola": {
-            "name": "Sablaireau \n(Forme d'Alola)",
+            "name": "Sablaireau <br/>(Forme d'Alola)",
             "type": [
                 "glace",
                 "acier"
@@ -652,7 +652,7 @@
             "number": 36
         },
         "GoupixAlola": {
-            "name": "Goupix \n(Forme d'Alola)",
+            "name": "Goupix <br/>(Forme d'Alola)",
             "type": [
                 "glace"
             ],
@@ -680,7 +680,7 @@
             "number": 37
         },
         "FeunardAlola": {
-            "name": "Feunard \n(Forme d'Alola)",
+            "name": "Feunard <br/>(Forme d'Alola)",
             "type": [
                 "glace",
                 "fee"
@@ -890,7 +890,7 @@
             "number": 49
         },
         "TaupiqueurAlola": {
-            "name": "Taupiqueur \n(Forme d'Alola)",
+            "name": "Taupiqueur <br/>(Forme d'Alola)",
             "type": [
                 "sol",
                 "acier"
@@ -933,7 +933,7 @@
             "number": 51
         },
         "TriopikeurAlola": {
-            "name": "Triopikeur \n(Forme d'Alola)",
+            "name": "Triopikeur <br/>(Forme d'Alola)",
             "type": [
                 "sol",
                 "acier"
@@ -948,7 +948,7 @@
             "number": 51
         },
         "MiaoussGalar": {
-            "name": "Miaouss \n(Forme de Galar)",
+            "name": "Miaouss <br/>(Forme de Galar)",
             "type": [
                 "acier"
             ],
@@ -977,7 +977,7 @@
             "number": 52
         },
         "MiaoussAlola": {
-            "name": "Miaouss \n(Forme d'Alola)",
+            "name": "Miaouss <br/>(Forme d'Alola)",
             "type": [
                 "tenebres"
             ],
@@ -1006,7 +1006,7 @@
             "number": 53
         },
         "PersianAlola": {
-            "name": "Persian \n(Forme d'Alola)",
+            "name": "Persian <br/>(Forme d'Alola)",
             "type": [
                 "tenebres"
             ],
@@ -1349,7 +1349,7 @@
             "number": 74
         },
         "RacaillouAlola": {
-            "name": "Racaillou \n(Forme d'Alola)",
+            "name": "Racaillou <br/>(Forme d'Alola)",
             "type": [
                 "roche",
                 "electrik"
@@ -1380,7 +1380,7 @@
             "number": 75
         },
         "GravalanchAlola": {
-            "name": "Gravalanch \n(Forme d'Alola)",
+            "name": "Gravalanch <br/>(Forme d'Alola)",
             "type": [
                 "roche",
                 "electrik"
@@ -1411,7 +1411,7 @@
             "number": 76
         },
         "GrolemAlola": {
-            "name": "Grolem \n(Forme d'Alola)",
+            "name": "Grolem <br/>(Forme d'Alola)",
             "type": [
                 "roche",
                 "electrik"
@@ -1534,7 +1534,7 @@
             "number": 83
         },
         "CanartichoGalar": {
-            "name": "Canarticho \n(Forme de Galar)",
+            "name": "Canarticho <br/>(Forme de Galar)",
             "type": [
                 "combat"
             ],
@@ -1628,7 +1628,7 @@
             "number": 88
         },
         "TadmorvAlola": {
-            "name": "Tadmorv \n(Forme d'Alola)",
+            "name": "Tadmorv <br/>(Forme d'Alola)",
             "type": [
                 "poison",
                 "tenebres"
@@ -1660,7 +1660,7 @@
             "number": 89
         },
         "GrotadmorvAlola": {
-            "name": "Grotadmorv \n(Forme d'Alola)",
+            "name": "Grotadmorv <br/>(Forme d'Alola)",
             "type": [
                 "poison",
                 "tenebres"
@@ -1889,7 +1889,7 @@
             "number": 102
         },
         "NoadkokoAlola": {
-            "name": "Noadkoko \n(Forme d'Alola)",
+            "name": "Noadkoko <br/>(Forme d'Alola)",
             "type": [
                 "plante",
                 "dragon"
@@ -1949,7 +1949,7 @@
             "number": 105
         },
         "OssatueurAlola": {
-            "name": "Ossatueur \n(Forme d'Alola)",
+            "name": "Ossatueur <br/>(Forme d'Alola)",
             "type": [
                 "feu",
                 "spectre"
@@ -2029,7 +2029,7 @@
             "number": 109
         },
         "SmogogoGalar": {
-            "name": "Smogogo \n(Forme de Galar)",
+            "name": "Smogogo <br/>(Forme de Galar)",
             "type": [
                 "poison",
                 "fee"
@@ -4400,7 +4400,7 @@
             "number": 262
         },
         "ZigzatonGalar": {
-            "name": "Zigzaton \n(Forme de Galar)",
+            "name": "Zigzaton <br/>(Forme de Galar)",
             "type": [
                 "tenebres",
                 "normal"
@@ -4443,7 +4443,7 @@
             "number": 264
         },
         "LineonGalar": {
-            "name": "Lineon \n(Forme de Galar)",
+            "name": "Lineon <br/>(Forme de Galar)",
             "type": [
                 "tenebres",
                 "normal"
@@ -5726,7 +5726,7 @@
             "number": 350
         },
         "MorpheoSolaire": {
-            "name": "Morpheo \n(Solaire)",
+            "name": "Morpheo <br/>(Solaire)",
             "type": [
                 "feu"
             ],
@@ -5754,7 +5754,7 @@
             "number": 351
         },
         "MorpheoBlizzard": {
-            "name": "Morpheo \n(Blizzard)",
+            "name": "Morpheo <br/>(Blizzard)",
             "type": [
                 "glace"
             ],
@@ -5768,7 +5768,7 @@
             "number": 351
         },
         "MorpheoEaudePluie": {
-            "name": "Morpheo \n(Eau de Pluie)",
+            "name": "Morpheo <br/>(Eau de Pluie)",
             "type": [
                 "eau"
             ],
@@ -6277,7 +6277,7 @@
             "number": 385
         },
         "DeoxysVitesse": {
-            "name": "Deoxys \n(Vitesse)",
+            "name": "Deoxys <br/>(Vitesse)",
             "type": [
                 "psy"
             ],
@@ -6291,7 +6291,7 @@
             "number": 386
         },
         "DeoxysAttaque": {
-            "name": "Deoxys \n(Attaque)",
+            "name": "Deoxys <br/>(Attaque)",
             "type": [
                 "psy"
             ],
@@ -6305,7 +6305,7 @@
             "number": 386
         },
         "DeoxysDefense": {
-            "name": "Deoxys \n(Defense)",
+            "name": "Deoxys <br/>(Defense)",
             "type": [
                 "psy"
             ],
@@ -6319,7 +6319,7 @@
             "number": 386
         },
         "DeoxysNormale": {
-            "name": "Deoxys \n(Normale)",
+            "name": "Deoxys <br/>(Normale)",
             "type": [
                 "psy"
             ],
@@ -6698,7 +6698,7 @@
             "number": 411
         },
         "ChenitiCapePlante": {
-            "name": "Cheniti \n(Cape Plante)",
+            "name": "Cheniti <br/>(Cape Plante)",
             "type": [
                 "insecte"
             ],
@@ -6710,7 +6710,7 @@
             "number": 412
         },
         "ChenitiCapeSable": {
-            "name": "Cheniti \n(Cape Sable)",
+            "name": "Cheniti <br/>(Cape Sable)",
             "type": [
                 "insecte"
             ],
@@ -6722,7 +6722,7 @@
             "number": 412
         },
         "ChenitiCapeDechet": {
-            "name": "Cheniti \n(Cape Dechet)",
+            "name": "Cheniti <br/>(Cape Dechet)",
             "type": [
                 "insecte"
             ],
@@ -6734,7 +6734,7 @@
             "number": 412
         },
         "CheniselleCapeSable": {
-            "name": "Cheniselle \n(Cape Sable)",
+            "name": "Cheniselle <br/>(Cape Sable)",
             "type": [
                 "insecte",
                 "sol"
@@ -6749,7 +6749,7 @@
             "number": 413
         },
         "CheniselleCapeDechet": {
-            "name": "Cheniselle \n(Cape Dechet)",
+            "name": "Cheniselle <br/>(Cape Dechet)",
             "type": [
                 "insecte",
                 "acier"
@@ -6764,7 +6764,7 @@
             "number": 413
         },
         "CheniselleCapePlante": {
-            "name": "Cheniselle \n(Cape Plante)",
+            "name": "Cheniselle <br/>(Cape Plante)",
             "type": [
                 "insecte",
                 "plante"
@@ -6880,7 +6880,7 @@
             "number": 420
         },
         "CeriflorTempsCouvert": {
-            "name": "Ceriflor \n(Temps Couvert)",
+            "name": "Ceriflor <br/>(Temps Couvert)",
             "type": [
                 "plante"
             ],
@@ -6894,7 +6894,7 @@
             "number": 421
         },
         "SancokiMerOrient": {
-            "name": "Sancoki \n(Mer Orient)",
+            "name": "Sancoki <br/>(Mer Orient)",
             "type": [
                 "eau"
             ],
@@ -6908,7 +6908,7 @@
             "number": 422
         },
         "TritosorMerOrient": {
-            "name": "Tritosor \n(Mer Orient)",
+            "name": "Tritosor <br/>(Mer Orient)",
             "type": [
                 "eau",
                 "sol"
@@ -7770,7 +7770,7 @@
             "number": 479
         },
         "MotismaFroid": {
-            "name": "Motisma \n(Froid)",
+            "name": "Motisma <br/>(Froid)",
             "type": [
                 "electrik",
                 "glace"
@@ -7785,7 +7785,7 @@
             "number": 479
         },
         "MotismaHelice": {
-            "name": "Motisma \n(Helice)",
+            "name": "Motisma <br/>(Helice)",
             "type": [
                 "electrik",
                 "vol"
@@ -7800,7 +7800,7 @@
             "number": 479
         },
         "MotismaTonte": {
-            "name": "Motisma \n(Tonte)",
+            "name": "Motisma <br/>(Tonte)",
             "type": [
                 "electrik",
                 "plante"
@@ -7815,7 +7815,7 @@
             "number": 479
         },
         "MotismaChaleur": {
-            "name": "Motisma \n(Chaleur)",
+            "name": "Motisma <br/>(Chaleur)",
             "type": [
                 "electrik",
                 "feu"
@@ -7830,7 +7830,7 @@
             "number": 479
         },
         "MotismaLavage": {
-            "name": "Motisma \n(Lavage)",
+            "name": "Motisma <br/>(Lavage)",
             "type": [
                 "electrik",
                 "eau"
@@ -7948,7 +7948,7 @@
             "number": 486
         },
         "GiratinaAlternative": {
-            "name": "Giratina \n(Forme Alternative)",
+            "name": "Giratina <br/>(Forme Alternative)",
             "type": [
                 "spectre",
                 "dragon"
@@ -7963,7 +7963,7 @@
             "number": 487
         },
         "GiratinaOriginelle": {
-            "name": "Giratina \n(Forme Originelle)",
+            "name": "Giratina <br/>(Forme Originelle)",
             "type": [
                 "spectre",
                 "dragon"
@@ -8035,7 +8035,7 @@
             "number": 491
         },
         "ShayminTerrestre": {
-            "name": "Shaymin \n(Forme Terrestre)",
+            "name": "Shaymin <br/>(Forme Terrestre)",
             "type": [
                 "plante"
             ],
@@ -8049,7 +8049,7 @@
             "number": 492
         },
         "ShayminCeleste": {
-            "name": "Shaymin \n(Forme Celeste)",
+            "name": "Shaymin <br/>(Forme Celeste)",
             "type": [
                 "plante",
                 "vol"
@@ -8885,7 +8885,7 @@
             "number": 549
         },
         "BargantuaMotifBleu": {
-            "name": "Bargantua \n(Motif Bleu)",
+            "name": "Bargantua <br/>(Motif Bleu)",
             "type": [
                 "eau"
             ],
@@ -8899,7 +8899,7 @@
             "number": 550
         },
         "BargantuaMotifRouge": {
-            "name": "Bargantua \n(Motif Rouge)",
+            "name": "Bargantua <br/>(Motif Rouge)",
             "type": [
                 "eau"
             ],
@@ -8971,7 +8971,7 @@
             "number": 554
         },
         "DarumarondGalar": {
-            "name": "Darumarond \n(Forme de Galar)",
+            "name": "Darumarond <br/>(Forme de Galar)",
             "type": [
                 "glace"
             ],
@@ -8984,7 +8984,7 @@
             "number": 554
         },
         "DarumachoGalar": {
-            "name": "Darumacho \n(Forme de Galar Mode Normal)",
+            "name": "Darumacho <br/>(Forme de Galar Mode Normal)",
             "type": [
                 "glace"
             ],
@@ -8999,7 +8999,7 @@
             "number": 555
         },
         "DarumachoModeNormal": {
-            "name": "Darumacho \n(Mode Normal)",
+            "name": "Darumacho <br/>(Mode Normal)",
             "type": [
                 "feu"
             ],
@@ -9014,7 +9014,7 @@
             "number": 555
         },
         "DarumachoModeTranse": {
-            "name": "Darumacho \n(Mode Transe)",
+            "name": "Darumacho <br/>(Mode Transe)",
             "type": [
                 "feu",
                 "psy"
@@ -9449,7 +9449,7 @@
             "number": 584
         },
         "VivaldaimPrintemps": {
-            "name": "Vivaldaim \n(Forme Printemps)",
+            "name": "Vivaldaim <br/>(Forme Printemps)",
             "type": [
                 "normal",
                 "plante"
@@ -9464,7 +9464,7 @@
             "number": 585
         },
         "VivaldaimHiver": {
-            "name": "Vivaldaim \n(Forme Hiver)",
+            "name": "Vivaldaim <br/>(Forme Hiver)",
             "type": [
                 "normal",
                 "plante"
@@ -9479,7 +9479,7 @@
             "number": 585
         },
         "VivaldaimAutomne": {
-            "name": "Vivaldaim \n(Forme Automne)",
+            "name": "Vivaldaim <br/>(Forme Automne)",
             "type": [
                 "normal",
                 "plante"
@@ -9494,7 +9494,7 @@
             "number": 585
         },
         "VivaldaimEte": {
-            "name": "Vivaldaim \n(Forme Ete)",
+            "name": "Vivaldaim <br/>(Forme Ete)",
             "type": [
                 "normal",
                 "plante"
@@ -9509,7 +9509,7 @@
             "number": 585
         },
         "HaydaimAutomne": {
-            "name": "Haydaim \n(Forme Automne)",
+            "name": "Haydaim <br/>(Forme Automne)",
             "type": [
                 "normal",
                 "plante"
@@ -9525,7 +9525,7 @@
             "number": 586
         },
         "HaydaimPrintemps": {
-            "name": "Haydaim \n(Forme Printemps)",
+            "name": "Haydaim <br/>(Forme Printemps)",
             "type": [
                 "normal",
                 "plante"
@@ -9541,7 +9541,7 @@
             "number": 586
         },
         "HaydaimEte": {
-            "name": "Haydaim \n(Forme Ete)",
+            "name": "Haydaim <br/>(Forme Ete)",
             "type": [
                 "normal",
                 "plante"
@@ -9557,7 +9557,7 @@
             "number": 586
         },
         "HaydaimHiver": {
-            "name": "Haydaim \n(Forme Hiver)",
+            "name": "Haydaim <br/>(Forme Hiver)",
             "type": [
                 "normal",
                 "plante"
@@ -10043,7 +10043,7 @@
             "number": 618
         },
         "LimondeGalar": {
-            "name": "Limonde \n(Forme de Galar)",
+            "name": "Limonde <br/>(Forme de Galar)",
             "type": [
                 "sol",
                 "acier"
@@ -10390,7 +10390,7 @@
             "number": 640
         },
         "BoreasTotemique": {
-            "name": "Boreas \n(Forme Totemique)",
+            "name": "Boreas <br/>(Forme Totemique)",
             "type": [
                 "vol"
             ],
@@ -10405,7 +10405,7 @@
             "number": 641
         },
         "BoreasAvatar": {
-            "name": "Boreas \n(Forme Avatar)",
+            "name": "Boreas <br/>(Forme Avatar)",
             "type": [
                 "vol"
             ],
@@ -10420,7 +10420,7 @@
             "number": 641
         },
         "FulgurisTotemique": {
-            "name": "Fulguris \n(Forme Totemique)",
+            "name": "Fulguris <br/>(Forme Totemique)",
             "type": [
                 "electrik",
                 "vol"
@@ -10436,7 +10436,7 @@
             "number": 642
         },
         "FulgurisAvatar": {
-            "name": "Fulguris \n(Forme Avatar)",
+            "name": "Fulguris <br/>(Forme Avatar)",
             "type": [
                 "electrik",
                 "vol"
@@ -10484,7 +10484,7 @@
             "number": 644
         },
         "DemeterosTotemique": {
-            "name": "Demeteros \n(Forme Totemique)",
+            "name": "Demeteros <br/>(Forme Totemique)",
             "type": [
                 "sol",
                 "vol"
@@ -10500,7 +10500,7 @@
             "number": 645
         },
         "DemeterosAvatar": {
-            "name": "Demeteros \n(Forme Avatar)",
+            "name": "Demeteros <br/>(Forme Avatar)",
             "type": [
                 "sol",
                 "vol"
@@ -10516,7 +10516,7 @@
             "number": 645
         },
         "KyuremBlanc": {
-            "name": "Kyurem \n(Blanc)",
+            "name": "Kyurem <br/>(Blanc)",
             "type": [
                 "dragon",
                 "glace"
@@ -10547,7 +10547,7 @@
             "number": 646
         },
         "KyuremNoir": {
-            "name": "Kyurem \n(Noir)",
+            "name": "Kyurem <br/>(Noir)",
             "type": [
                 "dragon",
                 "glace"
@@ -10563,7 +10563,7 @@
             "number": 646
         },
         "KeldeoAspectDecide": {
-            "name": "Keldeo \n(Aspect Decide)",
+            "name": "Keldeo <br/>(Aspect Decide)",
             "type": [
                 "eau",
                 "combat"
@@ -10579,7 +10579,7 @@
             "number": 647
         },
         "KeldeoAspectNormal": {
-            "name": "Keldeo \n(Aspect Normal)",
+            "name": "Keldeo <br/>(Aspect Normal)",
             "type": [
                 "eau",
                 "combat"
@@ -10595,7 +10595,7 @@
             "number": 647
         },
         "MeloettaDanse": {
-            "name": "Meloetta \n(Forme Danse)",
+            "name": "Meloetta <br/>(Forme Danse)",
             "type": [
                 "combat",
                 "psy"
@@ -10611,7 +10611,7 @@
             "number": 648
         },
         "MeloettaChant": {
-            "name": "Meloetta \n(Forme Chant)",
+            "name": "Meloetta <br/>(Forme Chant)",
             "type": [
                 "normal",
                 "psy"
