@@ -37,7 +37,7 @@ function load() {
 			$(function () {
 				$("#body").load("recherche.html");
 			});
-			loadPokemon();
 		}
 	})
+	loadPokemon();
 }
