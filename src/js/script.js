@@ -1,4 +1,5 @@
-var d;
+var pokemonData;
+var page = 0;
 
 var getJSON = function(url, callback) {
 	var xhr = new XMLHttpRequest();
@@ -15,13 +16,17 @@ var getJSON = function(url, callback) {
 	xhr.send();
 }
 
-function getJsonData() {
-	getJSON("./src/json/pokemon_data.json",
+function load() {
+	getJSON("https://pokemondatagva.netlify.app/src/json/pokemon_data.json",
 	function(err, data) {
 		if (err != null) {
 			alert("Something wrong: " + err);
 		} else {
-			d = data
+			pokemonData = data
 		}
 	})
+	
+	$(function () {
+		$("#body").load("recherche.html");
+	});
 }
