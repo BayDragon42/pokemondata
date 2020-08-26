@@ -17,7 +17,7 @@ var getJSON = function(url, callback) {
 };
 
 var loadPokemon = function() {
-	let list_node = document.getElementById("list");
+	var list_node = document.getElementById("list");
 	
 	for(var k in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
@@ -37,7 +37,7 @@ function load() {
 			$(function () {
 				$("#body").load("recherche.html");
 			});
+			loadPokemon();
 		}
 	})
-	loadPokemon();
 }
