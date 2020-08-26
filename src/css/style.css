@@ -46,3 +46,8 @@ body{
 	flex-direction: column;
 	align-items: center;
 }
+
+#list > .pokemon > img{
+	width: 10rem;
+	height: 10rem;
+}
