@@ -18,6 +18,7 @@ var getJSON = function(url, callback) {
 
 var loadPokemon = function() {
 	var list_node = document.getElementById("list");
+	console.log(list_node);
 	
 	for(var k in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
