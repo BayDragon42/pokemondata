@@ -14,7 +14,18 @@ var getJSON = function(url, callback) {
 		}
 	};
 	xhr.send();
-}
+};
+
+var loadPokemon = function() {
+	let list_node = document.getElementById("list");
+	
+	for(var k in pokemonData.pokemon) {
+		var pokemon_node = document.createElement("div");
+		pokemon_node.appendChild(document.createTextNode(pokemonData.pokemon[k].name));
+		
+		list_node.appendChild(pokemon_node);
+	}
+};
 
 function load() {
 	getJSON("https://pokemondatagva.netlify.app/src/json/pokemon_data.json",
@@ -29,4 +40,5 @@ function load() {
 	$(function () {
 		$("#body").load("recherche.html");
 	});
+	loadPokemon();
 }
