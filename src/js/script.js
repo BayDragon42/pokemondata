@@ -20,14 +20,14 @@ var loadPokemon = function() {
 	var list_node = document.getElementById("list");
 	console.log(list_node);
 	
-	for(var k in pokemonData.pokemon) {
+	for(var id in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
 		
 		var pokemonimg_node = document.createElement("img");
-		pokemonimg_node.src = pokemonData.pokemon[k].id;
+		pokemonimg_node.src = "src/img/" + id + ".png";
 		
 		var pokemonname_node = document.createElement("span");
-		pokemonname_node.innerHTML = pokemonData.pokemon[k].name;
+		pokemonname_node.innerHTML = pokemonData.pokemon[id].name;
 		
 		pokemon_node.appendChild(pokemonimg_node);
 		pokemon_node.appendChild(pokemonname_node);
