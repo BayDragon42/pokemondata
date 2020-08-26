@@ -27,3 +27,7 @@ body{
 	justify-content: center;
 	border: 2px solid blue;
 }
+
+#list{
+	display: flex;
+}
