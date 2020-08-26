@@ -1,7 +1,28 @@
-#tab_select {
-	border: black;
+body{
+	margin: 0;
 }
 
-#body {
-	border: blue;
+#tab_select{
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+#tab_select div{
+	width: 100%;
+	text-align: center;
+}
+
+#tab_select div:nth-child(1){
+	border: 2px solid red;
+}
+
+#tab_select div:nth-child(2){
+	border: 2px solid green;
+}
+
+#body{
+	display: flex;
+	justify-content: center;
+	border: 2px solid blue;
 }
