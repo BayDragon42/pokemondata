@@ -30,4 +30,5 @@ body{
 
 #list{
 	display: flex;
+	flex-wrap: wrap;
 }
