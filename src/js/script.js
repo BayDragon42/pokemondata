@@ -22,7 +22,7 @@ var loadPokemon = function() {
 	
 	for(var k in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
-		pokemon_node.appendChild(document.createTextNode(pokemonData.pokemon[k].name));
+		pokemon_node.appendChild(document.createTextNode("test\nici"));
 		
 		list_node.appendChild(pokemon_node);
 	}
