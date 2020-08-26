@@ -29,6 +29,10 @@ body{
 	border: 2px solid blue;
 }
 
+.search{
+	width: 100%;
+}
+
 #list{
 	display: flex;
 	align-items: center;
