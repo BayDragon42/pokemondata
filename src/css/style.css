@@ -29,6 +29,14 @@ body{
 	border: 2px solid blue;
 }
 
+#search{
+	display: flex;
+}
+
+#pokemonsearch{
+	flex: 1;
+}
+
 #list{
 	display: flex;
 	align-items: center;
