@@ -25,12 +25,6 @@ body{
 	text-align: center;
 }
 
-#tab_select div:nth-child(1){
-}
-
-#tab_select div:nth-child(2){
-}
-
 #body{
 	display: flex;
 	flex-direction: column;
@@ -124,7 +118,12 @@ body{
 	flex-direction: column;
 }
 
-#bottomcontainer :first-child{
+#tab{
 	display: flex;
+	justify-content: center;
+}
+
+#tab div{
 	width: 100%;
+	text-align: center;
 }
