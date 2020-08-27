@@ -82,7 +82,7 @@ body{
 	display: flex;
 }
 
-#topcontainer :nth-child(odd){
+#topcontainer :first-child{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
