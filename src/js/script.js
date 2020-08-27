@@ -99,6 +99,7 @@ function getDetails() {
 	topcontainer_node.appendChild(rightside_node);
 	
 	var midcontainer_node = document.createElement("div");
+	midcontainer_node.id = "midcontainer";
 	midcontainer_node.innerHTML = pokemonData.pokemon[currentpokemon].name;
 	
 	detail_node.appendChild(topcontainer_node);
