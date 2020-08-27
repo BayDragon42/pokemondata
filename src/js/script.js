@@ -17,6 +17,11 @@ var getJSON = function(url, callback) {
 };
 
 var loadPokemon = function() {
+	var pokemon_input = document.getElementById("search");
+	pokemon_input.addEventListener("change", function(evt) {
+		console.log("t");
+	});
+	
 	var list_node = document.getElementById("list");
 	console.log(list_node);
 	
