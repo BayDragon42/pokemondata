@@ -1,3 +1,9 @@
+<script>
+	var pokemon_input = document.getElementById("pokemonsearch");
+	pokemon_input.addEventListener("input", function() {
+		loadPokemon(this.value);
+	});
+</script>
 <div id="search">
 	<input type="text" id="pokemonsearch"/>
 </div>

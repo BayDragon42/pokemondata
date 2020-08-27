@@ -44,11 +44,6 @@ function load() {
 		$("#body").load("recherche.html");
 	});
 	
-	var pokemon_input = document.getElementById("pokemonsearch");
-	pokemon_input.addEventListener("input", function() {
-		loadPokemon(this.value);
-	});
-	
 	getJSON("https://pokemondatagva.netlify.app/src/json/pokemon_data.json",
 	function(err, data) {
 		if (err != null) {
