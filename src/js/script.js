@@ -24,6 +24,10 @@ var loadPokemon = function(filter) {
 		if(pokemonData.pokemon[id].name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().includes(filter.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase())) {
 			var pokemon_node = document.createElement("div");
 			pokemon_node.classList.add("pokemon");
+			pokemon_node.id = id;
+			pokemon_node.addEventListener("click", function(evt) {
+				alert(this.id);
+			});
 			
 			var pokemonimg_node = document.createElement("img");
 			pokemonimg_node.src = "src/img/" + id + ".png";
