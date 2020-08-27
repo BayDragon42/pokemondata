@@ -118,3 +118,13 @@ body{
 #midcontainer > span{
 	font-size: 1.5rem;
 }
+
+#bottomcontainer{
+	display: flex;
+	flex-direction: column;
+}
+
+#bottomcontainer :first-child{
+	display: flex;
+	width: 100%;
+}

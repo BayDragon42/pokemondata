@@ -113,7 +113,12 @@ function getDetails() {
 	lefttab_node.innerHTML = "<span>PvP & Team Rocket";
 	
 	var righttab_node = document.createElement("div");
-	lefttab_node.innerHTML = "<span>Arène & Raids";
+	righttab_node.innerHTML = "<span>Arène & Raids";
+	
+	tabcontainer_node.appendChild(lefttab_node);
+	tabcontainer_node.appendChild(righttab_node);
+	
+	bottomcontainer_node.appendChild(tabcontainer_node);
 	
 	detail_node.appendChild(topcontainer_node);
 	detail_node.appendChild(midcontainer_node);
