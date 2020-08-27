@@ -101,10 +101,23 @@ function getDetails() {
 	
 	var midcontainer_node = document.createElement("div");
 	midcontainer_node.id = "midcontainer";
-	midcontainer_node.innerHTML = pokemonData.pokemon[currentpokemon].name;
+	midcontainer_node.innerHTML = "<span>" + pokemonData.pokemon[currentpokemon].name + "</span>";
+	
+	var bottomcontainer_node = document.createElement("div");
+	bottomcontainer_node.id = "bottomcontainer";
+	
+	var tabcontainer_node = document.createElement("div");
+	tabcontainer_node.id = "tab";
+	
+	var lefttab_node = document.createElement("div");
+	lefttab_node.innerHTML = "<span>PvP & Team Rocket";
+	
+	var righttab_node = document.createElement("div");
+	lefttab_node.innerHTML = "<span>Arène & Raids";
 	
 	detail_node.appendChild(topcontainer_node);
 	detail_node.appendChild(midcontainer_node);
+	detail_node.appendChild(bottomcontainer_node);
 }
 
 function goBack() {

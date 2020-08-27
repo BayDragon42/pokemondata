@@ -76,6 +76,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	margin-top: 1rem;
 }
 
 #topcontainer{
@@ -87,6 +88,12 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+#topcontainer :nth-child(2){
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 #topcontainer :nth-child(3){
