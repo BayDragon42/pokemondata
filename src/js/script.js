@@ -79,12 +79,14 @@ function getDetails() {
 	
 	leftside_node.appendChild(backbutton_node);
 	
+	var typecontainer_node = document.createElement("div");
 	for(var type in pokemonData.pokemon[currentpokemon].type) {
 		var typeimg_node = document.createElement("img");
 		typeimg_node.src = "src/img/types/" + pokemonData.pokemon[currentpokemon].type[type] + ".png";
 		
-		leftside_node.appendChild(typeimg_node);
+		typecontainer_node.appendChild(typeimg_node);
 	}
+	leftside_node.appendChild(typecontainer_node);
 	
 	var rightside_node = document.createElement("div");
 	
@@ -96,7 +98,11 @@ function getDetails() {
 	topcontainer_node.appendChild(leftside_node);
 	topcontainer_node.appendChild(rightside_node);
 	
+	var midcontainer_node = document.createElement("div");
+	midcontainer_node.innerHTML = pokemonData.pokemon[currentpokemon].name;
+	
 	detail_node.appendChild(topcontainer_node);
+	detail_node.appendChild(midcontainer_node);
 }
 
 function goBack() {
