@@ -82,13 +82,6 @@ body{
 	display: flex;
 }
 
-#topcontainer :first-child{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 2.5rem;
-}
-
 #topcontainer :nth-child(1) > div:nth-child(2){
 	margin-bottom: 0.3125rem;
 }
