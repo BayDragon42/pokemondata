@@ -68,9 +68,41 @@ function load() {
 
 function getDetails() {
 	var detail_node = document.getElementById("detail");
+	var topcontainer_node = document.createElement("div");
+	topcontainer_node.id = "topcontainer";
+	
+	var leftside_node = document.createElement("div");
+	
+	var backbutton_node = document.createElement("div");
+	backbutton_node.innerHTML = "Back";
+	
+	
+	leftside_node.appendChild(backbutton_node);
+	
+	var rightside_node = document.createElement("div");
 	
 	var pokemonimg_node = document.createElement("img");
 	pokemonimg_node.src = "src/img/" + currentpokemon + ".png";
 	
-	detail_node.appendChild(pokemonimg_node);
+	rightside_node.appendChild(pokemonimg_node);
+	
+	topcontainer_node.appendChild(leftside_node);
+	topcontainer_node.appendChild(rightside_node);
+	
+	detail_node.appendChild(topcontainer_node);
+}
+
+function goBack() {
+	switch(page) {
+		case 0:
+			$(function () {
+				$("#body").load("recherche.html");
+			});
+			break;
+		case 1:
+			$(function () {
+				$("#body").load("top.html");
+			});
+			break;
+	}
 }
