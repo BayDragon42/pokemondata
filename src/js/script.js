@@ -21,7 +21,7 @@ var loadPokemon = function(filter) {
 	list_node.innerHTML = "";
 	
 	for(var id in pokemonData.pokemon) {
-		if(pokemonData.pokemon[id].name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter.normalize("NFD").replace(/[\u0300-\u036f]/g, ""))) {
+		if(pokemonData.pokemon[id].name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().includes(filter.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase())) {
 			var pokemon_node = document.createElement("div");
 			pokemon_node.classList.add("pokemon");
 			
