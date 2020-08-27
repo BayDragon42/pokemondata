@@ -65,3 +65,12 @@ function load() {
 		}
 	})
 }
+
+function getDetails() {
+	var detail_node = getElementById("detail");
+	
+	var pokemonimg_node = document.createElement("img");
+	pokemonimg_node.src = "src/img/" + currentpokemon + ".png";
+	
+	detail_node.appendChild(pokemonimg_node);
+}
