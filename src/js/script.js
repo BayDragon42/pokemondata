@@ -67,7 +67,7 @@ function load() {
 }
 
 function getDetails() {
-	var detail_node = getElementById("detail");
+	var detail_node = document.getElementById("detail");
 	
 	var pokemonimg_node = document.createElement("img");
 	pokemonimg_node.src = "src/img/" + currentpokemon + ".png";
