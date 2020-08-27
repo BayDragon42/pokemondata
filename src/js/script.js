@@ -26,7 +26,7 @@ var loadPokemon = function(filter) {
 			pokemon_node.classList.add("pokemon");
 			pokemon_node.id = id;
 			pokemon_node.addEventListener("click", function(evt) {
-				alert(this.id);
+				console.log(this.id);
 			});
 			
 			var pokemonimg_node = document.createElement("img");
