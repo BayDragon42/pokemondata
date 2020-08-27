@@ -27,7 +27,7 @@ var loadPokemon = function(filter) {
 			pokemon_node.classList.add("pokemon");
 			pokemon_node.id = id;
 			pokemon_node.addEventListener("click", function(evt) {
-				currentpokemon = id;
+				currentpokemon = pokemon_node.id;
 				$(function () {
 					$("#body").load("details.html");
 				});
@@ -76,6 +76,12 @@ function getDetails() {
 	var backbutton_node = document.createElement("div");
 	backbutton_node.innerHTML = "Back";
 	
+	for(var type in pokemonData.pokemon[currentpokemon].type) {
+		var typeimg_node = document.createElement("img");
+		typeimg_node.src = "src/img/types/" + type + ".png";
+		
+		leftside_node.appendChild(typeimg_node);
+	}
 	
 	leftside_node.appendChild(backbutton_node);
 	
