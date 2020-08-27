@@ -77,14 +77,14 @@ function getDetails() {
 	var backbutton_node = document.createElement("div");
 	backbutton_node.innerHTML = "Back";
 	
+	leftside_node.appendChild(backbutton_node);
+	
 	for(var type in pokemonData.pokemon[currentpokemon].type) {
 		var typeimg_node = document.createElement("img");
 		typeimg_node.src = "src/img/types/" + pokemonData.pokemon[currentpokemon].type[type] + ".png";
 		
 		leftside_node.appendChild(typeimg_node);
 	}
-	
-	leftside_node.appendChild(backbutton_node);
 	
 	var rightside_node = document.createElement("div");
 	
