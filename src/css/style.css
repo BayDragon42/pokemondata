@@ -75,16 +75,22 @@ body{
 #detail{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 #topcontainer{
 	display: flex;
 }
 
-#topcontainer :nth-child(1){
+#topcontainer :nth-child(1n){
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	width: 2.5rem;
+}
+
+#topcontainer :nth-child(1) > div:nth-child(2){
+	margin-bottom: 0.3125rem;
 }
 
 #topcontainer :nth-child(1) > div:nth-child(2) > img{
@@ -96,4 +102,8 @@ body{
 
 #midcontainer{
 	text-align: center;
+}
+
+#midcontainer > span{
+	font-size: 1.5rem;
 }

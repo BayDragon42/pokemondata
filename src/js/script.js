@@ -97,6 +97,7 @@ function getDetails() {
 	
 	topcontainer_node.appendChild(leftside_node);
 	topcontainer_node.appendChild(rightside_node);
+	topcontainer_node.appendChild(document.createElement("div"));
 	
 	var midcontainer_node = document.createElement("div");
 	midcontainer_node.id = "midcontainer";
