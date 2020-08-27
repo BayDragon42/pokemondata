@@ -16,34 +16,37 @@ var getJSON = function(url, callback) {
 	xhr.send();
 };
 
-var loadPokemon = function() {
-	var pokemon_input = document.getElementById("search");
-	pokemon_input.addEventListener("input", function(evt) {
-		console.log(this.value);
-	});
-	
+var loadPokemon = function(filter) {	
 	var list_node = document.getElementById("list");
+	list_node.innerHTML = "";
 	
 	for(var id in pokemonData.pokemon) {
-		var pokemon_node = document.createElement("div");
-		pokemon_node.classList.add("pokemon");
-		
-		var pokemonimg_node = document.createElement("img");
-		pokemonimg_node.src = "src/img/" + id + ".png";
-		
-		var pokemonname_node = document.createElement("span");
-		pokemonname_node.innerHTML = pokemonData.pokemon[id].name;
-		
-		pokemon_node.appendChild(pokemonimg_node);
-		pokemon_node.appendChild(pokemonname_node);
-		
-		list_node.appendChild(pokemon_node);
+		if(pokemonData.pokemon[id].name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter.normalize("NFD").replace(/[\u0300-\u036f]/g, ""))) {
+			var pokemon_node = document.createElement("div");
+			pokemon_node.classList.add("pokemon");
+			
+			var pokemonimg_node = document.createElement("img");
+			pokemonimg_node.src = "src/img/" + id + ".png";
+			
+			var pokemonname_node = document.createElement("span");
+			pokemonname_node.innerHTML = pokemonData.pokemon[id].name;
+			
+			pokemon_node.appendChild(pokemonimg_node);
+			pokemon_node.appendChild(pokemonname_node);
+			
+			list_node.appendChild(pokemon_node);
+		}
 	}
 };
 
 function load() {
 	$(function () {
 		$("#body").load("recherche.html");
+	});
+	
+	var pokemon_input = document.getElementById("pokemonsearch");
+	pokemon_input.addEventListener("input", function() {
+		loadPokemon(this.value);
 	});
 	
 	getJSON("https://pokemondatagva.netlify.app/src/json/pokemon_data.json",
@@ -54,7 +57,7 @@ function load() {
 			pokemonData = data
 			
 			$(function () {
-				loadPokemon();
+				loadPokemon("");
 			});
 		}
 	})
