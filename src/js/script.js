@@ -1,5 +1,6 @@
 var pokemonData;
 var page = 0;
+var currentpokemon;
 
 var getJSON = function(url, callback) {
 	var xhr = new XMLHttpRequest();
@@ -26,7 +27,10 @@ var loadPokemon = function(filter) {
 			pokemon_node.classList.add("pokemon");
 			pokemon_node.id = id;
 			pokemon_node.addEventListener("click", function(evt) {
-				console.log(this.id);
+				currentpokemon = id;
+				$(function () {
+					$("#body").load("details.html");
+				});
 			});
 			
 			var pokemonimg_node = document.createElement("img");
