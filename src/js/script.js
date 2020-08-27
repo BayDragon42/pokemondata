@@ -28,7 +28,7 @@ var loadPokemon = function(filter) {
 			pokemon_node.id = id;
 			pokemon_node.addEventListener("click", function(evt) {
 				console.log(evt);
-				currentpokemon = pokemon_node.id;
+				currentpokemon = this.id;
 				$(function () {
 					$("#body").load("details.html");
 				});
