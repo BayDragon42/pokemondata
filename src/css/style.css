@@ -84,6 +84,17 @@ body{
 	justify-content: space-between;
 }
 
+#topcontainer :nth-child(1) > div:nth-child(2){
+	margin-bottom: 0.3125rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#topcontainer :nth-child(1) > div:nth-child(2) > img{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
 #topcontainer :nth-child(2){
 	width: 100%;
 	display: flex;
@@ -92,17 +103,6 @@ body{
 
 #topcontainer :nth-child(3){
 	width: 2.5rem;
-}
-
-#topcontainer :nth-child(1) > div:nth-child(2){
-	margin-bottom: 0.3125rem;
-}
-
-#topcontainer :nth-child(1) > div:nth-child(2) > img{
-	width: 2.5rem;
-	height: 2.5rem;
-	display: flex;
-	flex-direction: column;
 }
 
 #midcontainer{
