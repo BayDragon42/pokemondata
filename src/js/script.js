@@ -18,12 +18,11 @@ var getJSON = function(url, callback) {
 
 var loadPokemon = function() {
 	var pokemon_input = document.getElementById("search");
-	pokemon_input.addEventListener("change", function(evt) {
-		console.log("t");
+	pokemon_input.addEventListener("input", function(evt) {
+		console.log(this.value);
 	});
 	
 	var list_node = document.getElementById("list");
-	console.log(list_node);
 	
 	for(var id in pokemonData.pokemon) {
 		var pokemon_node = document.createElement("div");
