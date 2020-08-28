@@ -245,7 +245,7 @@ function getAttacks() {
 		img.src = "src/img/types/" + pokemonData.attacks[rank_combi[k].combi[0]].type + ".png";
 		
 		namecontainer_node.appendChild(img);
-		namecontainer_node.innerHTML += "<span>" + rank_combi[k].combi[0] + "</span>";
+		namecontainer_node.innerHTML += "<span><span>Immédiate</span><br/>" + rank_combi[k].combi[0] + "</span>";
 		
 		leftside_node.appendChild(namecontainer_node);
 		leftside_node.innerHTML += "<span>Dommages par cycle:</span>";
@@ -258,7 +258,7 @@ function getAttacks() {
 		img.src = "src/img/types/" + pokemonData.attacks[rank_combi[k].combi[1]].type + ".png";
 		
 		namecontainer_node.appendChild(img);
-		namecontainer_node.innerHTML += "<span>" + rank_combi[k].combi[1] + "</span>";
+		namecontainer_node.innerHTML += "<span><span>Chargée</span><br/>" + rank_combi[k].combi[1] + "</span>";
 		
 		rightside_node.appendChild(namecontainer_node);
 		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].dmgPercycle + Number.EPSILON) * 100) / 100 + "</span>";

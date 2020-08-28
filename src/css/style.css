@@ -173,3 +173,7 @@ body{
 	width: 2.5rem;
 	margin-right: 0.3125rem;
 }
+
+#attacks > div > div > div > span > span{
+	color: #aaa;
+}
