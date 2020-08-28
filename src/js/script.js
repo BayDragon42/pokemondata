@@ -215,7 +215,7 @@ function getAttacks() {
 	var rank_combi;
 	var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon].attacks);
 	var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon].attacks);
-	switch(atk_mode) {
+	switch(atkMode) {
 		case 1:
 			rank_combi = getArTopCombi(quick_atk, charged_atk);
 			break;
