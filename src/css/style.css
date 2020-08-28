@@ -1,5 +1,4 @@
 html{
-	
 	user-select:none;
 	-moz-user-select:none;
 	-webkit-user-select:none;
@@ -9,10 +8,11 @@ html{
 body{
 	margin: 0;
 	font-family: Arial;
+	font-color: #fff;
 }
 
 #container{
-	margin: 0 1rem 0 1rem;
+	padding: 0 1rem 0 1rem;
 	background-color: 5096ff;
 }
 
