@@ -145,6 +145,10 @@ body{
 	flex-direction: column;
 }
 
+#attacks > div > div:last-child{
+	text-align: right;
+}
+
 #attacks > div > div > div{
 	display: flex;
 	align-items: center;

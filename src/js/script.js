@@ -187,7 +187,9 @@ function getArTopCombi(quick_atk, charged_atk) {
 		}
 	}
 	
-	return rank;
+	return rank.sort(function(a, b) {
+		return (b.timePercycle/a.timePercycle * a.dmgPercycle) - b.dmgPercycle;
+	});
 }
 
 function getPrTopCombi(quick_atk, charged_atk) {
@@ -208,7 +210,9 @@ function getPrTopCombi(quick_atk, charged_atk) {
 		}
 	}
 	
-	return rank;
+	return rank.sort(function(a, b) {
+		return (b.timePercycle/a.timePercycle * a.dmgPercycle) - b.dmgPercycle;
+	});
 }
 
 function getAttacks() {
@@ -252,7 +256,7 @@ function getAttacks() {
 		
 		rightside_node.appendChild(namecontainer_node);
 		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].dmgPercycle + Number.EPSILON) * 100) / 100 + "</span>";
-		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].timePercycle + Number.EPSILON) * 100) / 100 + "</span>";
+		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].timePercycle + Number.EPSILON) * 100) / 100 + "s</span>";
 		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].averageDmg + Number.EPSILON) * 100) / 100 + "</span>";
 		
 		attack_node.appendChild(leftside_node);
