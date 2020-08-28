@@ -140,6 +140,11 @@ body{
 	justify-content: space-between;
 }
 
+#attacks > div > div{
+	display: flex;
+	flex-direction: column;
+}
+
 #attacks > div > div > div{
 	display: flex;
 	align-items: center;

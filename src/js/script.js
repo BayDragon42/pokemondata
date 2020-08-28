@@ -251,9 +251,9 @@ function getAttacks() {
 		namecontainer_node.innerHTML += "<span>" + rank_combi[k].combi[1] + "</span>";
 		
 		rightside_node.appendChild(namecontainer_node);
-		leftside_node.innerHTML += "<span>" + rank_combi[k].dmgPercycle + "</span>";
-		leftside_node.innerHTML += "<span>" + rank_combi[k].timePercycle + "</span>";
-		leftside_node.innerHTML += "<span>" + rank_combi[k].averageDmg + "</span>";
+		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].dmgPercycle + Number.EPSILON) * 100) / 100 + "</span>";
+		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].timePercycle + Number.EPSILON) * 100) / 100 + "</span>";
+		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].averageDmg + Number.EPSILON) * 100) / 100 + "</span>";
 		
 		attack_node.appendChild(leftside_node);
 		attack_node.appendChild(rightside_node);
