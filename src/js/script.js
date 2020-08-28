@@ -76,7 +76,13 @@ function getDetails() {
 	var leftside_node = document.createElement("div");
 	
 	var backbutton_node = document.createElement("div");
-	backbutton_node.innerHTML = "Back";
+	var backbutton = document.createElement("img");
+	backbutton.addEventListener("click", function() {
+		console.log("Back");
+	});
+	backbutton.src = "src/img/logo/back.png";
+	
+	backbutton_node.appendChild(backbutton);
 	
 	leftside_node.appendChild(backbutton_node);
 	
