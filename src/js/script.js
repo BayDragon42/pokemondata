@@ -230,10 +230,18 @@ function getAttacks() {
 		var attack_node = document.createElement("div");
 		
 		var leftside_node = document.createElement("div");
-		leftside_node.innerHTML = rank_combi[k].combi[0];
+		var img = document.createElement("img");
+		img.src = "src/img/types/" + pokemonData.attacks[rank_combi[k].combi[0]].type + ".png";
+		
+		leftside_node.appendChild(img);
+		leftside_node.innerHTML += "<span>" + rank_combi[k].combi[0] + "</span>";
 		
 		var rightside_node = document.createElement("div");
-		rightside_node.innerHTML = rank_combi[k].combi[1];
+		var img = document.createElement("img");
+		img.src = "src/img/types/" + pokemonData.attacks[rank_combi[k].combi[1]].type + ".png";
+		
+		rightside_node.appendChild(img);
+		rightside_node.innerHTML += "<span>" + rank_combi[k].combi[1] + "</span>";
 		
 		attack_node.appendChild(leftside_node);
 		attack_node.appendChild(rightside_node);

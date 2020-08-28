@@ -135,6 +135,16 @@ body{
 }
 
 #attacks > div{
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+}
+
+#attacks > div > div{
+	display: flex;
+	align-items: center;
+}
+
+#attacks > div > div > img{
+	width: 2.5rem;
 }
