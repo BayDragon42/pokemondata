@@ -164,9 +164,15 @@ body{
 	text-align: right;
 }
 
+#attacks > div > div:last-child > div > span:last-child{
+	font-weight: 500;
+}
+
 #attacks > div > div > div{
 	display: flex;
 	align-items: center;
+	text-align: left;
+	margin-bottom: 1rem;
 }
 
 #attacks > div > div > div > img{
@@ -176,4 +182,5 @@ body{
 
 #attacks > div > div > div > span > span{
 	color: #aaa;
+	text-decoration: underline;
 }
