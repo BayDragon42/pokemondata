@@ -188,7 +188,7 @@ function getArTopCombi(quick_atk, charged_atk) {
 	}
 	
 	return rank.sort(function(a, b) {
-		return (b.timePercycle/a.timePercycle * a.dmgPercycle) - b.dmgPercycle;
+		return b.dmgPercycle - (b.timePercycle/a.timePercycle * a.dmgPercycle);
 	});
 }
 
@@ -211,7 +211,7 @@ function getPrTopCombi(quick_atk, charged_atk) {
 	}
 	
 	return rank.sort(function(a, b) {
-		return (b.timePercycle/a.timePercycle * a.dmgPercycle) - b.dmgPercycle;
+		return b.dmgPercycle - (b.timePercycle/a.timePercycle * a.dmgPercycle);
 	});
 }
 
