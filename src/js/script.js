@@ -149,7 +149,7 @@ function getQuickAtkStats(atk) {
 	var dict = {};
 	
 	for(var k in pokemonData.attacks) {
-		if(atk.includes(k) and pokemonData.attacks[k]["mode"] === "quick") {
+		if(atk.includes(k) && pokemonData.attacks[k].mode === "quick") {
 			dict[k] = pokemonData.attacks[k];
 		}
 	}
@@ -161,7 +161,7 @@ function getChargedAtkStats(atk) {
 	var dict = {};
 	
 	for(var k in pokemonData.attacks) {
-		if(atk.includes(k) and pokemonData.attacks[k].mode === "charged") {
+		if(atk.includes(k) && pokemonData.attacks[k].mode === "charged") {
 			dict[k] = pokemonData.attacks[k];
 		}
 	}
