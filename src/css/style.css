@@ -164,7 +164,7 @@ body{
 	text-align: right;
 }
 
-#attacks > div > div:last-child > div > span:last-child{
+#attacks > div > div:last-child > span:last-child{
 	font-weight: bold;
 }
 
