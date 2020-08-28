@@ -144,10 +144,10 @@ body{
 	background: linear-gradient(179deg, #fff 40%, #aaa 95%);
 	color: black;
 	border-radius: 2.3125rem 1rem;
-	width: 100%;
+	width: 95%;
 	display: flex;
 	justify-content: space-between;
-	padding: 0.3125rem;
+	padding: 0.625rem;
 	margin-bottom: 1rem;
 }
 
