@@ -140,11 +140,12 @@ body{
 	justify-content: space-between;
 }
 
-#attacks > div > div{
+#attacks > div > div > div{
 	display: flex;
 	align-items: center;
 }
 
-#attacks > div > div > img{
+#attacks > div > div > div > img{
 	width: 2.5rem;
+	margin-right: 0.3125rem;
 }
