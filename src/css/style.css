@@ -165,7 +165,7 @@ body{
 }
 
 #attacks > div > div:last-child > div > span:last-child{
-	font-weight: 500;
+	font-weight: bold;
 }
 
 #attacks > div > div > div{
