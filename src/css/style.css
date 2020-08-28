@@ -85,7 +85,7 @@ body{
 	justify-content: space-between;
 }
 
-#topcontainer :nth-child(1) > div:nth-child(2) > img{
+#topcontainer :nth-child(1) > div:nth-child(1) > img{
 	width: 2.5rem;
 	height: 2.5rem;
 }
