@@ -8,12 +8,12 @@ html{
 body{
 	margin: 0;
 	font-family: Arial;
-	font-color: #fff;
+	color: #fff;
+	background: linear-gradient(#5096ff, #0066ff)
 }
 
 #container{
 	padding: 0 1rem 0 1rem;
-	background-color: 5096ff;
 }
 
 #tab_select{
