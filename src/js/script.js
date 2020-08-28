@@ -1,5 +1,6 @@
 var pokemonData;
 var page = 0;
+var atkMode = 0;
 var currentpokemon;
 
 var getJSON = function(url, callback) {
@@ -118,7 +119,11 @@ function getDetails() {
 	tabcontainer_node.appendChild(lefttab_node);
 	tabcontainer_node.appendChild(righttab_node);
 	
+	var attackscontainer_node = document.createElement("div");
+	attackscontainer_node.id = "attacks";
+	
 	bottomcontainer_node.appendChild(tabcontainer_node);
+	bottomcontainer_node.appendChild(attackscontainer_node);
 	
 	detail_node.appendChild(topcontainer_node);
 	detail_node.appendChild(midcontainer_node);
@@ -127,15 +132,112 @@ function getDetails() {
 
 function goBack() {
 	switch(page) {
-		case 0:
-			$(function () {
-				$("#body").load("recherche.html");
-			});
-			break;
 		case 1:
 			$(function () {
 				$("#body").load("top.html");
 			});
 			break;
+		case 0:
+			$(function () {
+				$("#body").load("recherche.html");
+			});
+		default:
+	}
+}
+
+function getQuickAtkStats(atk) {
+	var dict = {};
+	
+	for(var k in pokemonData.attacks) {
+		if(atk.includes(k) and pokemonData.attacks[k].mode === "quick") {
+			dict[k] = pokemonData.attacks[k];
+		}
+	}
+	
+	return dict;
+}
+
+function getChargedAtkStats(atk) {
+	var dict = {};
+	
+	for(var k in pokemonData.attacks) {
+		if(atk.includes(k) and pokemonData.attacks[k].mode === "charged") {
+			dict[k] = pokemonData.attacks[k];
+		}
+	}
+	
+	return dict;
+}
+
+function getArTopCombi(quick_atk, charged_atk) {
+	var rank = [];
+	
+	for(var qk in quick_atk) {
+		for(var ck in charged_atk) {
+			var data = {
+				"combi": [qk, ck],
+				q_atk: quick_atk[qk],
+				c_atk: charged_atk[ck],
+				"dmgPercycle": quick_atk[qk].ARdmg * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + charged_atk[ck].ARdmg,
+				"timePercycle": quick_atk[qk].speed * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + charged_atk[ck].speed
+			};
+			data["averageDmg"] = data["dmgPercycle"] / data["timePercycle"] * 90;
+			
+			rank.push(data);
+		}
+	}
+	
+	return rank;
+}
+
+function getPrTopCombi(quick_atk, charged_atk) {
+	var rank = [];
+	
+	for(var qk in quick_atk) {
+		for(var ck in charged_atk) {
+			var data = {
+				"combi": [qk, ck],
+				q_atk: quick_atk[qk],
+				c_atk: charged_atk[ck],
+				"dmgPercycle": quick_atk[qk].PRdmg * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy) + charged_atk[ck].PRdmg,
+				"timePercycle": quick_atk[qk].speed * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy)
+			};
+			data["averageDmg"] = data["dmgPercycle"] / data["timePercycle"] * 90;
+			
+			rank.push(data);
+		}
+	}
+	
+	return rank;
+}
+
+function getAttacks() {
+	var rank_combi;
+	var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon].attacks);
+	var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon].attacks);
+	switch(atk_mode) {
+		case 1:
+			rank_combi = getArTopCombi(quick_atk, charged_atk);
+			break;
+		case 0:
+		default:
+			rank_combi = getPrTopCombi(quick_atk, charged_atk);
+	}
+	
+	var bottomcontainer_node = document.getElementById("bottomcontainer");
+	
+	for(var k in rank_combi) {
+		var attack_node = document.createElement("div");
+		
+		var leftside_node = document.createElement("div");
+		leftside_node.innerHTML = rank_combi[k].combi[0];
+		
+		var rightside_node = document.createElement("div");
+		rightside_node.innerHTML = rank_combi[k].combi[1];
+		
+		attack_node.appendChild(leftside_node);
+		attack_node.appendChild(rightside_node);
+		
+		bottomcontainer_node.appendChild(attack_node);
 	}
 }
