@@ -224,7 +224,7 @@ function getAttacks() {
 			rank_combi = getPrTopCombi(quick_atk, charged_atk);
 	}
 	
-	var bottomcontainer_node = document.getElementById("bottomcontainer");
+	var attacks_node = document.getElementById("attacks");
 	
 	for(var k in rank_combi) {
 		var attack_node = document.createElement("div");
@@ -238,6 +238,6 @@ function getAttacks() {
 		attack_node.appendChild(leftside_node);
 		attack_node.appendChild(rightside_node);
 		
-		bottomcontainer_node.appendChild(attack_node);
+		attacks_node.appendChild(attack_node);
 	}
 }
