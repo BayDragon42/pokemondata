@@ -63,7 +63,7 @@ body{
 }
 
 #list > .pokemon:active{
-	background-color: #bbb;
+	background: linear-gradient(155deg, #aaa 40%, #fff 95%);
 }
 
 #list > .pokemon > img{
