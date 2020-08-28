@@ -49,8 +49,12 @@ body{
 }
 
 #list > .pokemon{
-	margin: 1rem;
-	margin-top: 0;
+	background: linear-gradient(155deg, #fff 40%, #aaa 95%);
+	color: black;
+	border-radius: 1.25rem 0.625rem;
+	padding: 0.3125rem
+	margin: 0.625rem;
+	margin-top: 0rem;
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
@@ -148,7 +152,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	padding: 0.625rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 #attacks > div > div{
