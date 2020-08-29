@@ -275,7 +275,12 @@ function getAttacks() {
 		leftside_node.innerHTML += "<span>Dmg sur 90s:</span>";
 		
 		var midside_node = document.createElement("div");
-		midside_node.innerHTML = "V";
+		var more_node = document.createElement("img");
+		more_node.src = "src/img/logo/more.png";
+		more_node.addEventListener("click", function() {
+			// get more info
+		});
+		midside_node.appendChild(more_node);
 		
 		var rightside_node = document.createElement("div");
 		var namecontainer_node = document.createElement("div");
