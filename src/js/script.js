@@ -115,11 +115,24 @@ function getDetails() {
 	
 	var tabcontainer_node = document.createElement("div");
 	tabcontainer_node.id = "tab";
+	tabcontainer.classList.add("pr");
 	
 	var lefttab_node = document.createElement("div");
+	lefttab_node.addEventListener(function() {
+		atkMode = 0;
+		document.getElementsByName("tab").classList.toggle("pr");
+		document.getElementsByName("tab").classList.toggle("ar");
+		getAttacks();
+	});
 	lefttab_node.innerHTML = "<span>PvP & Team Rocket";
 	
 	var righttab_node = document.createElement("div");
+	righttab_node.addEventListener(function() {
+		atkMode = 1;
+		document.getElementsByName("tab").classList.toggle("pr");
+		document.getElementsByName("tab").classList.toggle("ar");
+		getAttacks();
+	});
 	righttab_node.innerHTML = "<span>Arène & Raids";
 	
 	tabcontainer_node.appendChild(lefttab_node);
@@ -239,6 +252,7 @@ function getAttacks() {
 	}
 	
 	var attacks_node = document.getElementById("attacks");
+	attacks_node.innerHTML = "";
 	
 	for(var k in rank_combi) {
 		var attack_node = document.createElement("div");
