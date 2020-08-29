@@ -146,20 +146,20 @@ body{
 	/*background: radial-gradient(circle at 75% -200%, #fff 35%, #4690ff 80%);*/
 }
 
-.pr:first-child{
+.pr > div:first-child{
 	background-color: white;
 	transition: background-color 1s ease-in-out;
 }
 
-.pr:last-child{
+.pr > div:last-child{
 	transition: background-color 1s ease-in-out;
 }
 
-.ar:first-child{
+.ar > div:first-child{
 	transition: background-color 1s ease-in-out;
 }
 
-.ar:last-child{
+.ar > div:last-child{
 	background-color: white;
 }
 
@@ -167,7 +167,7 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
 	border-radius: 0.625rem;
 }
 
