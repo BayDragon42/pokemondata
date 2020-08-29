@@ -1,7 +1,7 @@
 var pokemonData;
-var page = 0;
+var page = [0];
 var atkMode = 0;
-var currentpokemon;
+var currentpokemon = [];
 
 var getJSON = function(url, callback) {
 	var xhr = new XMLHttpRequest();
@@ -29,7 +29,7 @@ var loadPokemon = function(filter) {
 			pokemon_node.id = id;
 			pokemon_node.addEventListener("click", function(evt) {
 				console.log(evt);
-				currentpokemon = this.id;
+				currentpokemon.push(this.id);
 				$(function () {
 					$("#body").load("details.html");
 				});
@@ -87,9 +87,9 @@ function getDetails() {
 	leftside_node.appendChild(backbutton_node);
 	
 	var typecontainer_node = document.createElement("div");
-	for(var type in pokemonData.pokemon[currentpokemon].type) {
+	for(var type in pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type) {
 		var typeimg_node = document.createElement("img");
-		typeimg_node.src = "src/img/types/" + pokemonData.pokemon[currentpokemon].type[type] + ".png";
+		typeimg_node.src = "src/img/types/" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type[type] + ".png";
 		
 		typecontainer_node.appendChild(typeimg_node);
 	}
@@ -98,7 +98,7 @@ function getDetails() {
 	var rightside_node = document.createElement("div");
 	
 	var pokemonimg_node = document.createElement("img");
-	pokemonimg_node.src = "src/img/" + currentpokemon + ".png";
+	pokemonimg_node.src = "src/img/" + currentpokemon[currentpokemon.length - 1] + ".png";
 	
 	rightside_node.appendChild(pokemonimg_node);
 	
@@ -108,7 +108,7 @@ function getDetails() {
 	
 	var midcontainer_node = document.createElement("div");
 	midcontainer_node.id = "midcontainer";
-	midcontainer_node.innerHTML = "<span>" + pokemonData.pokemon[currentpokemon].name + "</span>";
+	midcontainer_node.innerHTML = "<span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].name + "</span>";
 	
 	var bottomcontainer_node = document.createElement("div");
 	bottomcontainer_node.id = "bottomcontainer";
@@ -137,7 +137,7 @@ function getDetails() {
 }
 
 function goBack() {
-	switch(page) {
+	switch(page[page.length - 1]) {
 		case 1:
 			$(function () {
 				$("#body").load("top.html");
@@ -179,9 +179,9 @@ function getArTopCombi(quick_atk, charged_atk) {
 	var rank = [];
 	
 	for(var qk in quick_atk) {
-		var q_stab = (pokemonData.pokemon[currentpokemon].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
+		var q_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 		for(var ck in charged_atk) {
-			var c_stab = (pokemonData.pokemon[currentpokemon].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
+			var c_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
 			var data = {
 				"combi": [qk, ck],
 				q_atk: quick_atk[qk],
@@ -204,9 +204,9 @@ function getPrTopCombi(quick_atk, charged_atk) {
 	var rank = [];
 	
 	for(var qk in quick_atk) {
-		var q_stab = (pokemonData.pokemon[currentpokemon].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
+		var q_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 		for(var ck in charged_atk) {
-			var c_stab = (pokemonData.pokemon[currentpokemon].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
+			var c_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
 			var data = {
 				"combi": [qk, ck],
 				q_atk: quick_atk[qk],
@@ -227,8 +227,8 @@ function getPrTopCombi(quick_atk, charged_atk) {
 
 function getAttacks() {
 	var rank_combi;
-	var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon].attacks);
-	var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon].attacks);
+	var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks);
+	var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks);
 	switch(atkMode) {
 		case 1:
 			rank_combi = getArTopCombi(quick_atk, charged_atk);

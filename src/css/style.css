@@ -67,8 +67,8 @@ body{
 }
 
 .pokemon > img{
-	width: 5rem;
-	height: 5rem;
+	width: 7rem;
+	height: 7rem;
 }
 
 #detail{
@@ -131,6 +131,11 @@ body{
 #tab{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background: radial-gradient(circle at 25% -300%, #fff 35%, transparent 80%);
+	margin: 0.625rem 0rem 0.625rem 0rem;
+	border-radius: 0.625rem;
+	height: 2rem;
 }
 
 #tab div{
