@@ -204,12 +204,14 @@ function getPrTopCombi(quick_atk, charged_atk) {
 	var rank = [];
 	
 	for(var qk in quick_atk) {
+		var q_stab = (pokemonData.pokemon[currentpokemon].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 		for(var ck in charged_atk) {
+			var c_stab = (pokemonData.pokemon[currentpokemon].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
 			var data = {
 				"combi": [qk, ck],
 				q_atk: quick_atk[qk],
 				c_atk: charged_atk[ck],
-				"dmgPercycle": quick_atk[qk].PRdmg * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy) + charged_atk[ck].PRdmg,
+				"dmgPercycle": (quick_atk[qk].PRdmg * q_stab) * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy) + (charged_atk[ck].PRdmg * c_stab),
 				"timePercycle": quick_atk[qk].speed * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy)
 			};
 			data["averageDmg"] = data["dmgPercycle"] / data["timePercycle"] * 90;
