@@ -78,7 +78,8 @@ function getDetails() {
 	var backbutton_node = document.createElement("div");
 	var backbutton = document.createElement("img");
 	backbutton.addEventListener("click", function() {
-		console.log("Back");
+		currentpokemon.pop();
+		goBackFromDetails();
 	});
 	backbutton.src = "src/img/logo/back.png";
 	
@@ -153,7 +154,7 @@ function getDetails() {
 	detail_node.appendChild(bottomcontainer_node);
 }
 
-function goBack() {
+function goBackFromDetails() {
 	switch(page[page.length - 1]) {
 		case 1:
 			$(function () {
