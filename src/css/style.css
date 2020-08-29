@@ -139,16 +139,36 @@ body{
 }
 
 .pr{
-	background: radial-gradient(circle at 25% -300%, #fff 35%, #4690ff 80%);
+	/*background: radial-gradient(circle at 25% -200%, #fff 35%, #4690ff 80%);*/
 }
 
 .ar{
-	background: radial-gradient(circle at 75% -300%, #fff 35%, #4690ff 80%);
+	/*background: radial-gradient(circle at 75% -200%, #fff 35%, #4690ff 80%);*/
+}
+
+.pr:first-child{
+	background-color: white;
+	transition: background-color 1s ease-in-out;
+}
+
+.pr:last-child{
+	transition: background-color 1s ease-in-out;
+}
+
+.ar:first-child{
+	transition: background-color 1s ease-in-out;
+}
+
+.ar:last-child{
+	background-color: white;
 }
 
 #tab div{
 	width: 100%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center
+	border-radius: 0.625rem;
 }
 
 #attacks{
