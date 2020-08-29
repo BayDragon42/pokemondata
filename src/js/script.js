@@ -118,7 +118,7 @@ function getDetails() {
 	tabcontainer_node.classList.add("pr");
 	
 	var lefttab_node = document.createElement("div");
-	lefttab_node.addEventListener(function() {
+	lefttab_node.addEventListener("click", function() {
 		atkMode = 0;
 		document.getElementsByName("tab").classList.toggle("pr");
 		document.getElementsByName("tab").classList.toggle("ar");
@@ -127,7 +127,7 @@ function getDetails() {
 	lefttab_node.innerHTML = "<span>PvP & Team Rocket";
 	
 	var righttab_node = document.createElement("div");
-	righttab_node.addEventListener(function() {
+	righttab_node.addEventListener("click", function() {
 		atkMode = 1;
 		document.getElementsByName("tab").classList.toggle("pr");
 		document.getElementsByName("tab").classList.toggle("ar");
