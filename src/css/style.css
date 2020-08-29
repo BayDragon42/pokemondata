@@ -139,11 +139,11 @@ body{
 }
 
 .pr{
-	background: radial-gradient(circle at 25% -300%, #fff 35%, transparent 80%);
+	background: radial-gradient(circle at 25% -300%, #fff 35%, #5096ff 80%);
 }
 
 .ar{
-	background: radial-gradient(circle at 75% -300%, #fff 35%, transparent 80%);
+	background: radial-gradient(circle at 75% -300%, #fff 35%, #5096ff 80%);
 }
 
 #tab div{
