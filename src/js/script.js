@@ -120,8 +120,8 @@ function getDetails() {
 	var lefttab_node = document.createElement("div");
 	lefttab_node.addEventListener("click", function() {
 		atkMode = 0;
-		document.getElementsByName("tab").classList.toggle("pr");
-		document.getElementsByName("tab").classList.toggle("ar");
+		document.getElementById("tab").classList.toggle("pr");
+		document.getElementById("tab").classList.toggle("ar");
 		getAttacks();
 	});
 	lefttab_node.innerHTML = "<span>PvP & Team Rocket";
@@ -129,8 +129,8 @@ function getDetails() {
 	var righttab_node = document.createElement("div");
 	righttab_node.addEventListener("click", function() {
 		atkMode = 1;
-		document.getElementsByName("tab").classList.toggle("pr");
-		document.getElementsByName("tab").classList.toggle("ar");
+		document.getElementById("tab").classList.toggle("pr");
+		document.getElementById("tab").classList.toggle("ar");
 		getAttacks();
 	});
 	righttab_node.innerHTML = "<span>Arène & Raids";
