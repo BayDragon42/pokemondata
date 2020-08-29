@@ -148,23 +148,25 @@ body{
 
 .pr > div:first-child{
 	background-color: white;
-	transition: background-color 1s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
 }
 
 .pr > div:last-child{
-	transition: background-color 1s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
 }
 
 .ar > div:first-child{
-	transition: background-color 1s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
 }
 
 .ar > div:last-child{
 	background-color: white;
+	transition: background-color 0.5s ease-in-out;
 }
 
 #tab div{
 	width: 100%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
