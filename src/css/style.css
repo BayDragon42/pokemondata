@@ -133,10 +133,10 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: radial-gradient(circle at 25% -300%, #fff 35%, transparent 80%);
+	background: radial-gradient(circle at 25% -300%, #fff 35%, rgba(0, 0, 0, 0) 80%);
 	margin: 0.625rem 0rem 0.625rem 0rem;
 	border-radius: 0.625rem;
-	height: 2rem;
+	height: 3rem;
 }
 
 #tab div{
