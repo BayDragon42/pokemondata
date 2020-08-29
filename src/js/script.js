@@ -274,14 +274,6 @@ function getAttacks() {
 		leftside_node.innerHTML += "<span>Temps par cycle:</span>";
 		leftside_node.innerHTML += "<span>Dmg sur 90s:</span>";
 		
-		var midside_node = document.createElement("div");
-		var more_node = document.createElement("img");
-		more_node.src = "src/img/logo/more.png";
-		more_node.addEventListener("click", function() {
-			// get more info
-		});
-		midside_node.appendChild(more_node);
-		
 		var rightside_node = document.createElement("div");
 		var namecontainer_node = document.createElement("div");
 		var img = document.createElement("img");
@@ -296,7 +288,6 @@ function getAttacks() {
 		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].averageDmg + Number.EPSILON) * 100) / 100 + "</span>";
 		
 		attack_node.appendChild(leftside_node);
-		attack_node.appendChild(midside_node);
 		attack_node.appendChild(rightside_node);
 		
 		attacks_node.appendChild(attack_node);
