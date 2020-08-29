@@ -136,15 +136,14 @@ body{
 	margin: 0.625rem 0rem 0.625rem 0rem;
 	border-radius: 0.625rem;
 	height: 3rem;
-	transition: background 0.5s ease-in-out;
 }
 
 .pr{
-	background: radial-gradient(circle at 25% -200%, #fff 35%, #4690ff 80%);
+	background: radial-gradient(circle at 25% -200%, #fff 50%, #4690ff 80%);
 }
 
 .ar{
-	background: radial-gradient(circle at 75% -200%, #fff 35%, #4690ff 80%);
+	background: radial-gradient(circle at 75% -200%, #fff 50%, #4690ff 80%);
 }
 
 .pr > div:first-child{
