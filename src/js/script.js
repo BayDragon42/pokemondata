@@ -115,7 +115,7 @@ function getDetails() {
 	
 	var tabcontainer_node = document.createElement("div");
 	tabcontainer_node.id = "tab";
-	tabcontainer.classList.add("pr");
+	tabcontainer_node.classList.add("pr");
 	
 	var lefttab_node = document.createElement("div");
 	lefttab_node.addEventListener(function() {
