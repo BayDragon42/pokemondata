@@ -139,11 +139,11 @@ body{
 }
 
 .pr{
-	background: radial-gradient(circle at 25% -200%, #fff 50%, #4690ff 80%);
+	background: radial-gradient(circle at 25% -200%, #fff 55%, #4690ff 80%);
 }
 
 .ar{
-	background: radial-gradient(circle at 75% -200%, #fff 50%, #4690ff 80%);
+	background: radial-gradient(circle at 75% -200%, #fff 55%, #4690ff 80%);
 }
 
 .pr > div:first-child{
