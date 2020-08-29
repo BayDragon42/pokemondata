@@ -48,12 +48,12 @@ body{
 	flex-wrap: wrap;
 }
 
-#list > .pokemon{
+.pokemon{
 	background: linear-gradient(155deg, #fff 40%, #aaa 95%);
 	color: black;
 	border-radius: 1.25rem 0.625rem;
 	padding: 0.3125rem;
-	margin: 0.625rem;
+	margin: 0.3125rem;
 	margin-top: 0rem;
 	cursor: pointer;
 	display: flex;
@@ -62,11 +62,11 @@ body{
 	text-align: center;
 }
 
-#list > .pokemon:active{
+.pokemon:active{
 	background: linear-gradient(155deg, #aaa 40%, #fff 95%);
 }
 
-#list > .pokemon > img{
+.pokemon > img{
 	width: 5rem;
 	height: 5rem;
 }

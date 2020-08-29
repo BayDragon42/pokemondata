@@ -179,12 +179,14 @@ function getArTopCombi(quick_atk, charged_atk) {
 	var rank = [];
 	
 	for(var qk in quick_atk) {
+		var q_stab = (pokemonData.pokemon[currentpokemon].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 		for(var ck in charged_atk) {
+			var c_stab = (pokemonData.pokemon[currentpokemon].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
 			var data = {
 				"combi": [qk, ck],
 				q_atk: quick_atk[qk],
 				c_atk: charged_atk[ck],
-				"dmgPercycle": quick_atk[qk].ARdmg * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + charged_atk[ck].ARdmg,
+				"dmgPercycle": (quick_atk[qk].ARdmg * q_stab) * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + (charged_atk[ck].ARdmg * c_stab),
 				"timePercycle": quick_atk[qk].speed * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + charged_atk[ck].speed
 			};
 			data["averageDmg"] = data["dmgPercycle"] / data["timePercycle"] * 90;
@@ -248,9 +250,9 @@ function getAttacks() {
 		namecontainer_node.innerHTML += "<span><span>Immédiate</span><br/>" + rank_combi[k].combi[0] + "</span>";
 		
 		leftside_node.appendChild(namecontainer_node);
-		leftside_node.innerHTML += "<span>Dommages par cycle:</span>";
+		leftside_node.innerHTML += "<span>Dmg par cycle:</span>";
 		leftside_node.innerHTML += "<span>Temps par cycle:</span>";
-		leftside_node.innerHTML += "<span>Dommages moyen sur 90s:</span>";
+		leftside_node.innerHTML += "<span>Dmg sur 90s:</span>";
 		
 		var rightside_node = document.createElement("div");
 		var namecontainer_node = document.createElement("div");
