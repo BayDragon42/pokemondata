@@ -335,7 +335,7 @@ function getAttacks() {
 		} else {
 			var atk_name = rank_combi[k].combi[1] + "(elite)"; /* elite is tmp add img afterwards */
 		}
-		namecontainer_node.innerHTML += "<span><span>Chargée</span><br/>" + rank_combi[k].combi[1] + "</span>";
+		namecontainer_node.innerHTML += "<span><span>Chargée</span><br/>" + atk_name + "</span>";
 		
 		rightside_node.appendChild(namecontainer_node);
 		rightside_node.innerHTML += "<span>" + Math.round((rank_combi[k].dmgPercycle + Number.EPSILON) * 100) / 100 + "</span>";
