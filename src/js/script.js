@@ -139,6 +139,7 @@ function getDetails() {
 		var flipcard = document.getElementById("flip-card");
 		flipcard.classList.toggle("flipped");
 	});
+	rightside_node.appendChild(infoimg_node);
 	
 	topcontainer_node.appendChild(leftside_node);
 	topcontainer_node.appendChild(midside_node);
