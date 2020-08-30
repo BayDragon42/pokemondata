@@ -114,18 +114,23 @@ function getDetails() {
 	info_node.innerHTML = "<div>Gen.:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
 	back_node.appendChild(info_node);
 	
+	var info_node = document.createElement("div");
 	info_node.innerHTML = "<div>Région:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].region + "</div>";
 	back_node.appendChild(info_node);
 	
+	var info_node = document.createElement("div");
 	info_node.innerHTML = "<div>Oeuf:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].isInEgg + "</div>";
 	back_node.appendChild(info_node);
 	
+	var info_node = document.createElement("div");
 	info_node.innerHTML = "<div>Copain:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
 	back_node.appendChild(info_node);
 	
+	var info_node = document.createElement("div");
 	info_node.innerHTML = "<div>Pv:</div><div>Atk:</div><div>Def:</div>";
 	back_node.appendChild(info_node);
 	
+	var info_node = document.createElement("div");
 	info_node.innerHTML = "<div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</div>";
 	back_node.appendChild(info_node);
 	
