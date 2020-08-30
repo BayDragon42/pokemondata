@@ -28,7 +28,6 @@ var loadPokemon = function(filter) {
 			pokemon_node.classList.add("pokemon");
 			pokemon_node.id = id;
 			pokemon_node.addEventListener("click", function(evt) {
-				console.log(evt);
 				currentpokemon.push(this.id);
 				$(function () {
 					$("#body").load("details.html");
@@ -302,7 +301,6 @@ function getAttacks() {
 	var attacks_node = document.getElementById("attacks");
 	attacks_node.innerHTML = "";
 	
-	console.log(rank_combi);
 	for(var k in rank_combi) {
 		var attack_node = document.createElement("div");
 		
