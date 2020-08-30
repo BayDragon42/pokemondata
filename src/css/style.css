@@ -130,7 +130,6 @@ body{
 	width: 100%;
 	flex-direction: column;
 	transform: rotateY(-180deg);
-	padding: 1rem;
 }
 
 .back > div{
