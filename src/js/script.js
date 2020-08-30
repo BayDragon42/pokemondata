@@ -133,6 +133,12 @@ function getDetails() {
 	midside_node.appendChild(back_node);
 	
 	var rightside_node = document.createElement("div");
+	var infoimg_node = document.createElement("img");
+	infoimg_node.src = "src/img/logo/more.png";
+	infoimg_node.addEventListener("click", function() {
+		var flipcard = document.getElementById("flip-card");
+		flipcard.classList.toggle("flipped");
+	});
 	
 	topcontainer_node.appendChild(leftside_node);
 	topcontainer_node.appendChild(midside_node);
