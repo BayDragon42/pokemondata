@@ -311,9 +311,9 @@ function getAttacks() {
 		
 		namecontainer_node.appendChild(img);
 		if(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.includes(rank_combi[k].combi[0])) {
-			var atk_name = rank_combi[k].combi[0]
+			var atk_name = "<span>" + rank_combi[k].combi[0] + '</span>';
 		} else {
-			var atk_name = rank_combi[k].combi[0] + "(elite)"; /* elite is tmp add img afterwards */
+			var atk_name = "<span>" + rank_combi[k].combi[0] + '</span><img class="elite" src="src/img/logo/elite.png">';
 		}
 		namecontainer_node.innerHTML += "<span><span>Immédiate</span><br/>" + atk_name + "</span>";
 		
@@ -329,9 +329,9 @@ function getAttacks() {
 		
 		namecontainer_node.appendChild(img);
 		if(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.includes(rank_combi[k].combi[1])) {
-			var atk_name = rank_combi[k].combi[1]
+			var atk_name = "<span>" + rank_combi[k].combi[1] + '</span>';
 		} else {
-			var atk_name = rank_combi[k].combi[1] + "(elite)"; /* elite is tmp add img afterwards */
+			var atk_name = "<span>" + rank_combi[k].combi[1] + '</span><img class="elite" src="src/img/logo/elite.png">';
 		}
 		namecontainer_node.innerHTML += "<span><span>Chargée</span><br/>" + atk_name + "</span>";
 		

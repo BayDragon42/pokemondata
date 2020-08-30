@@ -205,6 +205,12 @@ body{
 	border-radius: 0.625rem;
 }
 
+.elite{
+	width: 1rem;
+	height: 1rem;
+	vertical-align: text-top;
+}
+
 #attacks{
 	display: flex;
 	flex-direction: column;
