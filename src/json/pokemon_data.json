@@ -50,32 +50,6 @@
                 "143"
             ]
         },
-        "FlorizarreMéga": {
-            "name": "Florizarre",
-            "form": "Méga",
-            "type": [
-                "plante",
-                "poison"
-            ],
-            "attacks": [
-                "Fouet Lianes",
-                "Tranch’Herbe",
-                "Bombe Beurk",
-                "Lance-Soleil",
-                "Tempête Florale",
-                "Végé-Attaque(elite)"
-            ],
-            "number": 3,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "190",
-                "241",
-                "246"
-            ]
-        },
         "Florizarre": {
             "name": "Florizarre",
             "form": "",
@@ -100,6 +74,32 @@
                 "190",
                 "198",
                 "189"
+            ]
+        },
+        "FlorizarreMéga-Évolution": {
+            "name": "Florizarre",
+            "form": "Méga-Évolution",
+            "type": [
+                "plante",
+                "poison"
+            ],
+            "attacks": [
+                "Fouet Lianes",
+                "Tranch’Herbe",
+                "Bombe Beurk",
+                "Lance-Soleil",
+                "Tempête Florale",
+                "Végé-Attaque(elite)"
+            ],
+            "number": 3,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "190",
+                "241",
+                "246"
             ]
         },
         "Salamèche": {
@@ -151,44 +151,6 @@
                 "126"
             ]
         },
-        "DracaufeuMéga": {
-            "name": "Dracaufeu",
-            "form": "Méga",
-            "type": [
-                "feu",
-                "dragon"
-            ],
-            "attacks": [
-                "Danse Flammes",
-                "Lame d’Air",
-                "Cru-Ailes(elite)",
-                "Flammèche(elite)",
-                "Déflagration",
-                "Danse Flammes",
-                "Lame d’Air",
-                "Cru-Ailes(elite)",
-                "Flammèche(elite)",
-                "Déflagration",
-                "Draco-Griffe",
-                "Surchauffe",
-                "Draco-Griffe",
-                "Surchauffe",
-                "Lance-Flammes(elite)",
-                "Rafale Feu(elite)",
-                "Lance-Flammes(elite)",
-                "Rafale Feu(elite)"
-            ],
-            "number": 6,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "186",
-                "273",
-                "213"
-            ]
-        },
         "Dracaufeu": {
             "name": "Dracaufeu",
             "form": "",
@@ -216,6 +178,64 @@
                 "186",
                 "223",
                 "173"
+            ]
+        },
+        "DracaufeuMéga-Évolution X": {
+            "name": "Dracaufeu",
+            "form": "Méga-Évolution X",
+            "type": [
+                "feu",
+                "dragon"
+            ],
+            "attacks": [
+                "Danse Flammes",
+                "Lame d’Air",
+                "Cru-Ailes(elite)",
+                "Flammèche(elite)",
+                "Déflagration",
+                "Draco-Griffe",
+                "Surchauffe",
+                "Lance-Flammes(elite)",
+                "Rafale Feu(elite)"
+            ],
+            "number": 6,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "186",
+                "273",
+                "213"
+            ]
+        },
+        "DracaufeuMéga-Évolution Y": {
+            "name": "Dracaufeu",
+            "form": "Méga-Évolution Y",
+            "type": [
+                "feu",
+                "vol"
+            ],
+            "attacks": [
+                "Danse Flammes",
+                "Lame d’Air",
+                "Cru-Ailes(elite)",
+                "Flammèche(elite)",
+                "Déflagration",
+                "Draco-Griffe",
+                "Surchauffe",
+                "Lance-Flammes(elite)",
+                "Rafale Feu(elite)"
+            ],
+            "number": 6,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "186",
+                "319",
+                "212"
             ]
         },
         "Carapuce": {
@@ -292,9 +312,9 @@
                 "207"
             ]
         },
-        "TortankMéga": {
+        "TortankMéga-Évolution": {
             "name": "Tortank",
-            "form": "Méga",
+            "form": "Méga-Évolution",
             "type": [
                 "eau"
             ],
@@ -434,34 +454,6 @@
                 "75"
             ]
         },
-        "DardargnanMéga": {
-            "name": "Dardargnan",
-            "form": "Méga",
-            "type": [
-                "insecte",
-                "poison"
-            ],
-            "attacks": [
-                "Direct Toxik",
-                "Harcèlement",
-                "Piqûre(elite)",
-                "Aéropique",
-                "Bombe Beurk",
-                "Dard Mortel",
-                "Plaie Croix",
-                "Tunnelier(elite)"
-            ],
-            "number": 15,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "1 km",
-            "base": [
-                "163",
-                "303",
-                "148"
-            ]
-        },
         "Dardargnan": {
             "name": "Dardargnan",
             "form": "",
@@ -488,6 +480,34 @@
                 "163",
                 "169",
                 "130"
+            ]
+        },
+        "DardargnanMéga-Évolution": {
+            "name": "Dardargnan",
+            "form": "Méga-Évolution",
+            "type": [
+                "insecte",
+                "poison"
+            ],
+            "attacks": [
+                "Direct Toxik",
+                "Harcèlement",
+                "Piqûre(elite)",
+                "Aéropique",
+                "Bombe Beurk",
+                "Dard Mortel",
+                "Plaie Croix",
+                "Tunnelier(elite)"
+            ],
+            "number": 15,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "1 km",
+            "base": [
+                "163",
+                "303",
+                "148"
             ]
         },
         "Roucool": {
@@ -567,31 +587,6 @@
                 "154"
             ]
         },
-        "RattataForme d": {
-            "name": "Rattata",
-            "form": "Forme d",
-            "type": [
-                "tenebres",
-                "normal"
-            ],
-            "attacks": [
-                "Charge",
-                "Vive-Attaque",
-                "Ball’Ombre",
-                "Croc de Mort",
-                "Mâchouille"
-            ],
-            "number": 19,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "1 km",
-            "base": [
-                "102",
-                "103",
-                "70"
-            ]
-        },
         "Rattata": {
             "name": "Rattata",
             "form": "",
@@ -604,6 +599,31 @@
                 "Croc de Mort",
                 "Plaquage",
                 "Tunnel"
+            ],
+            "number": 19,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "1 km",
+            "base": [
+                "102",
+                "103",
+                "70"
+            ]
+        },
+        "RattataForme d'Alola": {
+            "name": "Rattata",
+            "form": "Forme d'Alola",
+            "type": [
+                "tenebres",
+                "normal"
+            ],
+            "attacks": [
+                "Charge",
+                "Vive-Attaque",
+                "Ball’Ombre",
+                "Croc de Mort",
+                "Mâchouille"
             ],
             "number": 19,
             "gen": "Génération 1",
@@ -640,9 +660,9 @@
                 "139"
             ]
         },
-        "RattatacForme d": {
+        "RattatacForme d'Alola": {
             "name": "Rattatac",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "tenebres",
                 "normal"
@@ -768,19 +788,21 @@
                 "153"
             ]
         },
-        "PikachuVolant": {
+        "Pikachu": {
             "name": "Pikachu",
-            "form": "Volant",
+            "form": "",
             "type": [
                 "electrik"
             ],
             "attacks": [
                 "Éclair",
                 "Vive-Attaque",
+                "Cadeau(elite)",
                 "Coup d’Jus",
                 "Éclair Fou",
                 "Tonnerre",
-                "Vol"
+                "Fatal-Foudre(elite)",
+                "Surf(elite)"
             ],
             "number": 25,
             "gen": "Génération 1",
@@ -817,21 +839,19 @@
                 "96"
             ]
         },
-        "Pikachu": {
+        "PikachuVolant": {
             "name": "Pikachu",
-            "form": "",
+            "form": "Volant",
             "type": [
                 "electrik"
             ],
             "attacks": [
                 "Éclair",
                 "Vive-Attaque",
-                "Cadeau(elite)",
                 "Coup d’Jus",
                 "Éclair Fou",
                 "Tonnerre",
-                "Fatal-Foudre(elite)",
-                "Surf(elite)"
+                "Vol"
             ],
             "number": 25,
             "gen": "Génération 1",
@@ -842,33 +862,6 @@
                 "111",
                 "112",
                 "96"
-            ]
-        },
-        "RaichuForme d": {
-            "name": "Raichu",
-            "form": "Forme d",
-            "type": [
-                "electrik",
-                "psy"
-            ],
-            "attacks": [
-                "Change Éclair",
-                "Éclair",
-                "Étincelle",
-                "Éclair Fou",
-                "Nœud Herbe",
-                "Poing Éclair",
-                "Psyko"
-            ],
-            "number": 26,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "1 km",
-            "base": [
-                "155",
-                "201",
-                "154"
             ]
         },
         "Raichu": {
@@ -899,29 +892,31 @@
                 "151"
             ]
         },
-        "SabeletteForme d": {
-            "name": "Sabelette",
-            "form": "Forme d",
+        "RaichuForme d'Alola": {
+            "name": "Raichu",
+            "form": "Forme d'Alola",
             "type": [
-                "glace",
-                "acier"
+                "electrik",
+                "psy"
             ],
             "attacks": [
-                "Griffe Acier",
-                "Poudreuse",
-                "Blizzard",
-                "Gyroballe",
-                "Tranche-Nuit"
+                "Change Éclair",
+                "Éclair",
+                "Étincelle",
+                "Éclair Fou",
+                "Nœud Herbe",
+                "Poing Éclair",
+                "Psyko"
             ],
-            "number": 27,
+            "number": 26,
             "gen": "Génération 1",
             "region": "Kanto",
             "isInEgg": "",
-            "friendEgg": "3 km",
+            "friendEgg": "1 km",
             "base": [
-                "137",
-                "125",
-                "129"
+                "155",
+                "201",
+                "154"
             ]
         },
         "Sabelette": {
@@ -949,9 +944,9 @@
                 "120"
             ]
         },
-        "SablaireauForme d": {
-            "name": "Sablaireau",
-            "form": "Forme d",
+        "SabeletteForme d'Alola": {
+            "name": "Sabelette",
+            "form": "Forme d'Alola",
             "type": [
                 "glace",
                 "acier"
@@ -961,18 +956,17 @@
                 "Poudreuse",
                 "Blizzard",
                 "Gyroballe",
-                "Piétisol",
-                "Poing Glace"
+                "Tranche-Nuit"
             ],
-            "number": 28,
+            "number": 27,
             "gen": "Génération 1",
             "region": "Kanto",
             "isInEgg": "",
             "friendEgg": "3 km",
             "base": [
-                "181",
-                "177",
-                "195"
+                "137",
+                "125",
+                "129"
             ]
         },
         "Sablaireau": {
@@ -997,6 +991,32 @@
                 "181",
                 "182",
                 "175"
+            ]
+        },
+        "SablaireauForme d'Alola": {
+            "name": "Sablaireau",
+            "form": "Forme d'Alola",
+            "type": [
+                "glace",
+                "acier"
+            ],
+            "attacks": [
+                "Griffe Acier",
+                "Poudreuse",
+                "Blizzard",
+                "Gyroballe",
+                "Piétisol",
+                "Poing Glace"
+            ],
+            "number": 28,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "181",
+                "177",
+                "195"
             ]
         },
         "Nidorina": {
@@ -1060,11 +1080,6 @@
                 "Picpic",
                 "Bombe Beurk",
                 "Koud’Korne",
-                "Plaquage",
-                "Dard-Venin",
-                "Morsure",
-                "Bombe Beurk",
-                "Crochet Venin",
                 "Plaquage"
             ],
             "number": 32,
@@ -1204,9 +1219,9 @@
                 "109"
             ]
         },
-        "GoupixForme d": {
+        "GoupixForme d'Alola": {
             "name": "Goupix",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "glace"
             ],
@@ -1256,9 +1271,9 @@
                 "190"
             ]
         },
-        "FeunardForme d": {
+        "FeunardForme d'Alola": {
             "name": "Feunard",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "glace",
                 "fee"
@@ -1568,31 +1583,6 @@
                 "143"
             ]
         },
-        "TaupiqueurForme d": {
-            "name": "Taupiqueur",
-            "form": "Forme d",
-            "type": [
-                "sol",
-                "acier"
-            ],
-            "attacks": [
-                "Coud’Boue",
-                "Griffe Acier",
-                "Boue-Bombe",
-                "Tomberoche",
-                "Tunnel"
-            ],
-            "number": 50,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "67",
-                "108",
-                "81"
-            ]
-        },
         "Taupiqueur": {
             "name": "Taupiqueur",
             "form": "",
@@ -1615,6 +1605,31 @@
                 "67",
                 "109",
                 "78"
+            ]
+        },
+        "TaupiqueurForme d'Alola": {
+            "name": "Taupiqueur",
+            "form": "Forme d'Alola",
+            "type": [
+                "sol",
+                "acier"
+            ],
+            "attacks": [
+                "Coud’Boue",
+                "Griffe Acier",
+                "Boue-Bombe",
+                "Tomberoche",
+                "Tunnel"
+            ],
+            "number": 50,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "67",
+                "108",
+                "81"
             ]
         },
         "Triopikeur": {
@@ -1641,9 +1656,9 @@
                 "134"
             ]
         },
-        "TriopikeurForme d": {
+        "TriopikeurForme d'Alola": {
             "name": "Triopikeur",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "sol",
                 "acier"
@@ -1664,30 +1679,6 @@
                 "111",
                 "201",
                 "142"
-            ]
-        },
-        "MiaoussForme de Galar": {
-            "name": "Miaouss",
-            "form": "Forme de Galar",
-            "type": [
-                "acier"
-            ],
-            "attacks": [
-                "Griffe",
-                "Griffe Acier",
-                "Gyroballe",
-                "Tranche-Nuit",
-                "Tunnel"
-            ],
-            "number": 52,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "137",
-                "115",
-                "92"
             ]
         },
         "Miaouss": {
@@ -1715,9 +1706,9 @@
                 "78"
             ]
         },
-        "MiaoussForme d": {
+        "MiaoussForme d'Alola": {
             "name": "Miaouss",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "tenebres"
             ],
@@ -1739,28 +1730,28 @@
                 "78"
             ]
         },
-        "PersianForme d": {
-            "name": "Persian",
-            "form": "Forme d",
+        "MiaoussForme de Galar": {
+            "name": "Miaouss",
+            "form": "Forme de Galar",
             "type": [
-                "tenebres"
+                "acier"
             ],
             "attacks": [
-                "Feinte",
                 "Griffe",
-                "Câlinerie",
-                "Tricherie",
-                "Vibrobscur"
+                "Griffe Acier",
+                "Gyroballe",
+                "Tranche-Nuit",
+                "Tunnel"
             ],
-            "number": 53,
+            "number": 52,
             "gen": "Génération 1",
             "region": "Kanto",
             "isInEgg": "",
             "friendEgg": "3 km",
             "base": [
-                "163",
-                "158",
-                "136"
+                "137",
+                "115",
+                "92"
             ]
         },
         "Persian": {
@@ -1785,6 +1776,30 @@
             "base": [
                 "163",
                 "150",
+                "136"
+            ]
+        },
+        "PersianForme d'Alola": {
+            "name": "Persian",
+            "form": "Forme d'Alola",
+            "type": [
+                "tenebres"
+            ],
+            "attacks": [
+                "Feinte",
+                "Griffe",
+                "Câlinerie",
+                "Tricherie",
+                "Vibrobscur"
+            ],
+            "number": 53,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "163",
+                "158",
                 "136"
             ]
         },
@@ -2327,9 +2342,9 @@
                 "132"
             ]
         },
-        "RacaillouForme d": {
+        "RacaillouForme d'Alola": {
             "name": "Racaillou",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "roche",
                 "electrik"
@@ -2350,31 +2365,6 @@
                 "120",
                 "132",
                 "132"
-            ]
-        },
-        "GravalanchForme d": {
-            "name": "Gravalanch",
-            "form": "Forme d",
-            "type": [
-                "roche",
-                "electrik"
-            ],
-            "attacks": [
-                "Change Éclair",
-                "Jet-Pierres",
-                "Boule Roc",
-                "Lame de Roc",
-                "Tonnerre"
-            ],
-            "number": 75,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "1 km",
-            "base": [
-                "146",
-                "164",
-                "164"
             ]
         },
         "Gravalanch": {
@@ -2403,9 +2393,9 @@
                 "164"
             ]
         },
-        "GrolemForme d": {
-            "name": "Grolem",
-            "form": "Forme d",
+        "GravalanchForme d'Alola": {
+            "name": "Gravalanch",
+            "form": "Forme d'Alola",
             "type": [
                 "roche",
                 "electrik"
@@ -2414,18 +2404,18 @@
                 "Change Éclair",
                 "Jet-Pierres",
                 "Boule Roc",
-                "Éclair Fou",
-                "Lame de Roc"
+                "Lame de Roc",
+                "Tonnerre"
             ],
-            "number": 76,
+            "number": 75,
             "gen": "Génération 1",
             "region": "Kanto",
             "isInEgg": "",
             "friendEgg": "1 km",
             "base": [
-                "190",
-                "211",
-                "198"
+                "146",
+                "164",
+                "164"
             ]
         },
         "Grolem": {
@@ -2442,6 +2432,31 @@
                 "Lame de Roc",
                 "Pouvoir Antique",
                 "Séisme"
+            ],
+            "number": 76,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "1 km",
+            "base": [
+                "190",
+                "211",
+                "198"
+            ]
+        },
+        "GrolemForme d'Alola": {
+            "name": "Grolem",
+            "form": "Forme d'Alola",
+            "type": [
+                "roche",
+                "electrik"
+            ],
+            "attacks": [
+                "Change Éclair",
+                "Jet-Pierres",
+                "Boule Roc",
+                "Éclair Fou",
+                "Lame de Roc"
             ],
             "number": 76,
             "gen": "Génération 1",
@@ -2786,9 +2801,9 @@
                 "90"
             ]
         },
-        "TadmorvForme d": {
+        "TadmorvForme d'Alola": {
             "name": "Tadmorv",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "poison",
                 "tenebres"
@@ -2838,9 +2853,9 @@
                 "172"
             ]
         },
-        "GrotadmorvForme d": {
+        "GrotadmorvForme d'Alola": {
             "name": "Grotadmorv",
-            "form": "Forme d",
+            "form": "Forme d'Alola",
             "type": [
                 "poison",
                 "tenebres"
@@ -3207,31 +3222,6 @@
                 "125"
             ]
         },
-        "NoadkokoForme d": {
-            "name": "Noadkoko",
-            "form": "Forme d",
-            "type": [
-                "plante",
-                "dragon"
-            ],
-            "attacks": [
-                "Balle Graine",
-                "Draco-Queue",
-                "Canon Graine",
-                "Draco-Choc",
-                "Lance-Soleil"
-            ],
-            "number": 103,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "216",
-                "230",
-                "153"
-            ]
-        },
         "Noadkoko": {
             "name": "Noadkoko",
             "form": "",
@@ -3259,6 +3249,31 @@
                 "149"
             ]
         },
+        "NoadkokoForme d'Alola": {
+            "name": "Noadkoko",
+            "form": "Forme d'Alola",
+            "type": [
+                "plante",
+                "dragon"
+            ],
+            "attacks": [
+                "Balle Graine",
+                "Draco-Queue",
+                "Canon Graine",
+                "Draco-Choc",
+                "Lance-Soleil"
+            ],
+            "number": 103,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "216",
+                "230",
+                "153"
+            ]
+        },
         "Osselait": {
             "name": "Osselait",
             "form": "",
@@ -3283,33 +3298,6 @@
                 "144"
             ]
         },
-        "OssatueurForme d": {
-            "name": "Ossatueur",
-            "form": "Forme d",
-            "type": [
-                "feu",
-                "spectre"
-            ],
-            "attacks": [
-                "Châtiment",
-                "Danse Flammes",
-                "Éclate-Roc",
-                "Ball’Ombre",
-                "Déflagration",
-                "Massd’Os",
-                "Roue de Feu"
-            ],
-            "number": 105,
-            "gen": "Génération 1",
-            "region": "Kanto",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "155",
-                "144",
-                "186"
-            ]
-        },
         "Ossatueur": {
             "name": "Ossatueur",
             "form": "",
@@ -3322,6 +3310,33 @@
                 "Massd’Os",
                 "Séisme",
                 "Tunnel"
+            ],
+            "number": 105,
+            "gen": "Génération 1",
+            "region": "Kanto",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "155",
+                "144",
+                "186"
+            ]
+        },
+        "OssatueurForme d'Alola": {
+            "name": "Ossatueur",
+            "form": "Forme d'Alola",
+            "type": [
+                "feu",
+                "spectre"
+            ],
+            "attacks": [
+                "Châtiment",
+                "Danse Flammes",
+                "Éclate-Roc",
+                "Ball’Ombre",
+                "Déflagration",
+                "Massd’Os",
+                "Roue de Feu"
             ],
             "number": 105,
             "gen": "Génération 1",
@@ -7346,18 +7361,17 @@
                 "132"
             ]
         },
-        "ZigzatonForme de Galar": {
+        "Zigzaton": {
             "name": "Zigzaton",
-            "form": "Forme de Galar",
+            "form": "",
             "type": [
-                "tenebres",
                 "normal"
             ],
             "attacks": [
-                "Bélier",
                 "Charge",
-                "Météores",
-                "Plaquage",
+                "Éclate-Roc",
+                "Nœud Herbe",
+                "Tonnerre",
                 "Tunnel"
             ],
             "number": 263,
@@ -7371,17 +7385,18 @@
                 "80"
             ]
         },
-        "Zigzaton": {
+        "ZigzatonForme de Galar": {
             "name": "Zigzaton",
-            "form": "",
+            "form": "Forme de Galar",
             "type": [
+                "tenebres",
                 "normal"
             ],
             "attacks": [
+                "Bélier",
                 "Charge",
-                "Éclate-Roc",
-                "Nœud Herbe",
-                "Tonnerre",
+                "Météores",
+                "Plaquage",
                 "Tunnel"
             ],
             "number": 263,
@@ -9572,30 +9587,6 @@
                 "219"
             ]
         },
-        "MorphéoBlizzard": {
-            "name": "Morphéo",
-            "form": "Blizzard",
-            "type": [
-                "glace"
-            ],
-            "attacks": [
-                "Charge",
-                "Poudreuse",
-                "Ball’Météo",
-                "Blizzard",
-                "Laser Glace"
-            ],
-            "number": 351,
-            "gen": "Génération 3",
-            "region": "Hoenn",
-            "isInEgg": "",
-            "friendEgg": "5 km",
-            "base": [
-                "172",
-                "139",
-                "139"
-            ]
-        },
         "Morphéo": {
             "name": "Morphéo",
             "form": "",
@@ -9614,6 +9605,30 @@
             "region": "Hoenn",
             "isInEgg": "",
             "friendEgg": "3 km",
+            "base": [
+                "172",
+                "139",
+                "139"
+            ]
+        },
+        "MorphéoBlizzard": {
+            "name": "Morphéo",
+            "form": "Blizzard",
+            "type": [
+                "glace"
+            ],
+            "attacks": [
+                "Charge",
+                "Poudreuse",
+                "Ball’Météo",
+                "Blizzard",
+                "Laser Glace"
+            ],
+            "number": 351,
+            "gen": "Génération 3",
+            "region": "Hoenn",
+            "isInEgg": "",
+            "friendEgg": "5 km",
             "base": [
                 "172",
                 "139",
@@ -10503,30 +10518,6 @@
                 "210"
             ]
         },
-        "DeoxysVitesse": {
-            "name": "Deoxys",
-            "form": "Vitesse",
-            "type": [
-                "psy"
-            ],
-            "attacks": [
-                "Psykoud’Boul",
-                "Rayon Chargé",
-                "Météores",
-                "Psycho-Boost",
-                "Tonnerre"
-            ],
-            "number": 386,
-            "gen": "Génération 3",
-            "region": "Hoenn",
-            "isInEgg": "1 ",
-            "friendEgg": "",
-            "base": [
-                "137",
-                "230",
-                "218"
-            ]
-        },
         "DeoxysAttaque": {
             "name": "Deoxys",
             "form": "Attaque",
@@ -10549,6 +10540,30 @@
                 "137",
                 "414",
                 "46"
+            ]
+        },
+        "DeoxysDéfense": {
+            "name": "Deoxys",
+            "form": "Défense",
+            "type": [
+                "psy"
+            ],
+            "attacks": [
+                "Psykoud’Boul",
+                "Riposte",
+                "Éboulement",
+                "Psycho-Boost",
+                "Tonnerre"
+            ],
+            "number": 386,
+            "gen": "Génération 3",
+            "region": "Hoenn",
+            "isInEgg": "1 ",
+            "friendEgg": "",
+            "base": [
+                "137",
+                "144",
+                "330"
             ]
         },
         "DeoxysNormale": {
@@ -10575,16 +10590,16 @@
                 "115"
             ]
         },
-        "DeoxysDéfense": {
+        "DeoxysVitesse": {
             "name": "Deoxys",
-            "form": "Défense",
+            "form": "Vitesse",
             "type": [
                 "psy"
             ],
             "attacks": [
                 "Psykoud’Boul",
-                "Riposte",
-                "Éboulement",
+                "Rayon Chargé",
+                "Météores",
                 "Psycho-Boost",
                 "Tonnerre"
             ],
@@ -10595,8 +10610,8 @@
             "friendEgg": "",
             "base": [
                 "137",
-                "144",
-                "330"
+                "230",
+                "218"
             ]
         },
         "Tortipouss": {
@@ -11280,6 +11295,31 @@
                 "83"
             ]
         },
+        "CheniselleCape Déchet": {
+            "name": "Cheniselle",
+            "form": "Cape Déchet",
+            "type": [
+                "insecte",
+                "acier"
+            ],
+            "attacks": [
+                "Choc Mental",
+                "Piqûre",
+                "Bourdon",
+                "Rafale Psy",
+                "Tête de Fer"
+            ],
+            "number": 413,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "1 km",
+            "base": [
+                "155",
+                "127",
+                "175"
+            ]
+        },
         "CheniselleCape Plante": {
             "name": "Cheniselle",
             "form": "Cape Plante",
@@ -11328,31 +11368,6 @@
                 "155",
                 "141",
                 "180"
-            ]
-        },
-        "CheniselleCape Déchet": {
-            "name": "Cheniselle",
-            "form": "Cape Déchet",
-            "type": [
-                "insecte",
-                "acier"
-            ],
-            "attacks": [
-                "Choc Mental",
-                "Piqûre",
-                "Bourdon",
-                "Rafale Psy",
-                "Tête de Fer"
-            ],
-            "number": 413,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "1 km",
-            "base": [
-                "155",
-                "127",
-                "175"
             ]
         },
         "Papilord": {
@@ -11623,9 +11638,9 @@
                 "105"
             ]
         },
-        "TritosorMer Orient": {
+        "TritosorMer Occident": {
             "name": "Tritosor",
-            "form": "Mer Orient",
+            "form": "Mer Occident",
             "type": [
                 "eau",
                 "sol"
@@ -11648,9 +11663,9 @@
                 "143"
             ]
         },
-        "TritosorMer Occident": {
+        "TritosorMer Orient": {
             "name": "Tritosor",
-            "form": "Mer Occident",
+            "form": "Mer Orient",
             "type": [
                 "eau",
                 "sol"
@@ -13055,81 +13070,6 @@
                 "150"
             ]
         },
-        "MotismaLavage": {
-            "name": "Motisma",
-            "form": "Lavage",
-            "type": [
-                "electrik",
-                "eau"
-            ],
-            "attacks": [
-                "Éclair",
-                "Étonnement",
-                "Fatal-Foudre",
-                "Hydrocanon",
-                "Tonnerre"
-            ],
-            "number": 479,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "10 ",
-            "friendEgg": "",
-            "base": [
-                "137",
-                "204",
-                "219"
-            ]
-        },
-        "MotismaFroid": {
-            "name": "Motisma",
-            "form": "Froid",
-            "type": [
-                "electrik",
-                "glace"
-            ],
-            "attacks": [
-                "Éclair",
-                "Étonnement",
-                "Blizzard",
-                "Fatal-Foudre",
-                "Tonnerre"
-            ],
-            "number": 479,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "10 ",
-            "friendEgg": "",
-            "base": [
-                "137",
-                "204",
-                "219"
-            ]
-        },
-        "MotismaTonte": {
-            "name": "Motisma",
-            "form": "Tonte",
-            "type": [
-                "electrik",
-                "plante"
-            ],
-            "attacks": [
-                "Éclair",
-                "Étonnement",
-                "Fatal-Foudre",
-                "Tonnerre",
-                "Vent Mauvais"
-            ],
-            "number": 479,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "10 ",
-            "friendEgg": "",
-            "base": [
-                "137",
-                "204",
-                "219"
-            ]
-        },
         "Motisma": {
             "name": "Motisma",
             "form": "",
@@ -13180,6 +13120,31 @@
                 "219"
             ]
         },
+        "MotismaFroid": {
+            "name": "Motisma",
+            "form": "Froid",
+            "type": [
+                "electrik",
+                "glace"
+            ],
+            "attacks": [
+                "Éclair",
+                "Étonnement",
+                "Blizzard",
+                "Fatal-Foudre",
+                "Tonnerre"
+            ],
+            "number": 479,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "10 ",
+            "friendEgg": "",
+            "base": [
+                "137",
+                "204",
+                "219"
+            ]
+        },
         "MotismaHélice": {
             "name": "Motisma",
             "form": "Hélice",
@@ -13190,6 +13155,56 @@
             "attacks": [
                 "Étonnement",
                 "Lame d’Air",
+                "Fatal-Foudre",
+                "Tonnerre",
+                "Vent Mauvais"
+            ],
+            "number": 479,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "10 ",
+            "friendEgg": "",
+            "base": [
+                "137",
+                "204",
+                "219"
+            ]
+        },
+        "MotismaLavage": {
+            "name": "Motisma",
+            "form": "Lavage",
+            "type": [
+                "electrik",
+                "eau"
+            ],
+            "attacks": [
+                "Éclair",
+                "Étonnement",
+                "Fatal-Foudre",
+                "Hydrocanon",
+                "Tonnerre"
+            ],
+            "number": 479,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "10 ",
+            "friendEgg": "",
+            "base": [
+                "137",
+                "204",
+                "219"
+            ]
+        },
+        "MotismaTonte": {
+            "name": "Motisma",
+            "form": "Tonte",
+            "type": [
+                "electrik",
+                "plante"
+            ],
+            "attacks": [
+                "Éclair",
+                "Étonnement",
                 "Fatal-Foudre",
                 "Tonnerre",
                 "Vent Mauvais"
@@ -13378,31 +13393,6 @@
                 "210"
             ]
         },
-        "GiratinaForme Originelle": {
-            "name": "Giratina",
-            "form": "Forme Originelle",
-            "type": [
-                "spectre",
-                "dragon"
-            ],
-            "attacks": [
-                "Draco-Queue",
-                "Griffe Ombre",
-                "Ball’Ombre",
-                "Draco-Choc",
-                "Vent Mauvais"
-            ],
-            "number": 487,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "4 ",
-            "friendEgg": "",
-            "base": [
-                "284",
-                "225",
-                "187"
-            ]
-        },
         "GiratinaForme Alternative": {
             "name": "Giratina",
             "form": "Forme Alternative",
@@ -13426,6 +13416,31 @@
                 "284",
                 "187",
                 "225"
+            ]
+        },
+        "GiratinaForme Originelle": {
+            "name": "Giratina",
+            "form": "Forme Originelle",
+            "type": [
+                "spectre",
+                "dragon"
+            ],
+            "attacks": [
+                "Draco-Queue",
+                "Griffe Ombre",
+                "Ball’Ombre",
+                "Draco-Choc",
+                "Vent Mauvais"
+            ],
+            "number": 487,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "4 ",
+            "friendEgg": "",
+            "base": [
+                "284",
+                "225",
+                "187"
             ]
         },
         "Cresselia": {
@@ -13525,30 +13540,6 @@
                 "198"
             ]
         },
-        "ShayminForme Terrestre": {
-            "name": "Shaymin",
-            "form": "Forme Terrestre",
-            "type": [
-                "plante"
-            ],
-            "attacks": [
-                "Psykoud’Boul",
-                "Puissance Cachée",
-                "Éco-Sphère",
-                "Lance-Soleil",
-                "Nœud Herbe"
-            ],
-            "number": 492,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "225",
-                "210",
-                "210"
-            ]
-        },
         "ShayminForme Céleste": {
             "name": "Shaymin",
             "form": "Forme Céleste",
@@ -13574,11 +13565,35 @@
                 "166"
             ]
         },
-        "ArceusTénèbres": {
-            "name": "Arceus",
-            "form": "Ténèbres",
+        "ShayminForme Terrestre": {
+            "name": "Shaymin",
+            "form": "Forme Terrestre",
             "type": [
-                "tenebres"
+                "plante"
+            ],
+            "attacks": [
+                "Psykoud’Boul",
+                "Puissance Cachée",
+                "Éco-Sphère",
+                "Lance-Soleil",
+                "Nœud Herbe"
+            ],
+            "number": 492,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "225",
+                "210",
+                "210"
+            ]
+        },
+        "Arceus": {
+            "name": "Arceus",
+            "form": "",
+            "type": [
+                "normal"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -13598,35 +13613,11 @@
                 "238"
             ]
         },
-        "ArceusÉlectrik": {
+        "ArceusAcier": {
             "name": "Arceus",
-            "form": "Électrik",
+            "form": "Acier",
             "type": [
-                "electrik"
-            ],
-            "attacks": [
-                "Griffe Ombre",
-                "Queue de Fer",
-                "Colère",
-                "Prescience",
-                "Ultralaser"
-            ],
-            "number": 493,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "237",
-                "238",
-                "238"
-            ]
-        },
-        "ArceusInsecte": {
-            "name": "Arceus",
-            "form": "Insecte",
-            "type": [
-                "insecte"
+                "acier"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -13670,11 +13661,11 @@
                 "238"
             ]
         },
-        "ArceusRoche": {
+        "ArceusDragon": {
             "name": "Arceus",
-            "form": "Roche",
+            "form": "Dragon",
             "type": [
-                "roche"
+                "dragon"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -13718,11 +13709,11 @@
                 "238"
             ]
         },
-        "ArceusGlace": {
+        "ArceusFeu": {
             "name": "Arceus",
-            "form": "Glace",
+            "form": "Feu",
             "type": [
-                "glace"
+                "feu"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -13766,11 +13757,11 @@
                 "238"
             ]
         },
-        "ArceusDragon": {
+        "ArceusGlace": {
             "name": "Arceus",
-            "form": "Dragon",
+            "form": "Glace",
             "type": [
-                "dragon"
+                "glace"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -13790,107 +13781,11 @@
                 "238"
             ]
         },
-        "ArceusSpectre": {
+        "ArceusInsecte": {
             "name": "Arceus",
-            "form": "Spectre",
+            "form": "Insecte",
             "type": [
-                "spectre"
-            ],
-            "attacks": [
-                "Griffe Ombre",
-                "Queue de Fer",
-                "Colère",
-                "Prescience",
-                "Ultralaser"
-            ],
-            "number": 493,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "237",
-                "238",
-                "238"
-            ]
-        },
-        "Arceus": {
-            "name": "Arceus",
-            "form": "",
-            "type": [
-                "normal"
-            ],
-            "attacks": [
-                "Griffe Ombre",
-                "Queue de Fer",
-                "Colère",
-                "Prescience",
-                "Ultralaser"
-            ],
-            "number": 493,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "237",
-                "238",
-                "238"
-            ]
-        },
-        "ArceusSol": {
-            "name": "Arceus",
-            "form": "Sol",
-            "type": [
-                "sol"
-            ],
-            "attacks": [
-                "Griffe Ombre",
-                "Queue de Fer",
-                "Colère",
-                "Prescience",
-                "Ultralaser"
-            ],
-            "number": 493,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "237",
-                "238",
-                "238"
-            ]
-        },
-        "ArceusVol": {
-            "name": "Arceus",
-            "form": "Vol",
-            "type": [
-                "vol"
-            ],
-            "attacks": [
-                "Griffe Ombre",
-                "Queue de Fer",
-                "Colère",
-                "Prescience",
-                "Ultralaser"
-            ],
-            "number": 493,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "237",
-                "238",
-                "238"
-            ]
-        },
-        "ArceusFeu": {
-            "name": "Arceus",
-            "form": "Feu",
-            "type": [
-                "feu"
+                "insecte"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -13934,30 +13829,6 @@
                 "238"
             ]
         },
-        "ArceusPsy": {
-            "name": "Arceus",
-            "form": "Psy",
-            "type": [
-                "psy"
-            ],
-            "attacks": [
-                "Griffe Ombre",
-                "Queue de Fer",
-                "Colère",
-                "Prescience",
-                "Ultralaser"
-            ],
-            "number": 493,
-            "gen": "Génération 4",
-            "region": "Sinnoh",
-            "isInEgg": "",
-            "friendEgg": "",
-            "base": [
-                "237",
-                "238",
-                "238"
-            ]
-        },
         "ArceusPoison": {
             "name": "Arceus",
             "form": "Poison",
@@ -13982,11 +13853,155 @@
                 "238"
             ]
         },
-        "ArceusAcier": {
+        "ArceusPsy": {
             "name": "Arceus",
-            "form": "Acier",
+            "form": "Psy",
             "type": [
-                "acier"
+                "psy"
+            ],
+            "attacks": [
+                "Griffe Ombre",
+                "Queue de Fer",
+                "Colère",
+                "Prescience",
+                "Ultralaser"
+            ],
+            "number": 493,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "237",
+                "238",
+                "238"
+            ]
+        },
+        "ArceusRoche": {
+            "name": "Arceus",
+            "form": "Roche",
+            "type": [
+                "roche"
+            ],
+            "attacks": [
+                "Griffe Ombre",
+                "Queue de Fer",
+                "Colère",
+                "Prescience",
+                "Ultralaser"
+            ],
+            "number": 493,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "237",
+                "238",
+                "238"
+            ]
+        },
+        "ArceusSol": {
+            "name": "Arceus",
+            "form": "Sol",
+            "type": [
+                "sol"
+            ],
+            "attacks": [
+                "Griffe Ombre",
+                "Queue de Fer",
+                "Colère",
+                "Prescience",
+                "Ultralaser"
+            ],
+            "number": 493,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "237",
+                "238",
+                "238"
+            ]
+        },
+        "ArceusSpectre": {
+            "name": "Arceus",
+            "form": "Spectre",
+            "type": [
+                "spectre"
+            ],
+            "attacks": [
+                "Griffe Ombre",
+                "Queue de Fer",
+                "Colère",
+                "Prescience",
+                "Ultralaser"
+            ],
+            "number": 493,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "237",
+                "238",
+                "238"
+            ]
+        },
+        "ArceusTénèbres": {
+            "name": "Arceus",
+            "form": "Ténèbres",
+            "type": [
+                "tenebres"
+            ],
+            "attacks": [
+                "Griffe Ombre",
+                "Queue de Fer",
+                "Colère",
+                "Prescience",
+                "Ultralaser"
+            ],
+            "number": 493,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "237",
+                "238",
+                "238"
+            ]
+        },
+        "ArceusVol": {
+            "name": "Arceus",
+            "form": "Vol",
+            "type": [
+                "vol"
+            ],
+            "attacks": [
+                "Griffe Ombre",
+                "Queue de Fer",
+                "Colère",
+                "Prescience",
+                "Ultralaser"
+            ],
+            "number": 493,
+            "gen": "Génération 4",
+            "region": "Sinnoh",
+            "isInEgg": "",
+            "friendEgg": "",
+            "base": [
+                "237",
+                "238",
+                "238"
+            ]
+        },
+        "ArceusÉlectrik": {
+            "name": "Arceus",
+            "form": "Électrik",
+            "type": [
+                "electrik"
             ],
             "attacks": [
                 "Griffe Ombre",
@@ -15373,9 +15388,9 @@
                 "155"
             ]
         },
-        "BargantuaMotif Rouge": {
+        "BargantuaMotif Bleu": {
             "name": "Bargantua",
-            "form": "Motif Rouge",
+            "form": "Motif Bleu",
             "type": [
                 "eau"
             ],
@@ -15397,9 +15412,9 @@
                 "129"
             ]
         },
-        "BargantuaMotif Bleu": {
+        "BargantuaMotif Rouge": {
             "name": "Bargantua",
-            "form": "Motif Bleu",
+            "form": "Motif Rouge",
             "type": [
                 "eau"
             ],
@@ -15542,19 +15557,19 @@
                 "86"
             ]
         },
-        "DarumachoMode Normal": {
+        "DarumachoForme de Galar Mode Normal": {
             "name": "Darumacho",
-            "form": "Mode Normal",
+            "form": "Forme de Galar Mode Normal",
             "type": [
-                "feu"
+                "glace"
             ],
             "attacks": [
                 "Charge",
-                "Crocs Feu",
-                "Éboulement",
-                "Exploforce",
-                "Psyko",
-                "Surchauffe"
+                "Crocs Givre",
+                "Avalanche",
+                "Poing Glace",
+                "Surchauffe",
+                "Surpuissance"
             ],
             "number": 555,
             "gen": "Génération 5",
@@ -15593,6 +15608,31 @@
                 "123"
             ]
         },
+        "DarumachoMode Normal": {
+            "name": "Darumacho",
+            "form": "Mode Normal",
+            "type": [
+                "feu"
+            ],
+            "attacks": [
+                "Charge",
+                "Crocs Feu",
+                "Éboulement",
+                "Exploforce",
+                "Psyko",
+                "Surchauffe"
+            ],
+            "number": 555,
+            "gen": "Génération 5",
+            "region": "Unys",
+            "isInEgg": "",
+            "friendEgg": "3 km",
+            "base": [
+                "233",
+                "263",
+                "114"
+            ]
+        },
         "DarumachoMode Transe": {
             "name": "Darumacho",
             "form": "Mode Transe",
@@ -15617,31 +15657,6 @@
                 "233",
                 "243",
                 "202"
-            ]
-        },
-        "DarumachoForme de Galar Mode Normal": {
-            "name": "Darumacho",
-            "form": "Forme de Galar Mode Normal",
-            "type": [
-                "glace"
-            ],
-            "attacks": [
-                "Charge",
-                "Crocs Givre",
-                "Avalanche",
-                "Poing Glace",
-                "Surchauffe",
-                "Surpuissance"
-            ],
-            "number": 555,
-            "gen": "Génération 5",
-            "region": "Unys",
-            "isInEgg": "",
-            "friendEgg": "3 km",
-            "base": [
-                "233",
-                "263",
-                "114"
             ]
         },
         "Maracachi": {
@@ -16353,9 +16368,9 @@
                 "184"
             ]
         },
-        "VivaldaimForme Hiver": {
+        "VivaldaimForme Automne": {
             "name": "Vivaldaim",
-            "form": "Forme Hiver",
+            "form": "Forme Automne",
             "type": [
                 "normal",
                 "plante"
@@ -16378,9 +16393,9 @@
                 "100"
             ]
         },
-        "VivaldaimForme Automne": {
+        "VivaldaimForme Hiver": {
             "name": "Vivaldaim",
-            "form": "Forme Automne",
+            "form": "Forme Hiver",
             "type": [
                 "normal",
                 "plante"
@@ -16453,9 +16468,9 @@
                 "100"
             ]
         },
-        "HaydaimForme Printemps": {
+        "HaydaimForme Automne": {
             "name": "Haydaim",
-            "form": "Forme Printemps",
+            "form": "Forme Automne",
             "type": [
                 "normal",
                 "plante"
@@ -16505,9 +16520,9 @@
                 "146"
             ]
         },
-        "HaydaimForme Été": {
+        "HaydaimForme Printemps": {
             "name": "Haydaim",
-            "form": "Forme Été",
+            "form": "Forme Printemps",
             "type": [
                 "normal",
                 "plante"
@@ -16531,9 +16546,9 @@
                 "146"
             ]
         },
-        "HaydaimForme Automne": {
+        "HaydaimForme Été": {
             "name": "Haydaim",
-            "form": "Forme Automne",
+            "form": "Forme Été",
             "type": [
                 "normal",
                 "plante"
@@ -18078,32 +18093,6 @@
                 "211"
             ]
         },
-        "DémétérosForme Totémique": {
-            "name": "Démétéros",
-            "form": "Forme Totémique",
-            "type": [
-                "sol",
-                "vol"
-            ],
-            "attacks": [
-                "Jet-Pierres",
-                "Tir de Boue",
-                "Colère",
-                "Éboulement",
-                "Exploforce",
-                "Telluriforce"
-            ],
-            "number": 645,
-            "gen": "Génération 5",
-            "region": "Unys",
-            "isInEgg": "",
-            "friendEgg": "20 km",
-            "base": [
-                "205",
-                "289",
-                "179"
-            ]
-        },
         "DémétérosForme Avatar": {
             "name": "Démétéros",
             "form": "Forme Avatar",
@@ -18128,6 +18117,32 @@
                 "205",
                 "261",
                 "182"
+            ]
+        },
+        "DémétérosForme Totémique": {
+            "name": "Démétéros",
+            "form": "Forme Totémique",
+            "type": [
+                "sol",
+                "vol"
+            ],
+            "attacks": [
+                "Jet-Pierres",
+                "Tir de Boue",
+                "Colère",
+                "Éboulement",
+                "Exploforce",
+                "Telluriforce"
+            ],
+            "number": 645,
+            "gen": "Génération 5",
+            "region": "Unys",
+            "isInEgg": "",
+            "friendEgg": "20 km",
+            "base": [
+                "205",
+                "289",
+                "179"
             ]
         },
         "Kyurem": {
@@ -18155,32 +18170,6 @@
                 "170"
             ]
         },
-        "KyuremNoir": {
-            "name": "Kyurem",
-            "form": "Noir",
-            "type": [
-                "dragon",
-                "glace"
-            ],
-            "attacks": [
-                "Draco-Queue",
-                "Griffe Ombre",
-                "Blizzard",
-                "Colère",
-                "Lame de Roc",
-                "Tête de Fer"
-            ],
-            "number": 646,
-            "gen": "Génération 5",
-            "region": "Unys",
-            "isInEgg": "1 ",
-            "friendEgg": "",
-            "base": [
-                "245",
-                "310",
-                "183"
-            ]
-        },
         "KyuremBlanc": {
             "name": "Kyurem",
             "form": "Blanc",
@@ -18195,6 +18184,32 @@
                 "Draco-Choc",
                 "Exploforce",
                 "Pouvoir Antique"
+            ],
+            "number": 646,
+            "gen": "Génération 5",
+            "region": "Unys",
+            "isInEgg": "1 ",
+            "friendEgg": "",
+            "base": [
+                "245",
+                "310",
+                "183"
+            ]
+        },
+        "KyuremNoir": {
+            "name": "Kyurem",
+            "form": "Noir",
+            "type": [
+                "dragon",
+                "glace"
+            ],
+            "attacks": [
+                "Draco-Queue",
+                "Griffe Ombre",
+                "Blizzard",
+                "Colère",
+                "Lame de Roc",
+                "Tête de Fer"
             ],
             "number": 646,
             "gen": "Génération 5",
@@ -18311,31 +18326,6 @@
                 "188"
             ]
         },
-        "GenesectModule Cryo": {
-            "name": "Genesect",
-            "form": "Module Cryo",
-            "type": [
-                "insecte",
-                "acier"
-            ],
-            "attacks": [
-                "Griffe Acier",
-                "Taillade",
-                "Bombe Aimant",
-                "Laser Glace",
-                "Plaie Croix"
-            ],
-            "number": 649,
-            "gen": "Génération 5",
-            "region": "Unys",
-            "isInEgg": "1 ",
-            "friendEgg": "",
-            "base": [
-                "174",
-                "252",
-                "199"
-            ]
-        },
         "Genesect": {
             "name": "Genesect",
             "form": "",
@@ -18349,6 +18339,31 @@
                 "Bombe Aimant",
                 "Plaie Croix",
                 "Ultralaser"
+            ],
+            "number": 649,
+            "gen": "Génération 5",
+            "region": "Unys",
+            "isInEgg": "1 ",
+            "friendEgg": "",
+            "base": [
+                "174",
+                "252",
+                "199"
+            ]
+        },
+        "GenesectModule Aqua": {
+            "name": "Genesect",
+            "form": "Module Aqua",
+            "type": [
+                "insecte",
+                "acier"
+            ],
+            "attacks": [
+                "Griffe Acier",
+                "Taillade",
+                "Bombe Aimant",
+                "Détricanon",
+                "Plaie Croix"
             ],
             "number": 649,
             "gen": "Génération 5",
@@ -18386,9 +18401,9 @@
                 "199"
             ]
         },
-        "GenesectModule Aqua": {
+        "GenesectModule Cryo": {
             "name": "Genesect",
-            "form": "Module Aqua",
+            "form": "Module Cryo",
             "type": [
                 "insecte",
                 "acier"
@@ -18397,7 +18412,7 @@
                 "Griffe Acier",
                 "Taillade",
                 "Bombe Aimant",
-                "Détricanon",
+                "Laser Glace",
                 "Plaie Croix"
             ],
             "number": 649,
@@ -18579,15 +18594,6 @@
             "PRenergy": 8,
             "speed": 0.6
         },
-        "Flammèche": {
-            "mode": "quick",
-            "type": "feu",
-            "ARdmg": 10,
-            "ARenergy": 10,
-            "PRdmg": 6,
-            "PRenergy": 6,
-            "speed": 1.0
-        },
         "Bombe Beurk": {
             "mode": "charged",
             "type": "poison",
@@ -18596,33 +18602,6 @@
             "PRdmg": 80,
             "PRenergy": 50,
             "speed": 2.3
-        },
-        "Griffe": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 6,
-            "ARenergy": 4,
-            "PRdmg": 4,
-            "PRenergy": 2,
-            "speed": 0.5
-        },
-        "Crocs Feu": {
-            "mode": "quick",
-            "type": "feu",
-            "ARdmg": 12,
-            "ARenergy": 8,
-            "PRdmg": 8,
-            "PRenergy": 5,
-            "speed": 0.9
-        },
-        "Tranch’Herbe": {
-            "mode": "quick",
-            "type": "plante",
-            "ARdmg": 13,
-            "ARenergy": 7,
-            "PRdmg": 11,
-            "PRenergy": 4,
-            "speed": 1.0
         },
         "Canon Graine": {
             "mode": "charged",
@@ -18633,14 +18612,23 @@
             "PRenergy": 40,
             "speed": 2.1
         },
-        "Lance-Flammes": {
+        "Mégafouet": {
             "mode": "charged",
-            "type": "feu",
-            "ARdmg": 70,
+            "type": "plante",
+            "ARdmg": 90,
             "ARenergy": 50,
             "PRdmg": 90,
-            "PRenergy": 55,
-            "speed": 2.2
+            "PRenergy": 50,
+            "speed": 2.6
+        },
+        "Tranch’Herbe": {
+            "mode": "quick",
+            "type": "plante",
+            "ARdmg": 13,
+            "ARenergy": 7,
+            "PRdmg": 11,
+            "PRenergy": 4,
+            "speed": 1.0
         },
         "Lance-Soleil": {
             "mode": "charged",
@@ -18651,60 +18639,6 @@
             "PRenergy": 80,
             "speed": 4.9
         },
-        "Direct Toxik": {
-            "mode": "quick",
-            "type": "poison",
-            "ARdmg": 10,
-            "ARenergy": 7,
-            "PRdmg": 6,
-            "PRenergy": 7,
-            "speed": 0.8
-        },
-        "Acide": {
-            "mode": "quick",
-            "type": "poison",
-            "ARdmg": 9,
-            "ARenergy": 8,
-            "PRdmg": 6,
-            "PRenergy": 5,
-            "speed": 0.8
-        },
-        "Écras’Face": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 7,
-            "ARenergy": 6,
-            "PRdmg": 5,
-            "PRenergy": 4,
-            "speed": 0.6
-        },
-        "Nitrocharge": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 70,
-            "ARenergy": 33,
-            "PRdmg": 70,
-            "PRenergy": 50,
-            "speed": 3.8
-        },
-        "Vive-Attaque": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 8,
-            "ARenergy": 10,
-            "PRdmg": 5,
-            "PRenergy": 7,
-            "speed": 0.8
-        },
-        "Poing Feu": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 55,
-            "ARenergy": 33,
-            "PRdmg": 55,
-            "PRenergy": 40,
-            "speed": 2.2
-        },
         "Tempête Florale": {
             "mode": "charged",
             "type": "plante",
@@ -18713,78 +18647,6 @@
             "PRdmg": 110,
             "PRenergy": 65,
             "speed": 2.6
-        },
-        "Picpic": {
-            "mode": "quick",
-            "type": "vol",
-            "ARdmg": 10,
-            "ARenergy": 10,
-            "PRdmg": 6,
-            "PRenergy": 5,
-            "speed": 1.0
-        },
-        "Feinte": {
-            "mode": "quick",
-            "type": "tenebres",
-            "ARdmg": 10,
-            "ARenergy": 9,
-            "PRdmg": 6,
-            "PRenergy": 6,
-            "speed": 0.9
-        },
-        "Rebondifeu": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 70,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 55,
-            "speed": 2.6
-        },
-        "Mégafouet": {
-            "mode": "charged",
-            "type": "plante",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 50,
-            "speed": 2.6
-        },
-        "Aéropique": {
-            "mode": "charged",
-            "type": "vol",
-            "ARdmg": 55,
-            "ARenergy": 33,
-            "PRdmg": 55,
-            "PRenergy": 45,
-            "speed": 2.4
-        },
-        "Harcèlement": {
-            "mode": "quick",
-            "type": "insecte",
-            "ARdmg": 10,
-            "ARenergy": 14,
-            "PRdmg": 6,
-            "PRenergy": 12,
-            "speed": 1.1
-        },
-        "Éclat Magique": {
-            "mode": "charged",
-            "type": "fee",
-            "ARdmg": 100,
-            "ARenergy": 50,
-            "PRdmg": 110,
-            "PRenergy": 70,
-            "speed": 3.5
-        },
-        "Jet-Pierres": {
-            "mode": "quick",
-            "type": "roche",
-            "ARdmg": 12,
-            "ARenergy": 7,
-            "PRdmg": 8,
-            "PRenergy": 5,
-            "speed": 0.9
         },
         "Végé-Attaque": {
             "mode": "charged",
@@ -18795,167 +18657,68 @@
             "PRenergy": 45,
             "speed": 2.6
         },
-        "Bec Vrille": {
-            "mode": "charged",
-            "type": "vol",
-            "ARdmg": 65,
-            "ARenergy": 33,
-            "PRdmg": 65,
-            "PRenergy": 40,
-            "speed": 2.3
-        },
-        "Dard-Venin": {
+        "Flammèche": {
             "mode": "quick",
-            "type": "poison",
-            "ARdmg": 5,
-            "ARenergy": 7,
-            "PRdmg": 3,
+            "type": "feu",
+            "ARdmg": 10,
+            "ARenergy": 10,
+            "PRdmg": 6,
             "PRenergy": 6,
-            "speed": 0.6
+            "speed": 1.0
         },
-        "Choc Mental": {
+        "Griffe": {
             "mode": "quick",
-            "type": "psy",
-            "ARdmg": 20,
-            "ARenergy": 15,
-            "PRdmg": 16,
-            "PRenergy": 12,
-            "speed": 1.6
-        },
-        "Écume": {
-            "mode": "quick",
-            "type": "eau",
-            "ARdmg": 12,
-            "ARenergy": 14,
-            "PRdmg": 8,
-            "PRenergy": 11,
-            "speed": 1.2
-        },
-        "Morsure": {
-            "mode": "quick",
-            "type": "tenebres",
+            "type": "normal",
             "ARdmg": 6,
             "ARenergy": 4,
             "PRdmg": 4,
             "PRenergy": 2,
             "speed": 0.5
         },
-        "Ouragan": {
+        "Lance-Flammes": {
             "mode": "charged",
-            "type": "dragon",
-            "ARdmg": 45,
-            "ARenergy": 33,
-            "PRdmg": 45,
-            "PRenergy": 45,
-            "speed": 2.8
-        },
-        "Ailes d’Acier": {
-            "mode": "quick",
-            "type": "acier",
-            "ARdmg": 11,
-            "ARenergy": 6,
-            "PRdmg": 7,
-            "PRenergy": 5,
-            "speed": 0.8
-        },
-        "Piqûre": {
-            "mode": "quick",
-            "type": "insecte",
-            "ARdmg": 5,
-            "ARenergy": 6,
-            "PRdmg": 3,
-            "PRenergy": 3,
-            "speed": 0.5
-        },
-        "Blizzard": {
-            "mode": "charged",
-            "type": "glace",
-            "ARdmg": 130,
-            "ARenergy": 100,
-            "PRdmg": 140,
-            "PRenergy": 75,
-            "speed": 3.1
-        },
-        "Plaie Croix": {
-            "mode": "charged",
-            "type": "insecte",
-            "ARdmg": 45,
-            "ARenergy": 33,
-            "PRdmg": 45,
-            "PRenergy": 35,
-            "speed": 1.6
-        },
-        "Change Éclair": {
-            "mode": "quick",
-            "type": "electrik",
-            "ARdmg": 14,
-            "ARenergy": 21,
-            "PRdmg": 12,
-            "PRenergy": 16,
-            "speed": 1.6
-        },
-        "Gyroballe": {
-            "mode": "charged",
-            "type": "acier",
-            "ARdmg": 80,
+            "type": "feu",
+            "ARdmg": 70,
             "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 60,
-            "speed": 3.3
-        },
-        "Plaquage": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 50,
-            "ARenergy": 33,
-            "PRdmg": 60,
-            "PRenergy": 35,
-            "speed": 1.9
-        },
-        "Balayage": {
-            "mode": "quick",
-            "type": "combat",
-            "ARdmg": 6,
-            "ARenergy": 6,
-            "PRdmg": 4,
-            "PRenergy": 5,
-            "speed": 0.6
-        },
-        "Éboulement": {
-            "mode": "charged",
-            "type": "roche",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 45,
-            "speed": 2.7
-        },
-        "Charme": {
-            "mode": "quick",
-            "type": "fee",
-            "ARdmg": 20,
-            "ARenergy": 11,
-            "PRdmg": 16,
-            "PRenergy": 6,
-            "speed": 1.5
-        },
-        "Tranche-Nuit": {
-            "mode": "charged",
-            "type": "tenebres",
-            "ARdmg": 50,
-            "ARenergy": 33,
-            "PRdmg": 50,
-            "PRenergy": 35,
+            "PRdmg": 90,
+            "PRenergy": 55,
             "speed": 2.2
         },
-        "Aqua-Jet": {
+        "Nitrocharge": {
             "mode": "charged",
-            "type": "eau",
-            "ARdmg": 45,
+            "type": "feu",
+            "ARdmg": 70,
             "ARenergy": 33,
-            "PRdmg": 45,
-            "PRenergy": 45,
+            "PRdmg": 70,
+            "PRenergy": 50,
+            "speed": 3.8
+        },
+        "Rebondifeu": {
+            "mode": "charged",
+            "type": "feu",
+            "ARdmg": 70,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 55,
             "speed": 2.6
+        },
+        "Crocs Feu": {
+            "mode": "quick",
+            "type": "feu",
+            "ARdmg": 12,
+            "ARenergy": 8,
+            "PRdmg": 8,
+            "PRenergy": 5,
+            "speed": 0.9
+        },
+        "Poing Feu": {
+            "mode": "charged",
+            "type": "feu",
+            "ARdmg": 55,
+            "ARenergy": 33,
+            "PRdmg": 55,
+            "PRenergy": 40,
+            "speed": 2.2
         },
         "Danse Flammes": {
             "mode": "quick",
@@ -18966,96 +18729,6 @@
             "PRenergy": 10,
             "speed": 1.1
         },
-        "Koud’Korne": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 40,
-            "ARenergy": 33,
-            "PRdmg": 40,
-            "PRenergy": 35,
-            "speed": 1.85
-        },
-        "Pistolet à O": {
-            "mode": "quick",
-            "type": "eau",
-            "ARdmg": 5,
-            "ARenergy": 5,
-            "PRdmg": 3,
-            "PRenergy": 3,
-            "speed": 0.5
-        },
-        "Piqué": {
-            "mode": "charged",
-            "type": "vol",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 45,
-            "speed": 2.0
-        },
-        "Tricherie": {
-            "mode": "charged",
-            "type": "tenebres",
-            "ARdmg": 70,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 45,
-            "speed": 2.0
-        },
-        "Tunnel": {
-            "mode": "charged",
-            "type": "sol",
-            "ARdmg": 100,
-            "ARenergy": 50,
-            "PRdmg": 100,
-            "PRenergy": 80,
-            "speed": 4.7
-        },
-        "Survinsecte": {
-            "mode": "quick",
-            "type": "insecte",
-            "ARdmg": 15,
-            "ARenergy": 15,
-            "PRdmg": 9,
-            "PRenergy": 8,
-            "speed": 1.5
-        },
-        "Coud’Krâne": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 130,
-            "ARenergy": 100,
-            "PRdmg": 130,
-            "PRenergy": 75,
-            "speed": 3.1
-        },
-        "Poison Croix": {
-            "mode": "charged",
-            "type": "poison",
-            "ARdmg": 40,
-            "ARenergy": 33,
-            "PRdmg": 40,
-            "PRenergy": 35,
-            "speed": 1.5
-        },
-        "Tir de Boue": {
-            "mode": "quick",
-            "type": "sol",
-            "ARdmg": 5,
-            "ARenergy": 7,
-            "PRdmg": 3,
-            "PRenergy": 9,
-            "speed": 0.6
-        },
-        "Boule Roc": {
-            "mode": "charged",
-            "type": "roche",
-            "ARdmg": 50,
-            "ARenergy": 33,
-            "PRdmg": 50,
-            "PRenergy": 40,
-            "speed": 2.1
-        },
         "Lame d’Air": {
             "mode": "quick",
             "type": "vol",
@@ -19064,231 +18737,6 @@
             "PRdmg": 9,
             "PRenergy": 9,
             "speed": 1.2
-        },
-        "Tranch’Air": {
-            "mode": "charged",
-            "type": "vol",
-            "ARdmg": 60,
-            "ARenergy": 50,
-            "PRdmg": 60,
-            "PRenergy": 55,
-            "speed": 2.7
-        },
-        "Psykoud’Boul": {
-            "mode": "quick",
-            "type": "psy",
-            "ARdmg": 12,
-            "ARenergy": 10,
-            "PRdmg": 8,
-            "PRenergy": 6,
-            "speed": 1.1
-        },
-        "Éclair": {
-            "mode": "quick",
-            "type": "electrik",
-            "ARdmg": 5,
-            "ARenergy": 8,
-            "PRdmg": 3,
-            "PRenergy": 9,
-            "speed": 0.6
-        },
-        "Coupe Psycho": {
-            "mode": "quick",
-            "type": "psy",
-            "ARdmg": 5,
-            "ARenergy": 8,
-            "PRdmg": 3,
-            "PRenergy": 9,
-            "speed": 0.6
-        },
-        "Bombe Acide": {
-            "mode": "charged",
-            "type": "poison",
-            "ARdmg": 20,
-            "ARenergy": 50,
-            "PRdmg": 20,
-            "PRenergy": 50,
-            "speed": 3.0
-        },
-        "Dard Mortel": {
-            "mode": "charged",
-            "type": "insecte",
-            "ARdmg": 50,
-            "ARenergy": 33,
-            "PRdmg": 20,
-            "PRenergy": 35,
-            "speed": 2.2
-        },
-        "Crochet Venin": {
-            "mode": "charged",
-            "type": "poison",
-            "ARdmg": 35,
-            "ARenergy": 33,
-            "PRdmg": 40,
-            "PRenergy": 35,
-            "speed": 1.7
-        },
-        "Roue de Feu": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 60,
-            "ARenergy": 50,
-            "PRdmg": 60,
-            "PRenergy": 55,
-            "speed": 2.7
-        },
-        "Pouvoir Lunaire": {
-            "mode": "charged",
-            "type": "fee",
-            "ARdmg": 130,
-            "ARenergy": 100,
-            "PRdmg": 110,
-            "PRenergy": 60,
-            "speed": 3.9
-        },
-        "Riposte": {
-            "mode": "quick",
-            "type": "combat",
-            "ARdmg": 12,
-            "ARenergy": 8,
-            "PRdmg": 8,
-            "PRenergy": 7,
-            "speed": 0.9
-        },
-        "Tomberoche": {
-            "mode": "charged",
-            "type": "roche",
-            "ARdmg": 70,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 60,
-            "speed": 3.2
-        },
-        "Voix Enjôleuse": {
-            "mode": "charged",
-            "type": "fee",
-            "ARdmg": 70,
-            "ARenergy": 33,
-            "PRdmg": 70,
-            "PRenergy": 45,
-            "speed": 3.9
-        },
-        "Éclate-Roc": {
-            "mode": "quick",
-            "type": "combat",
-            "ARdmg": 15,
-            "ARenergy": 10,
-            "PRdmg": 9,
-            "PRenergy": 7,
-            "speed": 1.3
-        },
-        "Vibrobscur": {
-            "mode": "charged",
-            "type": "tenebres",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 50,
-            "speed": 3.0
-        },
-        "Tunnelier": {
-            "mode": "charged",
-            "type": "sol",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 45,
-            "speed": 2.8
-        },
-        "Hydro-Queue": {
-            "mode": "charged",
-            "type": "eau",
-            "ARdmg": 50,
-            "ARenergy": 33,
-            "PRdmg": 50,
-            "PRenergy": 35,
-            "speed": 1.9
-        },
-        "Poudreuse": {
-            "mode": "quick",
-            "type": "glace",
-            "ARdmg": 6,
-            "ARenergy": 15,
-            "PRdmg": 5,
-            "PRenergy": 8,
-            "speed": 1.0
-        },
-        "Boue-Bombe": {
-            "mode": "charged",
-            "type": "sol",
-            "ARdmg": 55,
-            "ARenergy": 33,
-            "PRdmg": 55,
-            "PRenergy": 40,
-            "speed": 2.3
-        },
-        "Bourdon": {
-            "mode": "charged",
-            "type": "insecte",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 60,
-            "speed": 3.7
-        },
-        "Lutte": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 35,
-            "ARenergy": 0,
-            "PRdmg": 35,
-            "PRenergy": 100,
-            "speed": 2.2
-        },
-        "Queue de Fer": {
-            "mode": "quick",
-            "type": "acier",
-            "ARdmg": 15,
-            "ARenergy": 7,
-            "PRdmg": 9,
-            "PRenergy": 6,
-            "speed": 1.1
-        },
-        "Bulles d’O": {
-            "mode": "charged",
-            "type": "eau",
-            "ARdmg": 45,
-            "ARenergy": 33,
-            "PRdmg": 25,
-            "PRenergy": 40,
-            "speed": 1.9
-        },
-        "Hydrocanon": {
-            "mode": "charged",
-            "type": "eau",
-            "ARdmg": 130,
-            "ARenergy": 100,
-            "PRdmg": 130,
-            "PRenergy": 75,
-            "speed": 3.3
-        },
-        "Coud’Boue": {
-            "mode": "quick",
-            "type": "sol",
-            "ARdmg": 18,
-            "ARenergy": 12,
-            "PRdmg": 11,
-            "PRenergy": 8,
-            "speed": 1.4
-        },
-        "Taillade": {
-            "mode": "quick",
-            "type": "insecte",
-            "ARdmg": 3,
-            "ARenergy": 6,
-            "PRdmg": 2,
-            "PRenergy": 4,
-            "speed": 0.4
         },
         "Cru-Ailes": {
             "mode": "quick",
@@ -19299,240 +18747,6 @@
             "PRenergy": 7,
             "speed": 0.8
         },
-        "Laser Glace": {
-            "mode": "charged",
-            "type": "glace",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 55,
-            "speed": 3.3
-        },
-        "Tourbi-Sable": {
-            "mode": "charged",
-            "type": "sol",
-            "ARdmg": 60,
-            "ARenergy": 33,
-            "PRdmg": 25,
-            "PRenergy": 40,
-            "speed": 4.0
-        },
-        "Câlinerie": {
-            "mode": "charged",
-            "type": "fee",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 60,
-            "speed": 2.9
-        },
-        "Draco-Queue": {
-            "mode": "quick",
-            "type": "dragon",
-            "ARdmg": 15,
-            "ARenergy": 9,
-            "PRdmg": 9,
-            "PRenergy": 10,
-            "speed": 1.1
-        },
-        "Ligotage": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 60,
-            "ARenergy": 33,
-            "PRdmg": 60,
-            "PRenergy": 45,
-            "speed": 2.9
-        },
-        "Aboiement": {
-            "mode": "quick",
-            "type": "tenebres",
-            "ARdmg": 12,
-            "ARenergy": 14,
-            "PRdmg": 5,
-            "PRenergy": 13,
-            "speed": 1.1
-        },
-        "Ball’Ombre": {
-            "mode": "charged",
-            "type": "spectre",
-            "ARdmg": 100,
-            "ARenergy": 50,
-            "PRdmg": 100,
-            "PRenergy": 55,
-            "speed": 3.0
-        },
-        "Canicule": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 95,
-            "ARenergy": 100,
-            "PRdmg": 95,
-            "PRenergy": 75,
-            "speed": 3.0
-        },
-        "Poing Karaté": {
-            "mode": "quick",
-            "type": "combat",
-            "ARdmg": 8,
-            "ARenergy": 10,
-            "PRdmg": 5,
-            "PRenergy": 7,
-            "speed": 0.8
-        },
-        "Griffe Acier": {
-            "mode": "quick",
-            "type": "acier",
-            "ARdmg": 8,
-            "ARenergy": 7,
-            "PRdmg": 5,
-            "PRenergy": 6,
-            "speed": 0.7
-        },
-        "Lame de Roc": {
-            "mode": "charged",
-            "type": "roche",
-            "ARdmg": 100,
-            "ARenergy": 100,
-            "PRdmg": 100,
-            "PRenergy": 55,
-            "speed": 2.3
-        },
-        "Psyko": {
-            "mode": "charged",
-            "type": "psy",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 55,
-            "speed": 2.8
-        },
-        "Exploforce": {
-            "mode": "charged",
-            "type": "combat",
-            "ARdmg": 140,
-            "ARenergy": 100,
-            "PRdmg": 140,
-            "PRenergy": 75,
-            "speed": 3.5
-        },
-        "Vibraqua": {
-            "mode": "charged",
-            "type": "eau",
-            "ARdmg": 70,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 60,
-            "speed": 3.2
-        },
-        "Balayette": {
-            "mode": "charged",
-            "type": "combat",
-            "ARdmg": 40,
-            "ARenergy": 33,
-            "PRdmg": 40,
-            "PRenergy": 40,
-            "speed": 1.9
-        },
-        "Piétisol": {
-            "mode": "charged",
-            "type": "sol",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 60,
-            "speed": 3.5
-        },
-        "Cradovague": {
-            "mode": "charged",
-            "type": "poison",
-            "ARdmg": 110,
-            "ARenergy": 100,
-            "PRdmg": 110,
-            "PRenergy": 65,
-            "speed": 3.2
-        },
-        "Étincelle": {
-            "mode": "quick",
-            "type": "electrik",
-            "ARdmg": 6,
-            "ARenergy": 9,
-            "PRdmg": 4,
-            "PRenergy": 8,
-            "speed": 0.7
-        },
-        "Choc Psy": {
-            "mode": "charged",
-            "type": "psy",
-            "ARdmg": 65,
-            "ARenergy": 33,
-            "PRdmg": 70,
-            "PRenergy": 45,
-            "speed": 2.7
-        },
-        "Pouvoir Antique": {
-            "mode": "charged",
-            "type": "roche",
-            "ARdmg": 70,
-            "ARenergy": 33,
-            "PRdmg": 45,
-            "PRenergy": 45,
-            "speed": 3.5
-        },
-        "Lame Feuille": {
-            "mode": "charged",
-            "type": "plante",
-            "ARdmg": 70,
-            "ARenergy": 33,
-            "PRdmg": 70,
-            "PRenergy": 35,
-            "speed": 2.4
-        },
-        "Casse-Brique": {
-            "mode": "charged",
-            "type": "combat",
-            "ARdmg": 40,
-            "ARenergy": 33,
-            "PRdmg": 40,
-            "PRenergy": 35,
-            "speed": 1.6
-        },
-        "Dynamo-Poing": {
-            "mode": "charged",
-            "type": "combat",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 50,
-            "speed": 2.7
-        },
-        "Coup Bas": {
-            "mode": "quick",
-            "type": "tenebres",
-            "ARdmg": 7,
-            "ARenergy": 8,
-            "PRdmg": 5,
-            "PRenergy": 7,
-            "speed": 0.7
-        },
-        "Coup Croix": {
-            "mode": "charged",
-            "type": "combat",
-            "ARdmg": 50,
-            "ARenergy": 50,
-            "PRdmg": 50,
-            "PRenergy": 35,
-            "speed": 1.5
-        },
-        "Tonnerre": {
-            "mode": "charged",
-            "type": "electrik",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 55,
-            "speed": 2.5
-        },
         "Déflagration": {
             "mode": "charged",
             "type": "feu",
@@ -19541,51 +18755,6 @@
             "PRdmg": 140,
             "PRenergy": 80,
             "speed": 4.2
-        },
-        "Coup d’Jus": {
-            "mode": "charged",
-            "type": "electrik",
-            "ARdmg": 65,
-            "ARenergy": 33,
-            "PRdmg": 65,
-            "PRenergy": 45,
-            "speed": 2.5
-        },
-        "Pisto-Poing": {
-            "mode": "quick",
-            "type": "acier",
-            "ARdmg": 9,
-            "ARenergy": 10,
-            "PRdmg": 6,
-            "PRenergy": 7,
-            "speed": 0.9
-        },
-        "Éclair Fou": {
-            "mode": "charged",
-            "type": "electrik",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 100,
-            "PRenergy": 45,
-            "speed": 2.6
-        },
-        "Vent Argenté": {
-            "mode": "charged",
-            "type": "insecte",
-            "ARdmg": 70,
-            "ARenergy": 33,
-            "PRdmg": 45,
-            "PRenergy": 45,
-            "speed": 3.7
-        },
-        "Croc de Mort": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 50,
-            "speed": 2.5
         },
         "Draco-Griffe": {
             "mode": "charged",
@@ -19596,23 +18765,104 @@
             "PRenergy": 35,
             "speed": 1.7
         },
-        "Mégacorne": {
+        "Surchauffe": {
             "mode": "charged",
-            "type": "insecte",
-            "ARdmg": 110,
+            "type": "feu",
+            "ARdmg": 160,
             "ARenergy": 100,
-            "PRdmg": 100,
+            "PRdmg": 130,
             "PRenergy": 55,
-            "speed": 2.2
+            "speed": 4.0
         },
-        "Rafale Psy": {
+        "Rafale Feu": {
             "mode": "charged",
-            "type": "psy",
+            "type": "feu",
+            "ARdmg": 110,
+            "ARenergy": 50,
+            "PRdmg": 110,
+            "PRenergy": 50,
+            "speed": 3.3
+        },
+        "Écume": {
+            "mode": "quick",
+            "type": "eau",
+            "ARdmg": 12,
+            "ARenergy": 14,
+            "PRdmg": 8,
+            "PRenergy": 11,
+            "speed": 1.2
+        },
+        "Aqua-Jet": {
+            "mode": "charged",
+            "type": "eau",
+            "ARdmg": 45,
+            "ARenergy": 33,
+            "PRdmg": 45,
+            "PRenergy": 45,
+            "speed": 2.6
+        },
+        "Hydro-Queue": {
+            "mode": "charged",
+            "type": "eau",
+            "ARdmg": 50,
+            "ARenergy": 33,
+            "PRdmg": 50,
+            "PRenergy": 35,
+            "speed": 1.9
+        },
+        "Vibraqua": {
+            "mode": "charged",
+            "type": "eau",
             "ARdmg": 70,
             "ARenergy": 50,
             "PRdmg": 70,
             "PRenergy": 60,
             "speed": 3.2
+        },
+        "Morsure": {
+            "mode": "quick",
+            "type": "tenebres",
+            "ARdmg": 6,
+            "ARenergy": 4,
+            "PRdmg": 4,
+            "PRenergy": 2,
+            "speed": 0.5
+        },
+        "Pistolet à O": {
+            "mode": "quick",
+            "type": "eau",
+            "ARdmg": 5,
+            "ARenergy": 5,
+            "PRdmg": 3,
+            "PRenergy": 3,
+            "speed": 0.5
+        },
+        "Hydrocanon": {
+            "mode": "charged",
+            "type": "eau",
+            "ARdmg": 130,
+            "ARenergy": 100,
+            "PRdmg": 130,
+            "PRenergy": 75,
+            "speed": 3.3
+        },
+        "Laser Glace": {
+            "mode": "charged",
+            "type": "glace",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 55,
+            "speed": 3.3
+        },
+        "Coud’Krâne": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 130,
+            "ARenergy": 100,
+            "PRdmg": 130,
+            "PRenergy": 75,
+            "speed": 3.1
         },
         "Luminocanon": {
             "mode": "charged",
@@ -19632,50 +18882,167 @@
             "PRenergy": 40,
             "speed": 1.9
         },
-        "Poing Éclair": {
+        "Piqûre": {
+            "mode": "quick",
+            "type": "insecte",
+            "ARdmg": 5,
+            "ARenergy": 6,
+            "PRdmg": 3,
+            "PRenergy": 3,
+            "speed": 0.5
+        },
+        "Lutte": {
             "mode": "charged",
-            "type": "electrik",
-            "ARdmg": 45,
+            "type": "normal",
+            "ARdmg": 35,
+            "ARenergy": 0,
+            "PRdmg": 35,
+            "PRenergy": 100,
+            "speed": 2.2
+        },
+        "Choc Mental": {
+            "mode": "quick",
+            "type": "psy",
+            "ARdmg": 20,
+            "ARenergy": 15,
+            "PRdmg": 16,
+            "PRenergy": 12,
+            "speed": 1.6
+        },
+        "Survinsecte": {
+            "mode": "quick",
+            "type": "insecte",
+            "ARdmg": 15,
+            "ARenergy": 15,
+            "PRdmg": 9,
+            "PRenergy": 8,
+            "speed": 1.5
+        },
+        "Bourdon": {
+            "mode": "charged",
+            "type": "insecte",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 60,
+            "speed": 3.7
+        },
+        "Psyko": {
+            "mode": "charged",
+            "type": "psy",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 55,
+            "speed": 2.8
+        },
+        "Rayon Signal": {
+            "mode": "charged",
+            "type": "insecte",
+            "ARdmg": 75,
+            "ARenergy": 50,
+            "PRdmg": 75,
+            "PRenergy": 55,
+            "speed": 2.9
+        },
+        "Dard-Venin": {
+            "mode": "quick",
+            "type": "poison",
+            "ARdmg": 5,
+            "ARenergy": 7,
+            "PRdmg": 3,
+            "PRenergy": 6,
+            "speed": 0.6
+        },
+        "Direct Toxik": {
+            "mode": "quick",
+            "type": "poison",
+            "ARdmg": 10,
+            "ARenergy": 7,
+            "PRdmg": 6,
+            "PRenergy": 7,
+            "speed": 0.8
+        },
+        "Harcèlement": {
+            "mode": "quick",
+            "type": "insecte",
+            "ARdmg": 10,
+            "ARenergy": 14,
+            "PRdmg": 6,
+            "PRenergy": 12,
+            "speed": 1.1
+        },
+        "Aéropique": {
+            "mode": "charged",
+            "type": "vol",
+            "ARdmg": 55,
             "ARenergy": 33,
             "PRdmg": 55,
-            "PRenergy": 40,
-            "speed": 1.8
+            "PRenergy": 45,
+            "speed": 2.4
         },
-        "Vent Mauvais": {
+        "Dard Mortel": {
             "mode": "charged",
-            "type": "spectre",
+            "type": "insecte",
             "ARdmg": 50,
+            "ARenergy": 33,
+            "PRdmg": 20,
+            "PRenergy": 35,
+            "speed": 2.2
+        },
+        "Plaie Croix": {
+            "mode": "charged",
+            "type": "insecte",
+            "ARdmg": 45,
+            "ARenergy": 33,
+            "PRdmg": 45,
+            "PRenergy": 35,
+            "speed": 1.6
+        },
+        "Tunnelier": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 45,
+            "speed": 2.8
+        },
+        "Vive-Attaque": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 8,
+            "ARenergy": 10,
+            "PRdmg": 5,
+            "PRenergy": 7,
+            "speed": 0.8
+        },
+        "Ouragan": {
+            "mode": "charged",
+            "type": "dragon",
+            "ARdmg": 45,
             "ARenergy": 33,
             "PRdmg": 45,
             "PRenergy": 45,
-            "speed": 2.3
+            "speed": 2.8
         },
-        "Rayon Gemme": {
+        "Tranch’Air": {
             "mode": "charged",
-            "type": "roche",
-            "ARdmg": 80,
+            "type": "vol",
+            "ARdmg": 60,
             "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 60,
-            "speed": 2.9
-        },
-        "Surchauffe": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 160,
-            "ARenergy": 100,
-            "PRdmg": 130,
+            "PRdmg": 60,
             "PRenergy": 55,
-            "speed": 4.0
+            "speed": 2.7
         },
-        "Ébullition": {
-            "mode": "charged",
-            "type": "eau",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 60,
-            "speed": 3.7
+        "Ailes d’Acier": {
+            "mode": "quick",
+            "type": "acier",
+            "ARdmg": 11,
+            "ARenergy": 6,
+            "PRdmg": 7,
+            "PRenergy": 5,
+            "speed": 0.8
         },
         "Rapace": {
             "mode": "charged",
@@ -19686,23 +19053,50 @@
             "PRenergy": 55,
             "speed": 2.0
         },
-        "Séisme": {
+        "Vent Violent": {
             "mode": "charged",
-            "type": "sol",
-            "ARdmg": 140,
+            "type": "vol",
+            "ARdmg": 110,
             "ARenergy": 100,
-            "PRdmg": 120,
-            "PRenergy": 65,
-            "speed": 3.6
-        },
-        "Prescience": {
-            "mode": "charged",
-            "type": "psy",
-            "ARdmg": 120,
-            "ARenergy": 100,
-            "PRdmg": 120,
+            "PRdmg": 110,
             "PRenergy": 65,
             "speed": 2.7
+        },
+        "Croc de Mort": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 50,
+            "speed": 2.5
+        },
+        "Plaquage": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 50,
+            "ARenergy": 33,
+            "PRdmg": 60,
+            "PRenergy": 35,
+            "speed": 1.9
+        },
+        "Tunnel": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 100,
+            "ARenergy": 50,
+            "PRdmg": 100,
+            "PRenergy": 80,
+            "speed": 4.7
+        },
+        "Ball’Ombre": {
+            "mode": "charged",
+            "type": "spectre",
+            "ARdmg": 100,
+            "ARenergy": 50,
+            "PRdmg": 100,
+            "PRenergy": 55,
+            "speed": 3.0
         },
         "Mâchouille": {
             "mode": "charged",
@@ -19713,23 +19107,68 @@
             "PRenergy": 45,
             "speed": 3.2
         },
-        "Rayon Chargé": {
-            "mode": "quick",
-            "type": "electrik",
-            "ARdmg": 8,
-            "ARenergy": 15,
-            "PRdmg": 5,
-            "PRenergy": 11,
-            "speed": 1.1
-        },
-        "Close Combat": {
+        "Ultralaser": {
             "mode": "charged",
-            "type": "combat",
-            "ARdmg": 100,
+            "type": "normal",
+            "ARdmg": 150,
             "ARenergy": 100,
-            "PRdmg": 100,
-            "PRenergy": 45,
+            "PRdmg": 150,
+            "PRenergy": 80,
+            "speed": 3.8
+        },
+        "Picpic": {
+            "mode": "quick",
+            "type": "vol",
+            "ARdmg": 10,
+            "ARenergy": 10,
+            "PRdmg": 6,
+            "PRenergy": 5,
+            "speed": 1.0
+        },
+        "Bec Vrille": {
+            "mode": "charged",
+            "type": "vol",
+            "ARdmg": 65,
+            "ARenergy": 33,
+            "PRdmg": 65,
+            "PRenergy": 40,
             "speed": 2.3
+        },
+        "Piqué": {
+            "mode": "charged",
+            "type": "vol",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 45,
+            "speed": 2.0
+        },
+        "Acide": {
+            "mode": "quick",
+            "type": "poison",
+            "ARdmg": 9,
+            "ARenergy": 8,
+            "PRdmg": 6,
+            "PRenergy": 5,
+            "speed": 0.8
+        },
+        "Crochet Venin": {
+            "mode": "charged",
+            "type": "poison",
+            "ARdmg": 35,
+            "ARenergy": 33,
+            "PRdmg": 40,
+            "PRenergy": 35,
+            "speed": 1.7
+        },
+        "Ligotage": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 60,
+            "ARenergy": 33,
+            "PRdmg": 60,
+            "PRenergy": 45,
+            "speed": 2.9
         },
         "Détricanon": {
             "mode": "charged",
@@ -19740,50 +19179,122 @@
             "PRenergy": 75,
             "speed": 3.1
         },
-        "Météores": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 60,
-            "ARenergy": 50,
-            "PRdmg": 60,
-            "PRenergy": 55,
-            "speed": 2.8
+        "Draco-Queue": {
+            "mode": "quick",
+            "type": "dragon",
+            "ARdmg": 15,
+            "ARenergy": 9,
+            "PRdmg": 9,
+            "PRenergy": 10,
+            "speed": 1.1
         },
-        "Écrasement": {
+        "Bombe Acide": {
             "mode": "charged",
-            "type": "normal",
-            "ARdmg": 55,
+            "type": "poison",
+            "ARdmg": 20,
             "ARenergy": 50,
-            "PRdmg": 55,
+            "PRdmg": 20,
+            "PRenergy": 50,
+            "speed": 3.0
+        },
+        "Cradovague": {
+            "mode": "charged",
+            "type": "poison",
+            "ARdmg": 110,
+            "ARenergy": 100,
+            "PRdmg": 110,
+            "PRenergy": 65,
+            "speed": 3.2
+        },
+        "Vibrobscur": {
+            "mode": "charged",
+            "type": "tenebres",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 50,
+            "speed": 3.0
+        },
+        "Éclair": {
+            "mode": "quick",
+            "type": "electrik",
+            "ARdmg": 5,
+            "ARenergy": 8,
+            "PRdmg": 3,
+            "PRenergy": 9,
+            "speed": 0.6
+        },
+        "Cadeau": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 5,
+            "ARenergy": 20,
+            "PRdmg": 3,
+            "PRenergy": 12,
+            "speed": 1.3
+        },
+        "Coup d’Jus": {
+            "mode": "charged",
+            "type": "electrik",
+            "ARdmg": 65,
+            "ARenergy": 33,
+            "PRdmg": 65,
+            "PRenergy": 45,
+            "speed": 2.5
+        },
+        "Éclair Fou": {
+            "mode": "charged",
+            "type": "electrik",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 100,
+            "PRenergy": 45,
+            "speed": 2.6
+        },
+        "Tonnerre": {
+            "mode": "charged",
+            "type": "electrik",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 55,
+            "speed": 2.5
+        },
+        "Fatal-Foudre": {
+            "mode": "charged",
+            "type": "electrik",
+            "ARdmg": 100,
+            "ARenergy": 100,
+            "PRdmg": 100,
+            "PRenergy": 60,
+            "speed": 2.4
+        },
+        "Surf": {
+            "mode": "charged",
+            "type": "eau",
+            "ARdmg": 65,
+            "ARenergy": 50,
+            "PRdmg": 65,
             "PRenergy": 40,
             "speed": 1.7
         },
-        "Poing Météore": {
-            "mode": "charged",
-            "type": "acier",
-            "ARdmg": 100,
-            "ARenergy": 50,
-            "PRdmg": 100,
-            "PRenergy": 50,
-            "speed": 2.6
-        },
-        "Crocs Éclair": {
+        "Charme": {
             "mode": "quick",
-            "type": "electrik",
-            "ARdmg": 12,
-            "ARenergy": 16,
-            "PRdmg": 8,
-            "PRenergy": 5,
-            "speed": 1.2
+            "type": "fee",
+            "ARdmg": 20,
+            "ARenergy": 11,
+            "PRdmg": 16,
+            "PRenergy": 6,
+            "speed": 1.5
         },
-        "Nœud Herbe": {
+        "Câlinerie": {
             "mode": "charged",
-            "type": "plante",
+            "type": "fee",
             "ARdmg": 90,
             "ARenergy": 50,
             "PRdmg": 90,
-            "PRenergy": 50,
-            "speed": 2.6
+            "PRenergy": 60,
+            "speed": 2.9
         },
         "Flying Press": {
             "mode": "charged",
@@ -19794,14 +19305,158 @@
             "PRenergy": 40,
             "speed": 2.3
         },
-        "Ultralaser": {
+        "Poing Éclair": {
             "mode": "charged",
-            "type": "normal",
-            "ARdmg": 150,
+            "type": "electrik",
+            "ARdmg": 45,
+            "ARenergy": 33,
+            "PRdmg": 55,
+            "PRenergy": 40,
+            "speed": 1.8
+        },
+        "Vol": {
+            "mode": "charged",
+            "type": "vol",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 45,
+            "speed": 1.8
+        },
+        "Change Éclair": {
+            "mode": "quick",
+            "type": "electrik",
+            "ARdmg": 14,
+            "ARenergy": 21,
+            "PRdmg": 12,
+            "PRenergy": 16,
+            "speed": 1.6
+        },
+        "Étincelle": {
+            "mode": "quick",
+            "type": "electrik",
+            "ARdmg": 6,
+            "ARenergy": 9,
+            "PRdmg": 4,
+            "PRenergy": 8,
+            "speed": 0.7
+        },
+        "Casse-Brique": {
+            "mode": "charged",
+            "type": "combat",
+            "ARdmg": 40,
+            "ARenergy": 33,
+            "PRdmg": 40,
+            "PRenergy": 35,
+            "speed": 1.6
+        },
+        "Nœud Herbe": {
+            "mode": "charged",
+            "type": "plante",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 50,
+            "speed": 2.6
+        },
+        "Tir de Boue": {
+            "mode": "quick",
+            "type": "sol",
+            "ARdmg": 5,
+            "ARenergy": 7,
+            "PRdmg": 3,
+            "PRenergy": 9,
+            "speed": 0.6
+        },
+        "Éboulement": {
+            "mode": "charged",
+            "type": "roche",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 45,
+            "speed": 2.7
+        },
+        "Tourbi-Sable": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 60,
+            "ARenergy": 33,
+            "PRdmg": 25,
+            "PRenergy": 40,
+            "speed": 4.0
+        },
+        "Tomberoche": {
+            "mode": "charged",
+            "type": "roche",
+            "ARdmg": 70,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 60,
+            "speed": 3.2
+        },
+        "Griffe Acier": {
+            "mode": "quick",
+            "type": "acier",
+            "ARdmg": 8,
+            "ARenergy": 7,
+            "PRdmg": 5,
+            "PRenergy": 6,
+            "speed": 0.7
+        },
+        "Poudreuse": {
+            "mode": "quick",
+            "type": "glace",
+            "ARdmg": 6,
+            "ARenergy": 15,
+            "PRdmg": 5,
+            "PRenergy": 8,
+            "speed": 1.0
+        },
+        "Blizzard": {
+            "mode": "charged",
+            "type": "glace",
+            "ARdmg": 130,
             "ARenergy": 100,
-            "PRdmg": 150,
-            "PRenergy": 80,
-            "speed": 3.8
+            "PRdmg": 140,
+            "PRenergy": 75,
+            "speed": 3.1
+        },
+        "Gyroballe": {
+            "mode": "charged",
+            "type": "acier",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 60,
+            "speed": 3.3
+        },
+        "Tranche-Nuit": {
+            "mode": "charged",
+            "type": "tenebres",
+            "ARdmg": 50,
+            "ARenergy": 33,
+            "PRdmg": 50,
+            "PRenergy": 35,
+            "speed": 2.2
+        },
+        "Piétisol": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 60,
+            "speed": 3.5
+        },
+        "Séisme": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 140,
+            "ARenergy": 100,
+            "PRdmg": 120,
+            "PRenergy": 65,
+            "speed": 3.6
         },
         "Poing Glace": {
             "mode": "charged",
@@ -19809,6 +19464,267 @@
             "ARdmg": 50,
             "ARenergy": 33,
             "PRdmg": 55,
+            "PRenergy": 40,
+            "speed": 1.9
+        },
+        "Lame de Roc": {
+            "mode": "charged",
+            "type": "roche",
+            "ARdmg": 100,
+            "ARenergy": 100,
+            "PRdmg": 100,
+            "PRenergy": 55,
+            "speed": 2.3
+        },
+        "Telluriforce": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 100,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 55,
+            "speed": 3.6
+        },
+        "Koud’Korne": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 40,
+            "ARenergy": 33,
+            "PRdmg": 40,
+            "PRenergy": 35,
+            "speed": 1.85
+        },
+        "Queue de Fer": {
+            "mode": "quick",
+            "type": "acier",
+            "ARdmg": 15,
+            "ARenergy": 7,
+            "PRdmg": 9,
+            "PRenergy": 6,
+            "speed": 1.1
+        },
+        "Taillade": {
+            "mode": "quick",
+            "type": "insecte",
+            "ARdmg": 3,
+            "ARenergy": 6,
+            "PRdmg": 2,
+            "PRenergy": 4,
+            "speed": 0.4
+        },
+        "Mégacorne": {
+            "mode": "charged",
+            "type": "insecte",
+            "ARdmg": 110,
+            "ARenergy": 100,
+            "PRdmg": 100,
+            "PRenergy": 55,
+            "speed": 2.2
+        },
+        "Écras’Face": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 7,
+            "ARenergy": 6,
+            "PRdmg": 5,
+            "PRenergy": 4,
+            "speed": 0.6
+        },
+        "Psykoud’Boul": {
+            "mode": "quick",
+            "type": "psy",
+            "ARdmg": 12,
+            "ARenergy": 10,
+            "PRdmg": 8,
+            "PRenergy": 6,
+            "speed": 1.1
+        },
+        "Pouvoir Lunaire": {
+            "mode": "charged",
+            "type": "fee",
+            "ARdmg": 130,
+            "ARenergy": 100,
+            "PRdmg": 110,
+            "PRenergy": 60,
+            "speed": 3.9
+        },
+        "Voix Enjôleuse": {
+            "mode": "charged",
+            "type": "fee",
+            "ARdmg": 70,
+            "ARenergy": 33,
+            "PRdmg": 70,
+            "PRenergy": 45,
+            "speed": 3.9
+        },
+        "Rayon Chargé": {
+            "mode": "quick",
+            "type": "electrik",
+            "ARdmg": 8,
+            "ARenergy": 15,
+            "PRdmg": 5,
+            "PRenergy": 11,
+            "speed": 1.1
+        },
+        "Éclat Magique": {
+            "mode": "charged",
+            "type": "fee",
+            "ARdmg": 100,
+            "ARenergy": 50,
+            "PRdmg": 110,
+            "PRenergy": 70,
+            "speed": 3.5
+        },
+        "Poing Météore": {
+            "mode": "charged",
+            "type": "acier",
+            "ARdmg": 100,
+            "ARenergy": 50,
+            "PRdmg": 100,
+            "PRenergy": 50,
+            "speed": 2.6
+        },
+        "Feinte": {
+            "mode": "quick",
+            "type": "tenebres",
+            "ARdmg": 10,
+            "ARenergy": 9,
+            "PRdmg": 6,
+            "PRenergy": 6,
+            "speed": 0.9
+        },
+        "Canicule": {
+            "mode": "charged",
+            "type": "feu",
+            "ARdmg": 95,
+            "ARenergy": 100,
+            "PRdmg": 95,
+            "PRenergy": 75,
+            "speed": 3.0
+        },
+        "Choc Psy": {
+            "mode": "charged",
+            "type": "psy",
+            "ARdmg": 65,
+            "ARenergy": 33,
+            "PRdmg": 70,
+            "PRenergy": 45,
+            "speed": 2.7
+        },
+        "Météores": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 60,
+            "ARenergy": 50,
+            "PRdmg": 60,
+            "PRenergy": 55,
+            "speed": 2.8
+        },
+        "Vent Mauvais": {
+            "mode": "charged",
+            "type": "spectre",
+            "ARdmg": 50,
+            "ARenergy": 33,
+            "PRdmg": 45,
+            "PRenergy": 45,
+            "speed": 2.3
+        },
+        "Poison Croix": {
+            "mode": "charged",
+            "type": "poison",
+            "ARdmg": 40,
+            "ARenergy": 33,
+            "PRdmg": 40,
+            "PRenergy": 35,
+            "speed": 1.5
+        },
+        "Rafale Psy": {
+            "mode": "charged",
+            "type": "psy",
+            "ARdmg": 70,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 60,
+            "speed": 3.2
+        },
+        "Vent Argenté": {
+            "mode": "charged",
+            "type": "insecte",
+            "ARdmg": 70,
+            "ARenergy": 33,
+            "PRdmg": 45,
+            "PRenergy": 45,
+            "speed": 3.7
+        },
+        "Coud’Boue": {
+            "mode": "quick",
+            "type": "sol",
+            "ARdmg": 18,
+            "ARenergy": 12,
+            "PRdmg": 11,
+            "PRenergy": 8,
+            "speed": 1.4
+        },
+        "Boue-Bombe": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 55,
+            "ARenergy": 33,
+            "PRdmg": 55,
+            "PRenergy": 40,
+            "speed": 2.3
+        },
+        "Coup Bas": {
+            "mode": "quick",
+            "type": "tenebres",
+            "ARdmg": 7,
+            "ARenergy": 8,
+            "PRdmg": 5,
+            "PRenergy": 7,
+            "speed": 0.7
+        },
+        "Tête de Fer": {
+            "mode": "charged",
+            "type": "acier",
+            "ARdmg": 60,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 50,
+            "speed": 1.9
+        },
+        "Tricherie": {
+            "mode": "charged",
+            "type": "tenebres",
+            "ARdmg": 70,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 45,
+            "speed": 2.0
+        },
+        "Rayon Gemme": {
+            "mode": "charged",
+            "type": "roche",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 60,
+            "speed": 2.9
+        },
+        "Coup Croix": {
+            "mode": "charged",
+            "type": "combat",
+            "ARdmg": 50,
+            "ARenergy": 50,
+            "PRdmg": 50,
+            "PRenergy": 35,
+            "speed": 1.5
+        },
+        "Bulles d’O": {
+            "mode": "charged",
+            "type": "eau",
+            "ARdmg": 45,
+            "ARenergy": 33,
+            "PRdmg": 25,
             "PRenergy": 40,
             "speed": 1.9
         },
@@ -19821,86 +19737,104 @@
             "PRenergy": 50,
             "speed": 2.6
         },
-        "Rayon Signal": {
-            "mode": "charged",
-            "type": "insecte",
-            "ARdmg": 75,
-            "ARenergy": 50,
-            "PRdmg": 75,
-            "PRenergy": 55,
-            "speed": 2.9
-        },
-        "Cadeau": {
+        "Poing Karaté": {
             "mode": "quick",
-            "type": "normal",
-            "ARdmg": 5,
-            "ARenergy": 20,
-            "PRdmg": 3,
-            "PRenergy": 12,
-            "speed": 1.3
-        },
-        "Balle Graine": {
-            "mode": "quick",
-            "type": "plante",
+            "type": "combat",
             "ARdmg": 8,
+            "ARenergy": 10,
+            "PRdmg": 5,
+            "PRenergy": 7,
+            "speed": 0.8
+        },
+        "Balayette": {
+            "mode": "charged",
+            "type": "combat",
+            "ARdmg": 40,
+            "ARenergy": 33,
+            "PRdmg": 40,
+            "PRenergy": 40,
+            "speed": 1.9
+        },
+        "Balayage": {
+            "mode": "quick",
+            "type": "combat",
+            "ARdmg": 6,
+            "ARenergy": 6,
+            "PRdmg": 4,
+            "PRenergy": 5,
+            "speed": 0.6
+        },
+        "Riposte": {
+            "mode": "quick",
+            "type": "combat",
+            "ARdmg": 12,
+            "ARenergy": 8,
+            "PRdmg": 8,
+            "PRenergy": 7,
+            "speed": 0.9
+        },
+        "Close Combat": {
+            "mode": "charged",
+            "type": "combat",
+            "ARdmg": 100,
+            "ARenergy": 100,
+            "PRdmg": 100,
+            "PRenergy": 45,
+            "speed": 2.3
+        },
+        "Roue de Feu": {
+            "mode": "charged",
+            "type": "feu",
+            "ARdmg": 60,
+            "ARenergy": 50,
+            "PRdmg": 60,
+            "PRenergy": 55,
+            "speed": 2.7
+        },
+        "Aboiement": {
+            "mode": "quick",
+            "type": "tenebres",
+            "ARdmg": 12,
             "ARenergy": 14,
             "PRdmg": 5,
             "PRenergy": 13,
             "speed": 1.1
         },
-        "Tête de Fer": {
-            "mode": "charged",
-            "type": "acier",
-            "ARdmg": 60,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 50,
-            "speed": 1.9
+        "Crocs Éclair": {
+            "mode": "quick",
+            "type": "electrik",
+            "ARdmg": 12,
+            "ARenergy": 16,
+            "PRdmg": 8,
+            "PRenergy": 5,
+            "speed": 1.2
         },
-        "Sacrifice": {
+        "Ébullition": {
             "mode": "charged",
-            "type": "combat",
-            "ARdmg": 60,
-            "ARenergy": 50,
-            "PRdmg": 60,
-            "PRenergy": 50,
-            "speed": 2.2
-        },
-        "Vol": {
-            "mode": "charged",
-            "type": "vol",
+            "type": "eau",
             "ARdmg": 80,
             "ARenergy": 50,
             "PRdmg": 80,
-            "PRenergy": 45,
-            "speed": 1.8
+            "PRenergy": 60,
+            "speed": 3.7
         },
-        "Phytomixeur": {
-            "mode": "charged",
-            "type": "plante",
-            "ARdmg": 45,
-            "ARenergy": 33,
-            "PRdmg": 45,
-            "PRenergy": 40,
-            "speed": 3.1
-        },
-        "Tacle Lourd": {
-            "mode": "charged",
-            "type": "acier",
-            "ARdmg": 70,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 50,
-            "speed": 2.1
-        },
-        "Coupe": {
+        "Éclate-Roc": {
             "mode": "quick",
-            "type": "normal",
-            "ARdmg": 5,
-            "ARenergy": 5,
-            "PRdmg": 3,
-            "PRenergy": 2,
-            "speed": 0.5
+            "type": "combat",
+            "ARdmg": 15,
+            "ARenergy": 10,
+            "PRdmg": 9,
+            "PRenergy": 7,
+            "speed": 1.3
+        },
+        "Dynamo-Poing": {
+            "mode": "charged",
+            "type": "combat",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 50,
+            "speed": 2.7
         },
         "Poing Boost": {
             "mode": "charged",
@@ -19911,58 +19845,148 @@
             "PRenergy": 35,
             "speed": 2.0
         },
-        "Telluriforce": {
+        "Sacrifice": {
             "mode": "charged",
-            "type": "sol",
-            "ARdmg": 100,
+            "type": "combat",
+            "ARdmg": 60,
             "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 55,
-            "speed": 3.6
-        },
-        "Rafale Feu": {
-            "mode": "charged",
-            "type": "feu",
-            "ARdmg": 110,
-            "ARenergy": 50,
-            "PRdmg": 110,
+            "PRdmg": 60,
             "PRenergy": 50,
-            "speed": 3.3
+            "speed": 2.2
         },
-        "Fatal-Foudre": {
+        "Coupe Psycho": {
+            "mode": "quick",
+            "type": "psy",
+            "ARdmg": 5,
+            "ARenergy": 8,
+            "PRdmg": 3,
+            "PRenergy": 9,
+            "speed": 0.6
+        },
+        "Exploforce": {
             "mode": "charged",
-            "type": "electrik",
-            "ARdmg": 100,
+            "type": "combat",
+            "ARdmg": 140,
             "ARenergy": 100,
-            "PRdmg": 100,
-            "PRenergy": 60,
+            "PRdmg": 140,
+            "PRenergy": 75,
+            "speed": 3.5
+        },
+        "Prescience": {
+            "mode": "charged",
+            "type": "psy",
+            "ARdmg": 120,
+            "ARenergy": 100,
+            "PRdmg": 120,
+            "PRenergy": 65,
+            "speed": 2.7
+        },
+        "Pisto-Poing": {
+            "mode": "quick",
+            "type": "acier",
+            "ARdmg": 9,
+            "ARenergy": 10,
+            "PRdmg": 6,
+            "PRenergy": 7,
+            "speed": 0.9
+        },
+        "Tacle Lourd": {
+            "mode": "charged",
+            "type": "acier",
+            "ARdmg": 70,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 50,
+            "speed": 2.1
+        },
+        "Balle Graine": {
+            "mode": "quick",
+            "type": "plante",
+            "ARdmg": 8,
+            "ARenergy": 14,
+            "PRdmg": 5,
+            "PRenergy": 13,
+            "speed": 1.1
+        },
+        "Lame Feuille": {
+            "mode": "charged",
+            "type": "plante",
+            "ARdmg": 70,
+            "ARenergy": 33,
+            "PRdmg": 70,
+            "PRenergy": 35,
             "speed": 2.4
         },
-        "Détritus": {
+        "Phytomixeur": {
             "mode": "charged",
-            "type": "poison",
+            "type": "plante",
+            "ARdmg": 45,
+            "ARenergy": 33,
+            "PRdmg": 45,
+            "PRenergy": 40,
+            "speed": 3.1
+        },
+        "Jet-Pierres": {
+            "mode": "quick",
+            "type": "roche",
+            "ARdmg": 12,
+            "ARenergy": 7,
+            "PRdmg": 8,
+            "PRenergy": 5,
+            "speed": 0.9
+        },
+        "Boule Roc": {
+            "mode": "charged",
+            "type": "roche",
             "ARdmg": 50,
             "ARenergy": 33,
             "PRdmg": 50,
             "PRenergy": 40,
             "speed": 2.1
         },
-        "Vent Violent": {
+        "Pouvoir Antique": {
             "mode": "charged",
-            "type": "vol",
-            "ARdmg": 110,
-            "ARenergy": 100,
-            "PRdmg": 110,
-            "PRenergy": 65,
-            "speed": 2.7
+            "type": "roche",
+            "ARdmg": 70,
+            "ARenergy": 33,
+            "PRdmg": 45,
+            "PRenergy": 45,
+            "speed": 3.5
         },
-        "Léchouille": {
+        "Écrasement": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 55,
+            "ARenergy": 50,
+            "PRdmg": 55,
+            "PRenergy": 40,
+            "speed": 1.7
+        },
+        "Bombe Aimant": {
+            "mode": "charged",
+            "type": "acier",
+            "ARdmg": 70,
+            "ARenergy": 33,
+            "PRdmg": 70,
+            "PRenergy": 45,
+            "speed": 2.8
+        },
+        "Élecanon": {
+            "mode": "charged",
+            "type": "electrik",
+            "ARdmg": 140,
+            "ARenergy": 100,
+            "PRdmg": 150,
+            "PRenergy": 80,
+            "speed": 3.7
+        },
+        "Coupe": {
             "mode": "quick",
-            "type": "spectre",
+            "type": "normal",
             "ARdmg": 5,
-            "ARenergy": 6,
+            "ARenergy": 5,
             "PRdmg": 3,
-            "PRenergy": 3,
+            "PRenergy": 2,
             "speed": 0.5
         },
         "Éclats Glace": {
@@ -19974,6 +19998,33 @@
             "PRenergy": 10,
             "speed": 1.2
         },
+        "Léchouille": {
+            "mode": "quick",
+            "type": "spectre",
+            "ARdmg": 5,
+            "ARenergy": 6,
+            "PRdmg": 3,
+            "PRenergy": 3,
+            "speed": 0.5
+        },
+        "Onde Boréale": {
+            "mode": "charged",
+            "type": "glace",
+            "ARdmg": 80,
+            "ARenergy": 50,
+            "PRdmg": 80,
+            "PRenergy": 60,
+            "speed": 3.55
+        },
+        "Vent Glace": {
+            "mode": "charged",
+            "type": "glace",
+            "ARdmg": 60,
+            "ARenergy": 33,
+            "PRdmg": 60,
+            "PRenergy": 45,
+            "speed": 3.3
+        },
         "Souffle Glacé": {
             "mode": "quick",
             "type": "glace",
@@ -19982,6 +20033,24 @@
             "PRdmg": 7,
             "PRenergy": 5,
             "speed": 0.9
+        },
+        "Détritus": {
+            "mode": "charged",
+            "type": "poison",
+            "ARdmg": 50,
+            "ARenergy": 33,
+            "PRdmg": 50,
+            "PRenergy": 40,
+            "speed": 2.1
+        },
+        "Avalanche": {
+            "mode": "charged",
+            "type": "glace",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 45,
+            "speed": 2.7
         },
         "Étonnement": {
             "mode": "quick",
@@ -20001,59 +20070,23 @@
             "PRenergy": 55,
             "speed": 2.6
         },
-        "Bombe Aimant": {
-            "mode": "charged",
-            "type": "acier",
-            "ARdmg": 70,
-            "ARenergy": 33,
-            "PRdmg": 70,
-            "PRenergy": 45,
-            "speed": 2.8
+        "Griffe Ombre": {
+            "mode": "quick",
+            "type": "spectre",
+            "ARdmg": 9,
+            "ARenergy": 6,
+            "PRdmg": 6,
+            "PRenergy": 8,
+            "speed": 0.7
         },
-        "Onde Boréale": {
+        "Poing Ombre": {
             "mode": "charged",
-            "type": "glace",
-            "ARdmg": 80,
-            "ARenergy": 50,
-            "PRdmg": 80,
-            "PRenergy": 60,
-            "speed": 3.55
-        },
-        "Surf": {
-            "mode": "charged",
-            "type": "eau",
-            "ARdmg": 65,
-            "ARenergy": 50,
-            "PRdmg": 65,
-            "PRenergy": 40,
-            "speed": 1.7
-        },
-        "Force Poigne": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 35,
+            "type": "spectre",
+            "ARdmg": 40,
             "ARenergy": 33,
             "PRdmg": 40,
-            "PRenergy": 40,
-            "speed": 1.9
-        },
-        "Draco-Choc": {
-            "mode": "charged",
-            "type": "dragon",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 60,
-            "speed": 3.6
-        },
-        "Élecanon": {
-            "mode": "charged",
-            "type": "electrik",
-            "ARdmg": 140,
-            "ARenergy": 100,
-            "PRdmg": 150,
-            "PRenergy": 80,
-            "speed": 3.7
+            "PRenergy": 35,
+            "speed": 1.7
         },
         "Châtiment": {
             "mode": "quick",
@@ -20064,50 +20097,14 @@
             "PRenergy": 12,
             "speed": 1.2
         },
-        "Avalanche": {
+        "Force Poigne": {
             "mode": "charged",
-            "type": "glace",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 45,
-            "speed": 2.7
-        },
-        "Extrasenseur": {
-            "mode": "quick",
-            "type": "psy",
-            "ARdmg": 12,
-            "ARenergy": 12,
-            "PRdmg": 8,
-            "PRenergy": 10,
-            "speed": 1.1
-        },
-        "Vent Glace": {
-            "mode": "charged",
-            "type": "glace",
-            "ARdmg": 60,
-            "ARenergy": 33,
-            "PRdmg": 60,
-            "PRenergy": 45,
-            "speed": 3.3
-        },
-        "Griffe Ombre": {
-            "mode": "quick",
-            "type": "spectre",
-            "ARdmg": 9,
-            "ARenergy": 6,
-            "PRdmg": 6,
-            "PRenergy": 8,
-            "speed": 0.7
-        },
-        "Massd’Os": {
-            "mode": "charged",
-            "type": "sol",
-            "ARdmg": 40,
+            "type": "normal",
+            "ARdmg": 35,
             "ARenergy": 33,
             "PRdmg": 40,
-            "PRenergy": 35,
-            "speed": 1.6
+            "PRenergy": 40,
+            "speed": 1.9
         },
         "Pince-Masse": {
             "mode": "charged",
@@ -20118,6 +20115,33 @@
             "PRenergy": 50,
             "speed": 1.9
         },
+        "Extrasenseur": {
+            "mode": "quick",
+            "type": "psy",
+            "ARdmg": 12,
+            "ARenergy": 12,
+            "PRdmg": 8,
+            "PRenergy": 10,
+            "speed": 1.1
+        },
+        "Draco-Choc": {
+            "mode": "charged",
+            "type": "dragon",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 60,
+            "speed": 3.6
+        },
+        "Massd’Os": {
+            "mode": "charged",
+            "type": "sol",
+            "ARdmg": 40,
+            "ARenergy": 33,
+            "PRdmg": 40,
+            "PRenergy": 35,
+            "speed": 1.6
+        },
         "Colère": {
             "mode": "charged",
             "type": "dragon",
@@ -20126,15 +20150,6 @@
             "PRdmg": 110,
             "PRenergy": 60,
             "speed": 3.9
-        },
-        "Poing Ombre": {
-            "mode": "charged",
-            "type": "spectre",
-            "ARdmg": 40,
-            "ARenergy": 33,
-            "PRdmg": 40,
-            "PRenergy": 35,
-            "speed": 1.7
         },
         "Draco-Souffle": {
             "mode": "quick",
@@ -20163,6 +20178,51 @@
             "PRenergy": 8,
             "speed": 1.5
         },
+        "Vampibaiser": {
+            "mode": "charged",
+            "type": "fee",
+            "ARdmg": 60,
+            "ARenergy": 50,
+            "PRdmg": 60,
+            "PRenergy": 55,
+            "speed": 2.6
+        },
+        "Surpuissance": {
+            "mode": "charged",
+            "type": "combat",
+            "ARdmg": 85,
+            "ARenergy": 50,
+            "PRdmg": 85,
+            "PRenergy": 40,
+            "speed": 3.0
+        },
+        "Trempette": {
+            "mode": "quick",
+            "type": "eau",
+            "ARdmg": 0,
+            "ARenergy": 20,
+            "PRdmg": 0,
+            "PRenergy": 12,
+            "speed": 1.73
+        },
+        "Morphing": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 0,
+            "ARenergy": 0,
+            "PRdmg": 0,
+            "PRenergy": 0,
+            "speed": 2.23
+        },
+        "Dernier Recours": {
+            "mode": "charged",
+            "type": "normal",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 55,
+            "speed": 2.9
+        },
         "Saumure": {
             "mode": "charged",
             "type": "eau",
@@ -20170,6 +20230,33 @@
             "ARenergy": 50,
             "PRdmg": 60,
             "PRenergy": 50,
+            "speed": 2.3
+        },
+        "Bâillement": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 0,
+            "ARenergy": 15,
+            "PRdmg": 0,
+            "PRenergy": 12,
+            "speed": 1.7
+        },
+        "Draco-Météore": {
+            "mode": "charged",
+            "type": "dragon",
+            "ARdmg": 150,
+            "ARenergy": 100,
+            "PRdmg": 150,
+            "PRenergy": 65,
+            "speed": 3.6
+        },
+        "Frappe Psy": {
+            "mode": "charged",
+            "type": "psy",
+            "ARdmg": 90,
+            "ARenergy": 50,
+            "PRdmg": 90,
+            "PRenergy": 45,
             "speed": 2.3
         },
         "Éco-Sphère": {
@@ -20181,87 +20268,6 @@
             "PRenergy": 55,
             "speed": 3.9
         },
-        "Draco-Météore": {
-            "mode": "charged",
-            "type": "dragon",
-            "ARdmg": 150,
-            "ARenergy": 100,
-            "PRdmg": 150,
-            "PRenergy": 65,
-            "speed": 3.6
-        },
-        "Dernier Recours": {
-            "mode": "charged",
-            "type": "normal",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 55,
-            "speed": 2.9
-        },
-        "Morphing": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 0,
-            "ARenergy": 0,
-            "PRdmg": 0,
-            "PRenergy": 0,
-            "speed": 2.23
-        },
-        "Trempette": {
-            "mode": "quick",
-            "type": "eau",
-            "ARdmg": 0,
-            "ARenergy": 20,
-            "PRdmg": 0,
-            "PRenergy": 12,
-            "speed": 1.73
-        },
-        "Surpuissance": {
-            "mode": "charged",
-            "type": "combat",
-            "ARdmg": 85,
-            "ARenergy": 50,
-            "PRdmg": 85,
-            "PRenergy": 40,
-            "speed": 3.0
-        },
-        "Bâillement": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 0,
-            "ARenergy": 15,
-            "PRdmg": 0,
-            "PRenergy": 12,
-            "speed": 1.7
-        },
-        "Vampibaiser": {
-            "mode": "charged",
-            "type": "fee",
-            "ARdmg": 60,
-            "ARenergy": 50,
-            "PRdmg": 60,
-            "PRenergy": 55,
-            "speed": 2.6
-        },
-        "Frappe Psy": {
-            "mode": "charged",
-            "type": "psy",
-            "ARdmg": 90,
-            "ARenergy": 50,
-            "PRdmg": 90,
-            "PRenergy": 45,
-            "speed": 2.3
-        },
-        "Ombre Portée": {
-            "mode": "charged",
-            "type": "spectre",
-            "ARdmg": 50,
-            "ARenergy": 33,
-            "PRdmg": 50,
-            "PRenergy": 45,
-            "speed": 2.9
-        },
         "Crocs Givre": {
             "mode": "quick",
             "type": "glace",
@@ -20271,23 +20277,14 @@
             "PRenergy": 5,
             "speed": 1.5
         },
-        "Octazooka": {
+        "Ombre Portée": {
             "mode": "charged",
-            "type": "eau",
+            "type": "spectre",
             "ARdmg": 50,
-            "ARenergy": 50,
+            "ARenergy": 33,
             "PRdmg": 50,
-            "PRenergy": 50,
-            "speed": 2.3
-        },
-        "Verrouillage": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 1,
-            "ARenergy": 6,
-            "PRdmg": 1,
-            "PRenergy": 5,
-            "speed": 0.3
+            "PRenergy": 45,
+            "speed": 2.9
         },
         "Voile Miroir": {
             "mode": "charged",
@@ -20307,14 +20304,23 @@
             "PRenergy": 35,
             "speed": 2.4
         },
-        "Pied Brûleur": {
+        "Octazooka": {
             "mode": "charged",
-            "type": "feu",
-            "ARdmg": 45,
-            "ARenergy": 33,
-            "PRdmg": 55,
-            "PRenergy": 40,
-            "speed": 1.2
+            "type": "eau",
+            "ARdmg": 50,
+            "ARenergy": 50,
+            "PRdmg": 50,
+            "PRenergy": 50,
+            "speed": 2.3
+        },
+        "Verrouillage": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 1,
+            "ARenergy": 6,
+            "PRdmg": 1,
+            "PRenergy": 5,
+            "speed": 0.3
         },
         "Anti-Air": {
             "mode": "quick",
@@ -20325,13 +20331,13 @@
             "PRenergy": 8,
             "speed": 1.2
         },
-        "Bélier": {
-            "mode": "quick",
-            "type": "normal",
-            "ARdmg": 8,
-            "ARenergy": 10,
-            "PRdmg": 5,
-            "PRenergy": 8,
+        "Pied Brûleur": {
+            "mode": "charged",
+            "type": "feu",
+            "ARdmg": 45,
+            "ARenergy": 33,
+            "PRdmg": 55,
+            "PRenergy": 40,
             "speed": 1.2
         },
         "Ocroupi": {
@@ -20343,6 +20349,15 @@
             "PRenergy": 35,
             "speed": 2.2
         },
+        "Bélier": {
+            "mode": "quick",
+            "type": "normal",
+            "ARdmg": 8,
+            "ARenergy": 10,
+            "PRdmg": 5,
+            "PRenergy": 8,
+            "speed": 1.2
+        },
         "Ball’Météo": {
             "mode": "charged",
             "type": "eau",
@@ -20352,15 +20367,6 @@
             "PRenergy": 35,
             "speed": 1.6
         },
-        "Psycho-Boost": {
-            "mode": "charged",
-            "type": "psy",
-            "ARdmg": 70,
-            "ARenergy": 50,
-            "PRdmg": 70,
-            "PRenergy": 35,
-            "speed": 4.0
-        },
         "Carnareket": {
             "mode": "charged",
             "type": "acier",
@@ -20369,6 +20375,15 @@
             "PRdmg": 75,
             "PRenergy": 40,
             "speed": 1.7
+        },
+        "Psycho-Boost": {
+            "mode": "charged",
+            "type": "psy",
+            "ARdmg": 70,
+            "ARenergy": 50,
+            "PRdmg": 70,
+            "PRenergy": 35,
+            "speed": 4.0
         },
         "Aurasphère": {
             "mode": "charged",
