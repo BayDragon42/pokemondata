@@ -312,7 +312,12 @@ function getAttacks() {
 		img.src = "src/img/types/" + pokemonData.attacks[rank_combi[k].combi[0]].type + ".png";
 		
 		namecontainer_node.appendChild(img);
-		namecontainer_node.innerHTML += "<span><span>Immédiate</span><br/>" + rank_combi[k].combi[0] + "</span>";
+		if(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.includes(rank_combi[k].combi[0])) {
+			var atk_name = rank_combi[k].combi[0]
+		} else {
+			var atk_name = rank_combi[k].combi[0] + "(elite)"; /* elite is tmp add img afterwards */
+		}
+		namecontainer_node.innerHTML += "<span><span>Immédiate</span><br/>" + atk_name + "</span>";
 		
 		leftside_node.appendChild(namecontainer_node);
 		leftside_node.innerHTML += "<span>Dmg par cycle:</span>";
@@ -325,6 +330,11 @@ function getAttacks() {
 		img.src = "src/img/types/" + pokemonData.attacks[rank_combi[k].combi[1]].type + ".png";
 		
 		namecontainer_node.appendChild(img);
+		if(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.includes(rank_combi[k].combi[1])) {
+			var atk_name = rank_combi[k].combi[1]
+		} else {
+			var atk_name = rank_combi[k].combi[1] + "(elite)"; /* elite is tmp add img afterwards */
+		}
 		namecontainer_node.innerHTML += "<span><span>Chargée</span><br/>" + rank_combi[k].combi[1] + "</span>";
 		
 		rightside_node.appendChild(namecontainer_node);
