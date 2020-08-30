@@ -134,7 +134,7 @@ function getDetails() {
 	
 	var rightside_node = document.createElement("div");
 	var infoimg_node = document.createElement("img");
-	infoimg_node.src = "src/img/logo/more.png";
+	infoimg_node.src = "src/img/logo/info.png";
 	infoimg_node.addEventListener("click", function() {
 		var flipcard = document.getElementById("flip-card");
 		flipcard.classList.toggle("flipped");
