@@ -96,16 +96,47 @@ function getDetails() {
 	}
 	leftside_node.appendChild(typecontainer_node);
 	
-	var rightside_node = document.createElement("div");
+	var midside_node = document.createElement("div");
+	midside_node.id = "flip-card";
+	
+	var front_node = document.createElement("div");
+	front_node.classList.add("front");
 	
 	var pokemonimg_node = document.createElement("img");
 	pokemonimg_node.src = "src/img/" + currentpokemon[currentpokemon.length - 1] + ".png";
 	
-	rightside_node.appendChild(pokemonimg_node);
+	front_node.appendChild(pokemonimg_node);
+	
+	var back_node = document.createElement("div");
+	back_node.classList.add("back");
+	
+	var info_node = document.createElement("div");
+	info_node.innerHTML = "<div>Gen.:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
+	back_node.appendChild(info_node);
+	
+	info_node.innerHTML = "<div>Région:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].region + "</div>";
+	back_node.appendChild(info_node);
+	
+	info_node.innerHTML = "<div>Oeuf:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].isInEgg + "</div>";
+	back_node.appendChild(info_node);
+	
+	info_node.innerHTML = "<div>Copain:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
+	back_node.appendChild(info_node);
+	
+	info_node.innerHTML = "<div>Pv:</div><div>Atk:</div><div>Def:</div>";
+	back_node.appendChild(info_node);
+	
+	info_node.innerHTML = "<div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</div>";
+	back_node.appendChild(info_node);
+	
+	midside_node.appendChild(front_node);
+	midside_node.appendChild(back_node);
+	
+	var rightside_node = document.createElement("div");
 	
 	topcontainer_node.appendChild(leftside_node);
+	topcontainer_node.appendChild(midside_node);
 	topcontainer_node.appendChild(rightside_node);
-	topcontainer_node.appendChild(document.createElement("div"));
 	
 	var midcontainer_node = document.createElement("div");
 	midcontainer_node.id = "midcontainer";
