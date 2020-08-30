@@ -140,6 +140,12 @@ body{
 	margin-top: 0rem;
 }
 
+.back > div > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 
 #topcontainer :nth-child(3) > img{
 	width: 2.5rem;
