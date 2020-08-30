@@ -288,8 +288,8 @@ function getPrTopCombi(quick_atk, charged_atk) {
 
 function getAttacks() {
 	var rank_combi;
-	var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks);
-	var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks);
+	var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.map(x => x.replace("(elite)", "")));
+	var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.map(x => x.replace("(elite)", "")));
 	switch(atkMode) {
 		case 1:
 			rank_combi = getArTopCombi(quick_atk, charged_atk);
