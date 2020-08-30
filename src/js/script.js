@@ -302,6 +302,7 @@ function getAttacks() {
 	var attacks_node = document.getElementById("attacks");
 	attacks_node.innerHTML = "";
 	
+	console.log(rank_combi);
 	for(var k in rank_combi) {
 		var attack_node = document.createElement("div");
 		
