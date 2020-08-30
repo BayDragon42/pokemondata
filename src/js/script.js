@@ -110,27 +110,23 @@ function getDetails() {
 	back_node.classList.add("back");
 	
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>Gen.:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
+	info_node.innerHTML = "<div><span>Gen.:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>Région:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].region + "</div>";
+	info_node.innerHTML = "<div><span>Région:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].region + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>Oeuf:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].isInEgg + "</div>";
+	info_node.innerHTML = "<div>Oeuf:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].isInEgg + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>Copain:</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
+	info_node.innerHTML = "<div>Copain:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>Pv:</div><div>Atk:</div><div>Def:</div>";
-	back_node.appendChild(info_node);
-	
-	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</div>";
+	info_node.innerHTML = "<div><span>Pv:</span><br/><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</span></div><div><span>Atk:</span><br/><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</span></div><div><span>Def:</span><br/><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</span></div>";
 	back_node.appendChild(info_node);
 	
 	midside_node.appendChild(front_node);
