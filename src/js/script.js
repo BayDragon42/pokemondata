@@ -58,7 +58,7 @@ function load() {
 		if (err != null) {
 			alert("Something wrong: " + err);
 		} else {
-			pokemonData = data
+			pokemonData = data;
 			
 			$(function () {
 				loadPokemon("");
