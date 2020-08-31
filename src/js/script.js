@@ -110,18 +110,22 @@ function getDetails() {
 	back_node.classList.add("back");
 	
 	var info_node = document.createElement("div");
+	info_node.classList.add("carte");
 	info_node.innerHTML = "<div><span>Gen.:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
+	info_node.classList.add("carte");
 	info_node.innerHTML = "<div><span>Région:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].region + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
+	info_node.classList.add("carte");
 	info_node.innerHTML = "<div>Oeuf:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].isInEgg + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
+	info_node.classList.add("carte");
 	info_node.innerHTML = "<div>Copain:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
 	back_node.appendChild(info_node);
 	
@@ -129,6 +133,7 @@ function getDetails() {
 	var atk = [parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) * 0.7903, (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) + 15) * 0.7903].map(x => Math.floor(x));
 	var def = [parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2]) * 0.7903, (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2]) + 15) * 0.7903].map(x => Math.floor(x));
 	var info_node = document.createElement("div");
+	info_node.classList.add("carte");
 	info_node.id = "stats";
 	info_node.innerHTML = "<div>Max Stats IV (0%-100%)</div><div><div>"+
 							"<span>Pv</span><span>" + pv[0] + "-" + pv[1] + "</span></div><div>"+
@@ -141,7 +146,8 @@ function getDetails() {
 				Math.pow(parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0]) + 15, 0.5) *
 				Math.pow(0.7903, 2) / 10;
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>PC Max:</span></div><div>" + maxPC + "</div>";
+	info_node.classList.add("carte");
+	info_node.innerHTML = "<div>PC Max:</span></div><div>" + Math.floor(maxPC) + "</div>";
 	back_node.appendChild(info_node);
 	
 	midside_node.appendChild(front_node);
@@ -362,6 +368,7 @@ function getAttacks() {
 	
 	for(var k in rank_combi) {
 		var attack_node = document.createElement("div");
+		attack_node.classList.add("carte");
 		
 		var leftside_node = document.createElement("div");
 		var namecontainer_node = document.createElement("div");

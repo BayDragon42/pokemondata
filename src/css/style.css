@@ -253,12 +253,15 @@ body{
 }
 
 #attacks > div{
-	background: linear-gradient(179deg, #fff 40%, #aaa 95%);
-	color: black;
-	border-radius: 2.3125rem 1rem;
 	width: 95%;
 	display: flex;
 	justify-content: space-between;
+}
+
+.carte{
+	background: linear-gradient(179deg, #fff 40%, #aaa 95%);
+	color: black;
+	border-radius: 2.3125rem 1rem;
 	padding: 0.625rem;
 	margin-bottom: 0.5rem;
 }
