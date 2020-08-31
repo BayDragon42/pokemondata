@@ -183,15 +183,15 @@ body{
 }
 
 #stats > div > div:nth-child(1){
-	background: linear-gradient(135deg, green -100%, transparent 125%);
+	background: linear-gradient(135deg, green -100%, #aaa 125%);
 }
 
 #stats > div > div:nth-child(2){
-	background: linear-gradient(135deg, red -100%, transparent 125%);
+	background: linear-gradient(135deg, red -100%, #aaa 125%);
 }
 
 #stats > div > div:nth-child(3){
-	background: linear-gradient(135deg, blue -100%, transparent 125%);
+	background: linear-gradient(135deg, blue -100%, #aaa 125%);
 }
 
 #midcontainer{
