@@ -32,6 +32,8 @@ var loadPokemon = function(filter) {
 				$(function () {
 					$("#body").load("details.html");
 				});
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
 			});
 			
 			var pokemonimg_node = document.createElement("img");
@@ -79,6 +81,8 @@ function getDetails() {
 	backbutton.addEventListener("click", function() {
 		currentpokemon.pop();
 		goBackFromDetails();
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
 	});
 	backbutton.src = "src/img/logo/back.png";
 	
