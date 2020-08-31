@@ -160,7 +160,7 @@ body{
 
 #stats{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column !important;
 }
 
 #stats > div{
