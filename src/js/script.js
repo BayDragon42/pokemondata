@@ -129,13 +129,8 @@ function getDetails() {
 	info_node.innerHTML = "<div><span>Pv</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</span></div><div><span>Attaque</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</span></div><div><span>Défense</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</span></div>";
 	back_node.appendChild(info_node);
 	
-	var namecontainer_node = document.createElement("div");
-	namecontainer_node.id = "namecontainer";
-	namecontainer_node.innerHTML = "<span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].name + "</span>";
-	
 	midside_node.appendChild(front_node);
 	midside_node.appendChild(back_node);
-	midside_node.appendChild(namecontainer_node);
 	
 	var rightside_node = document.createElement("div");
 	var infoimg_node = document.createElement("img");
@@ -157,6 +152,10 @@ function getDetails() {
 	topcontainer_node.appendChild(leftside_node);
 	topcontainer_node.appendChild(midside_node);
 	topcontainer_node.appendChild(rightside_node);
+	
+	var midcontainer_node = document.createElement("div");
+	midcontainer_node.id = "midcontainer";
+	midcontainer_node.innerHTML = "<span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].name + "</span>";
 	
 	var bottomcontainer_node = document.createElement("div");
 	bottomcontainer_node.id = "bottomcontainer";

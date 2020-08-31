@@ -152,11 +152,11 @@ body{
 	height: 2.5rem;
 }
 
-#namecontainer{
+#midcontainer{
 	text-align: center;
 }
 
-#namecontainer > span{
+#midcontainer > span{
 	font-size: 1.5rem;
 }
 
