@@ -81,7 +81,7 @@ body{
 #topcontainer{
 	display: flex;
 	justify-content: center;
-	height: 256px;
+	height: 19.0625rem;
 }
 
 #topcontainer :nth-child(1){
@@ -110,6 +110,7 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-item: center;
 	position: relative;
 	transition: transform 0.6s;
 	transform-style: preserve-3d;
