@@ -81,7 +81,7 @@ body{
 #topcontainer{
 	display: flex;
 	justify-content: center;
-	height: 20rem;
+	height: 20.3125rem;
 }
 
 #topcontainer > div:first-child{
