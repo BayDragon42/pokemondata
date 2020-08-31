@@ -111,7 +111,7 @@ function getDetails() {
 	
 	var info_node = document.createElement("div");
 	info_node.classList.add("carte");
-	info_node.innerHTML = "<div><span>Gen.:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
+	info_node.innerHTML = "<div><span>Génération:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].gen + "</div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
@@ -135,7 +135,7 @@ function getDetails() {
 	var info_node = document.createElement("div");
 	info_node.classList.add("carte");
 	info_node.id = "stats";
-	info_node.innerHTML = "<div>Max Stats IV (0%-100%)</div><div><div>"+
+	info_node.innerHTML = "<div><span>Max Stats IV (0%-100%)</span></div><div><div>"+
 							"<span>Pv</span><span>" + pv[0] + "-" + pv[1] + "</span></div><div>"+
 							"<span>Attaque</span><span>" + atk[0] + "-" + atk[1] + "</span></div><div>"+
 							"<span>Défense</span><span>" + def[0] + "-" + def[1] + "</span></div></div>";
