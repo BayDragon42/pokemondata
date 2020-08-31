@@ -143,7 +143,7 @@ function getDetails() {
 	var raidimg_node = document.createElement("img");
 	raidimg_node.src = "src/img/logo/raid.png";
 	raidimg_node.addEventListener("click", function() {
-		console.log("go raid");
+		getBestPokemon();
 	});
 	
 	rightside_node.appendChild(infoimg_node);
@@ -239,18 +239,38 @@ function getChargedAtkStats(atk) {
 	return dict;
 }
 
-function getArTopCombi(quick_atk, charged_atk) {
+function getArTopCombi(quick_atk, charged_atk, isAttacking) {
+	var isAttacking = isAttacking || false;
 	var rank = [];
 	
 	for(var qk in quick_atk) {
-		var q_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 		for(var ck in charged_atk) {
+			var att;
+			var def;
+			var q_effT = 1;
+			var c_effT = 1;
+			if(isAttacking) {
+				att = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) * 0.7903;
+				def = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].base[2] + 15) * 0.7903;
+				for(var k in pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].type) {
+					q_effT *= pokemonData.typeModifier[pokemonData.attacks[qk].type][pokemonData.attacks[k].type];
+					c_effT *= pokemonData.typeModifier[pokemonData.attacks[ck].type][pokemonData.attacks[k].type];
+				}
+			} else {
+				att = 1;
+				def = 1;
+			}
+			
+			var q_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 			var c_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
+			var qDmgEff = Math.floor((0.5 * quick_atk[qk].ARdmg) * q_stab * q_effT * att / def) + 1;
+			var cDmgEff = Math.floor((0.5 * charged_atk[ck].ARdmg) * c_stab * c_effT * att / def) + 1;
+			
 			var data = {
 				"combi": [qk, ck],
 				q_atk: quick_atk[qk],
 				c_atk: charged_atk[ck],
-				"dmgPercycle": (quick_atk[qk].ARdmg * q_stab) * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + (charged_atk[ck].ARdmg * c_stab),
+				"dmgPercycle": qDmgEff * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + cDmgEff,
 				"timePercycle": quick_atk[qk].speed * Math.ceil(charged_atk[ck].ARenergy / quick_atk[qk].ARenergy) + charged_atk[ck].speed
 			};
 			data["averageDmg"] = data["dmgPercycle"] / data["timePercycle"] * 90;
@@ -264,18 +284,38 @@ function getArTopCombi(quick_atk, charged_atk) {
 	});
 }
 
-function getPrTopCombi(quick_atk, charged_atk) {
+function getPrTopCombi(quick_atk, charged_atk, isAttacking) {
+	var isAttacking = isAttacking || false;
 	var rank = [];
 	
 	for(var qk in quick_atk) {
-		var q_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 		for(var ck in charged_atk) {
+			var att;
+			var def;
+			var q_effT = 1;
+			var c_effT = 1;
+			if(isAttacking) {
+				att = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) * 0.7903;
+				def = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].base[2] + 15) * 0.7903;
+				for(var k in pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].type) {
+					q_effT *= pokemonData.typeModifier[pokemonData.attacks[qk].type][pokemonData.attacks[k].type];
+					c_effT *= pokemonData.typeModifier[pokemonData.attacks[ck].type][pokemonData.attacks[k].type];
+				}
+			} else {
+				att = 1;
+				def = 1;
+			}
+			
+			var q_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(quick_atk[qk].type) ? 1.2 : 1.0);
 			var c_stab = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].type.includes(charged_atk[ck].type) ? 1.2 : 1.0)
+			var qDmgEff = Math.floor((0.5 * quick_atk[qk].PRdmg) * q_stab * q_effT * att / def) + 1;
+			var cDmgEff = Math.floor((0.5 * charged_atk[ck].PRdmg) * c_stab * c_effT * att / def) + 1;
+			
 			var data = {
 				"combi": [qk, ck],
 				q_atk: quick_atk[qk],
 				c_atk: charged_atk[ck],
-				"dmgPercycle": (quick_atk[qk].PRdmg * q_stab) * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy) + (charged_atk[ck].PRdmg * c_stab),
+				"dmgPercycle": qDmgEff * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy) + cDmgEff,
 				"timePercycle": quick_atk[qk].speed * Math.ceil(charged_atk[ck].PRenergy / quick_atk[qk].PRenergy)
 			};
 			data["averageDmg"] = data["dmgPercycle"] / data["timePercycle"] * 90;
@@ -348,5 +388,32 @@ function getAttacks() {
 		attack_node.appendChild(rightside_node);
 		
 		attacks_node.appendChild(attack_node);
+	}
+}
+
+function getBestPokemon() {
+	var rank = [];
+	
+	/* Get best attack combinaison for each pokemons */
+	for(var k in pokemonData.pokemon) {
+		var data = []
+		var rank_combi;
+		
+		data.push(k);
+		currentpokemon.push(k);
+		
+		var quick_atk = getQuickAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.map(x => x.replace("(elite)", "")));
+		var charged_atk = getChargedAtkStats(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].attacks.map(x => x.replace("(elite)", "")));
+		switch(atkMode) {
+		case 1:
+			rank_combi = getArTopCombi(quick_atk, charged_atk, true);
+			break;
+		case 0:
+		default:
+			rank_combi = getPrTopCombi(quick_atk, charged_atk, true);
+		}
+		
+		data.push(rank_combi[0]);
+		currentpokemon.pop();
 	}
 }
