@@ -163,6 +163,12 @@ body{
 	flex-direction: column;
 }
 
+#stats > div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 #midcontainer{
 	text-align: center;
 }
