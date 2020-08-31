@@ -125,9 +125,15 @@ function getDetails() {
 	info_node.innerHTML = "<div>Copain:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
 	back_node.appendChild(info_node);
 	
+	var pv = [pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] * 0.7903, (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + 15) * 0.7903].map(x => Math.floor(x));
+	var atk = [pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] * 0.7903, (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) * 0.7903].map(x => Math.floor(x));
+	var def = [pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] * 0.7903, (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + 15) * 0.7903].map(x => Math.floor(x));
 	var info_node = document.createElement("div");
 	info_node.id = "stats";
-	info_node.innerHTML = "<div>Max Stats IV (0%-100%)</div><div><div><span>Pv</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</span></div><div><span>Attaque</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</span></div><div><span>Défense</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</span></div></div>";
+	info_node.innerHTML = "<div>Max Stats IV (0%-100%)</div><div><div>"+
+							"<span>Pv</span><span>" + pv[0] + "-" + pv[1] + "</span></div><div>"+
+							"<span>Attaque</span><span>" + atk[0] + "-" + atk[1] + "</span></div><div>"+
+							"<span>Défense</span><span>" + def[0] + "-" + def[1] + "</span></div></div>";
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
