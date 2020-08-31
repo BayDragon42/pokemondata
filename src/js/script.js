@@ -136,8 +136,12 @@ function getDetails() {
 							"<span>Défense</span><span>" + def[0] + "-" + def[1] + "</span></div></div>";
 	back_node.appendChild(info_node);
 	
+	var maxPC = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) *
+				Math.pow(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + 15, 0.5) *
+				Math.pow(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + 15, 0.5) *
+				Math.pow(0.7903, 2) / 10;
 	var info_node = document.createElement("div");
-	info_node.innerHTML = "<div>PC Max:</span></div><div>666</div>";
+	info_node.innerHTML = "<div>PC Max:</span></div><div>" + maxPC + "</div>";
 	back_node.appendChild(info_node);
 	
 	midside_node.appendChild(front_node);

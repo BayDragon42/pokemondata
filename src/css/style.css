@@ -171,8 +171,13 @@ body{
 	justify-content: space-between;
 }
 
+#stats > div:first-child{
+	justify-content: center;
+}
+
 #stats > div > div{
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
 
