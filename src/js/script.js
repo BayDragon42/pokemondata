@@ -125,9 +125,9 @@ function getDetails() {
 	info_node.innerHTML = "<div>Copain:</span></div><div>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].friendEgg + "</div>";
 	back_node.appendChild(info_node);
 	
-	var pv = [pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] * 0.7903, (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + 15) * 0.7903].map(x => Math.floor(x));
-	var atk = [pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] * 0.7903, (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) * 0.7903].map(x => Math.floor(x));
-	var def = [pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] * 0.7903, (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + 15) * 0.7903].map(x => Math.floor(x));
+	var pv = [parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0]) * 0.7903, (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0]) + 15) * 0.7903].map(x => Math.floor(x));
+	var atk = [parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) * 0.7903, (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) + 15) * 0.7903].map(x => Math.floor(x));
+	var def = [parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2]) * 0.7903, (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2]) + 15) * 0.7903].map(x => Math.floor(x));
 	var info_node = document.createElement("div");
 	info_node.id = "stats";
 	info_node.innerHTML = "<div>Max Stats IV (0%-100%)</div><div><div>"+
@@ -136,9 +136,9 @@ function getDetails() {
 							"<span>Défense</span><span>" + def[0] + "-" + def[1] + "</span></div></div>";
 	back_node.appendChild(info_node);
 	
-	var maxPC = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) *
-				Math.pow(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + 15, 0.5) *
-				Math.pow(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + 15, 0.5) *
+	var maxPC = (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) + 15) *
+				Math.pow(parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2]) + 15, 0.5) *
+				Math.pow(parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0]) + 15, 0.5) *
 				Math.pow(0.7903, 2) / 10;
 	var info_node = document.createElement("div");
 	info_node.innerHTML = "<div>PC Max:</span></div><div>" + maxPC + "</div>";
@@ -265,8 +265,8 @@ function getArTopCombi(quick_atk, charged_atk, isAttacking) {
 			var q_effT = 1;
 			var c_effT = 1;
 			if(isAttacking) {
-				att = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) * 0.7903;
-				def = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].base[2] + 15) * 0.7903;
+				att = (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) + 15) * 0.7903;
+				def = (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].base[2]) + 15) * 0.7903;
 				for(var k in pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].type) {
 					q_effT *= pokemonData.typeModifier[pokemonData.attacks[qk].type][pokemonData.attacks[k].type];
 					c_effT *= pokemonData.typeModifier[pokemonData.attacks[ck].type][pokemonData.attacks[k].type];
@@ -310,8 +310,8 @@ function getPrTopCombi(quick_atk, charged_atk, isAttacking) {
 			var q_effT = 1;
 			var c_effT = 1;
 			if(isAttacking) {
-				att = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + 15) * 0.7903;
-				def = (pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].base[2] + 15) * 0.7903;
+				att = (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1]) + 15) * 0.7903;
+				def = (parseInt(pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].base[2]) + 15) * 0.7903;
 				for(var k in pokemonData.pokemon[currentpokemon[currentpokemon.length - 2]].type) {
 					q_effT *= pokemonData.typeModifier[pokemonData.attacks[qk].type][pokemonData.attacks[k].type];
 					c_effT *= pokemonData.typeModifier[pokemonData.attacks[ck].type][pokemonData.attacks[k].type];
