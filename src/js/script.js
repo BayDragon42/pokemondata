@@ -126,6 +126,7 @@ function getDetails() {
 	back_node.appendChild(info_node);
 	
 	var info_node = document.createElement("div");
+	info_node.id = "stats";
 	info_node.innerHTML = "<div>Max Stats IV (0%-100%)</div><div><div><span>Pv</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[0] + "</span></div><div><span>Attaque</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[1] + "</span></div><div><span>Défense</span><span>" + pokemonData.pokemon[currentpokemon[currentpokemon.length - 1]].base[2] + "</span></div></div>";
 	back_node.appendChild(info_node);
 	

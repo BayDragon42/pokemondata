@@ -158,6 +158,11 @@ body{
 	height: 2.5rem;
 }
 
+#stats{
+	display: flex;
+	flex-direction: column;
+}
+
 #midcontainer{
 	text-align: center;
 }
