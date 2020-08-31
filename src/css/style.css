@@ -88,29 +88,28 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin-right: 0.3125rem;
 }
 
-#topcontainer > div:first-child > div:nth-child(1) > img{
+#topcontainer > div:first-child > div > img{
 	width: 2.5rem;
 	height: 2.5rem;
 }
 
-#topcontainer > div:first-child > div:nth-child(2){
+#topcontainer > div:first-child > div:last-child{
 	display: flex;
 	flex-direction: column;
 }
 
-#topcontainer > div:first-child > div:nth-child(2) > img{
+#topcontainer > div:first-child > div:last-child > img:first-child{
 	margin-bottom: 0.3125rem;
-	width: 2.5rem;
-	height: 2.5rem;
 }
 
 #flip-card{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-item: center;
+	align-items: center;
 	position: relative;
 	transition: transform 0.6s;
 	transform-style: preserve-3d;
