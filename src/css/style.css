@@ -84,7 +84,7 @@ body{
 	height: 256px;
 }
 
-#topcontainer :nth-child(1){
+#topcontainer > div {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -152,11 +152,11 @@ body{
 	height: 2.5rem;
 }
 
-#midcontainer{
+#namecontainer{
 	text-align: center;
 }
 
-#midcontainer > span{
+#namecontainer > span{
 	font-size: 1.5rem;
 }
 
